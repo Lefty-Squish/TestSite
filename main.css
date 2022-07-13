@@ -46,17 +46,18 @@ body {
 
 
 #headerMain {
+
+}
+
+#headerWrap {
     background-color: #20303C;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 0;
     width: 100%;
 }
 
-.headerWrap {
-    margin: 0 auto;
-    width: 3828px;
-    padding: 10px 0;
-}
-
-.phoneNumber {
+#phoneNumber {
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -65,7 +66,7 @@ body {
     text-align: left;
 }
 
-.offer {
+#offer {
     color: #FFFFFF;
     letter-spacing: -0.03em;
     line-height: 27px;
@@ -115,6 +116,7 @@ section.jumbotron h1 {
     letter-spacing: -0.02em;
     width: 774px;
     height: 240px;
+    display: flex;
 }
 
 section.jumbotron p {
@@ -124,6 +126,67 @@ section.jumbotron p {
     line-height: 2rem;
     width: 663px;
     height: 96px;
+    display: flex;
+}
+
+section.jumbotron img {
+    width: 37.5rem;
+    height: 30rem;
+    position: absolute;
+    right: 216px;
+}
+
+#seePricing {
+    background-color: #EE851F;
+    color: #FFFFFF;
+    border-radius: 18px;
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    margin: 40px 12px;
+    box-shadow: 0 10px 21px rgba(236, 126, 43, 0.4);
+}
+
+#seePricing:hover {
+    transition-duration: 700ms;
+    background-color: #d97a1e;
+}
+
+#seePricing:active {
+    background-color: #d97a1e;
+    box-shadow: 0 10px 21px rgba(236, 126, 43, 0.4);
+    transform: translateY(4px);
+}
+
+#ourLocations {
+    background-color: transparent;
+    color: #EE851F;
+    border: 1px solid #EE851F;
+    border-radius: 47px;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    margin: 40px 12px;
+}
+
+#ourLocations:hover {
+    transition-duration: 700ms;
+    background-color: #f5f5f5;
+}
+
+#ourLocations:active {
+    background-color: #f5f5f5;
+    transform: translateY(4px);
 }
 
 
@@ -132,10 +195,12 @@ section.jumbotron p {
 Middle Banner
 */
 
-section.container {
-    width: 100%;
-    background: linear-gradient(90deg, #20303c 75%, #ee851f 25%);
+section.container-xl {
+    background: linear-gradient(90deg, #20303c 66%, #ee851f 34%);
     color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 7.063rem;
 }
 
 section h2 {
