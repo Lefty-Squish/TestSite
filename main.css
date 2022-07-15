@@ -29,32 +29,88 @@
     --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
+/*
+Box Sizing rules
+ */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+Remove all default margin & padding
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/*
+Allows focus on elements within its parent
+*/
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+
+/*
+Body
+*/
 
 body {
     margin: 0;
     width: 100%;
+    min-height: 100vh;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
+    text-rendering: optimizeSpeed;
     background-color: #FFF;
     font-family: Inter sans-serif;
 }
 
 
 
+/*
+Header
+*/
 
-#headerMain {
+.container-fluid {
+    margin: 0;
+    padding: 0 !important;
+}
 
+#logo {
+    border-bottom: 1px solid #e8e8e8;
 }
 
 #headerWrap {
     background-color: #20303C;
     height: 50px;
-    margin: 0 auto;
-    padding: 10px 0;
+    margin: 0;
     width: 100%;
+    padding: 0 !important;
 }
 
 #phoneNumber {
@@ -62,25 +118,13 @@ body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-size: 18px;
-    line-height: 31px;
-    text-align: left;
 }
 
 #offer {
     color: #FFFFFF;
     letter-spacing: -0.03em;
     line-height: 27px;
-    text-align: center;
 }
-
-/*
-Main MyCo Logo
-*/
-
-#mycoLogo {
-    float: left;
-}
-
 
 
 /*
@@ -88,8 +132,7 @@ Navigation Bar
 */
 
 nav {
-    display: inline-flex;
-    align-content: end;
+    display: flex;
     color: #20303C;
     font-weight: 500;
     font-size: 1rem;
@@ -99,6 +142,7 @@ nav {
 
 nav p {
     padding: 20px;
+    justify-content: flex-end;
 }
 
 
@@ -136,17 +180,24 @@ section.jumbotron img {
     right: 216px;
 }
 
+/*
+Main Page Buttons
+*/
+
 #seePricing {
+    font-size: 14px;
+    line-height: 24px;
     background-color: #EE851F;
     color: #FFFFFF;
-    border-radius: 18px;
+    border-radius: 50px;
+    border: none;
     height: 3rem;
     width: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    padding: 14px 35px;
     gap: 10px;
     margin: 40px 12px;
     box-shadow: 0 10px 21px rgba(236, 126, 43, 0.4);
@@ -164,17 +215,19 @@ section.jumbotron img {
 }
 
 #ourLocations {
+    font-size: 14px;
+    line-height: 24px;
     background-color: transparent;
     color: #EE851F;
     border: 1px solid #EE851F;
-    border-radius: 47px;
+    border-radius: 50px;
     width: 10rem;
     height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    padding: 14px 35px;
     gap: 10px;
     margin: 40px 12px;
 }
@@ -195,28 +248,66 @@ section.jumbotron img {
 Middle Banner
 */
 
-section.container-xl {
-    background: linear-gradient(90deg, #20303c 66%, #ee851f 34%);
+section.container-fluid {
+    background: linear-gradient(90deg, #20303c 73%, #ee851f 27%);
     color: #FFFFFF;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: 20px;
     height: 7.063rem;
+    margin: 0 auto;
+    width: 100%;
 }
 
 section h2 {
+    font-weight: bold;
     display: inline-flex;
+    padding-top: 20px;
 }
 
-section p {
+.middleBanner {
     display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 7.063rem;
 }
 
+.trustedClients {
+    display: inline-flex;
+    align-items: center;
+}
 
+.experience {
+    display: inline-flex;
+    align-items: center;
+}
 
+.prestigiousOffices {
+    display: inline-flex;
+    align-items: center;
+}
 
+.liveChat {
+    display: inline-flex;
+    align-items: center;
+}
 
+#clients {
+    height: 5.5rem;
+    display: inline-flex;
+    padding: 10px 25px;
+}
 
+#over100Years {
+    height: 5.5rem;
+    display: inline-flex;
+    padding: 10px 20px;
+}
 
+#offices {
+    height: 5.5rem;
+    display: inline-flex;
+    padding: 10px 20px;
+}
 
 
 

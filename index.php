@@ -16,30 +16,32 @@
   <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  <div class="container">
+  <div class="container-fluid">
       <div class="row col-12" id="headerWrap">
           <p class="col-6" id="phoneNumber">+44(0)207 183 3787</p>
           <p class="col-6" id="offer">Want 10% off your first order? Click here</p>
       </div>
   </div>
 
-  <header>
+  <header class="container-fluid" id="logo">
         <div class="container">
             <img class="row" id="mycoLogo" src="Images/myco-works-logo.svg" alt="MyCo Works Logo" width="300px" height="72px">
-            <nav class="col text-right">
-                <p>Address Services</p>
-                <p>Company Formations</p>
-                <p>Pricing</p>
-                <p>Other Services</p>
-                <p>Locations</p>
-                <p>FAQs</p>
-                <p>About Us</p>
-                <p>Blogs</p>
-                <p>Partners</p>
-                <p>Contact Us</p>
-            </nav>
         </div>
-    </header>
+  </header>
+
+  <nav class="container">
+          <p>Address Services</p>
+          <p>Company Formations</p>
+          <p>Pricing</p>
+          <p>Other Services</p>
+          <p>Locations</p>
+          <p>FAQs</p>
+          <p>About Us</p>
+          <p>Blogs</p>
+          <p>Partners</p>
+          <p>Contact Us</p>
+  </nav>
+
 
   <section class="jumbotron">
       <div class="container">
@@ -56,20 +58,81 @@
       </div>
   </section>
 
-  <section class="container-xl">
+  <section class="container-fluid">
       <div class="row">
-          <div class="col-12">
-              <h2 class="col-3">30K+</h2> <h2 class="col-3">Over 100 Years</h2> <h2 class="col-2">6</h2> <h2 class="col-3">Live Chat</h2>
-              <br>
-              <p class="col-3">Trusted Clients</p> <p class="col-3">Combined Industry Experience</p> <p class="col-2">Prestigious Offices</p> <p class="col-3">Chat with one of our friendly staff</p>
+          <div class="middleBanner">
+
+              <!--Trusted Clients-->
+              <div class="trustedClients">
+                  <div class="trustedClients-img">
+                      <img src="Images/Trusted_Clients.svg" alt="Three stick figures" id="clients"/>
+                  </div>
+                  <div class="trustedClients-text">
+                      <h2>30K+</h2>
+                      <p>Trusted Clients</p>
+                  </div>
+              </div>
+
+              <!--Combines Experience-->
+              <div class="experience">
+                  <div class="experience-img">
+                      <img src="Images/Years_of_Experience_icon.svg" alt="A calendar with a tick" id="over100Years">
+                  </div>
+                  <div class="experience-text">
+                      <h2>Over 100 Years</h2>
+                      <p>Combined Industry Experience</p>
+                  </div>
+              </div>
+
+              <!--Prestigious Offices-->
+              <div class="prestigiousOffices">
+                  <div class="prestigiousOffices-img">
+                      <img src="Images/Amazing_Offices_icon.svg" alt="Small building" id="offices">
+                  </div>
+                  <div class="prestigiousOffices-text">
+                      <h2>6</h2>
+                      <p>Prestigious Offices</p>
+                  </div>
+              </div>
+
+              <!--Live Chat-->
+              <div class="liveChat">
+                  <div class="liveChat-img">
+
+                  </div>
+                  <div class="liveChat-text">
+                      <h2>Live Chat</h2>
+                      <p>Chat with one of our friendly staff</p>
+                  </div>
+              </div>
           </div>
-      </div>
-      <div class="row">
       </div>
   </section>
 
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
