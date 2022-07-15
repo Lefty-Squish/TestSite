@@ -93,7 +93,7 @@ body {
 
 
 /*
-Header
+Offer Banner
 */
 
 .container-fluid {
@@ -101,16 +101,26 @@ Header
     padding: 0 !important;
 }
 
-#logo {
-    border-bottom: 1px solid #e8e8e8;
-}
-
-#headerWrap {
+#topBanner {
     background-color: #20303C;
     height: 50px;
     margin: 0;
     width: 100%;
     padding: 0 !important;
+    display: flex;
+}
+
+.headerWrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#phone {
+    height: 1.5rem;
+    width: 1.5rem;
+    display: inline-flex;
+    justify-self: start;
 }
 
 #phoneNumber {
@@ -118,12 +128,35 @@ Header
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-size: 18px;
+    justify-self: start;
 }
 
 #offer {
     color: #FFFFFF;
     letter-spacing: -0.03em;
     line-height: 27px;
+    display: inline-flex;
+    align-self: center;
+    justify-self: center;
+}
+
+#socialMedia {
+    height: 2rem;
+    width: 8rem;
+    display: inline-flex;
+}
+
+
+/*
+Logo and Client Login
+*/
+
+#logo {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.clientLogin {
+    margin: 10px;
 }
 
 
@@ -133,18 +166,26 @@ Navigation Bar
 
 nav {
     display: flex;
+    justify-content: flex-end;
     color: #20303C;
     font-weight: 500;
     font-size: 1rem;
     line-height: 171.19%;
     letter-spacing: -0.02em;
+    padding-bottom: 30px;
 }
 
-nav p {
-    padding: 20px;
-    justify-content: flex-end;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
 }
 
+li {
+    display: inline;
+    padding: 15px;
+
+}
 
 
 /*
@@ -173,11 +214,16 @@ section.jumbotron p {
     display: flex;
 }
 
-section.jumbotron img {
+#homeBanner-img {
     width: 37.5rem;
     height: 30rem;
     position: absolute;
     right: 216px;
+}
+
+.trustPilot {
+    width: 17rem;
+    height: 10rem;
 }
 
 /*
@@ -249,26 +295,28 @@ Middle Banner
 */
 
 section.container-fluid {
-    background: linear-gradient(90deg, #20303c 73%, #ee851f 27%);
+    background: linear-gradient(90deg, #20303c 71.25%, #ee851f 28.75%);
     color: #FFFFFF;
-    padding-top: 40px;
-    padding-left: 20px;
-    height: 7.063rem;
+    padding: 10px 15px;
+    height: 8rem;
     margin: 0 auto;
     width: 100%;
 }
 
-section h2 {
-    font-weight: bold;
-    display: inline-flex;
-    padding-top: 20px;
+.middleBanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
 }
 
-.middleBanner {
-    display: inline-flex;
+.middleBanner h3 {
+    font-weight: 600;
+}
+
+.middleBanner p {
+    font-size: small;
     align-items: center;
-    justify-content: space-evenly;
-    height: 7.063rem;
 }
 
 .trustedClients {
@@ -292,24 +340,27 @@ section h2 {
 }
 
 #clients {
-    height: 5.5rem;
+    height: 5rem;
     display: inline-flex;
-    padding: 10px 25px;
+    padding: 7px 20px;
 }
 
 #over100Years {
-    height: 5.5rem;
+    height: 5rem;
     display: inline-flex;
-    padding: 10px 20px;
+    padding: 7px 20px;
 }
 
 #offices {
-    height: 5.5rem;
+    height: 5rem;
     display: inline-flex;
-    padding: 10px 20px;
+    padding: 7px 20px;
 }
 
-
+#chat {
+    height: 6rem;
+    display: inline-flex;
+}
 
 
 
