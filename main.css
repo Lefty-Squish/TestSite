@@ -87,6 +87,7 @@ body {
     text-align: left;
     text-rendering: optimizeSpeed;
     background-color: #FFF;
+    color: #20303C;
     font-family: Inter sans-serif;
 }
 
@@ -110,10 +111,14 @@ Offer Banner
     display: flex;
 }
 
+#topHeader {
+    padding: 10px;
+}
+
 .headerWrap {
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+
 }
 
 #phone {
@@ -128,12 +133,14 @@ Offer Banner
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-size: 18px;
+    font-weight: 400;
     justify-self: start;
 }
 
 #offer {
     color: #FFFFFF;
     letter-spacing: -0.03em;
+    font-weight: 500;
     line-height: 27px;
     display: inline-flex;
     align-self: center;
@@ -192,69 +199,87 @@ li {
 Main Page
 */
 
+.jumbotron {
+    margin-top: 45px;
+    margin-bottom: 4rem;
+}
+
 section.jumbotron h1 {
     color: #20303C;
     font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 80px;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 66px;
     letter-spacing: -0.02em;
     width: 774px;
-    height: 240px;
     display: flex;
+    margin: 0 0 30px;
 }
 
-section.jumbotron p {
+.frontPageText {
     color: #424242;
     font-weight: 400;
     font-size: 1rem;
     line-height: 2rem;
     width: 663px;
     height: 96px;
-    display: flex;
+    padding-right: 3rem;
+}
+
+.addressImage {
+    position: relative;
+
 }
 
 #homeBanner-img {
-    width: 37.5rem;
-    height: 30rem;
-    position: absolute;
-    right: 216px;
+    width: 36rem;
+    height: 28rem;
+    display: inline-flex;
+    position: static;
+    vertical-align: middle;
+    box-shadow: 0 10px 28px -16px #111;
+    border-style: none;
+}
+
+.viewButtons {
+    display: inline-flex;
 }
 
 .trustPilot {
-    width: 17rem;
-    height: 10rem;
+    width: 19rem;
+    height: 12rem;
+    padding-top: 30px;
+    padding-left: 20px;
 }
+
 
 /*
 Main Page Buttons
 */
 
-#seePricing {
+#viewPricing {
     font-size: 14px;
     line-height: 24px;
     background-color: #EE851F;
     color: #FFFFFF;
     border-radius: 50px;
     border: none;
-    height: 3rem;
-    width: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 14px 35px;
     gap: 10px;
-    margin: 40px 12px;
+    margin: 30px 1.5rem 30px 0;
     box-shadow: 0 10px 21px rgba(236, 126, 43, 0.4);
 }
 
-#seePricing:hover {
+#viewPricing:hover {
     transition-duration: 700ms;
     background-color: #d97a1e;
 }
 
-#seePricing:active {
+#viewPricing:active {
     background-color: #d97a1e;
     box-shadow: 0 10px 21px rgba(236, 126, 43, 0.4);
     transform: translateY(4px);
@@ -267,15 +292,13 @@ Main Page Buttons
     color: #EE851F;
     border: 1px solid #EE851F;
     border-radius: 50px;
-    width: 10rem;
-    height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 14px 35px;
     gap: 10px;
-    margin: 40px 12px;
+    margin: 30px 12px;
 }
 
 #ourLocations:hover {
@@ -290,6 +313,8 @@ Main Page Buttons
 
 
 
+
+
 /*
 Middle Banner
 */
@@ -298,7 +323,6 @@ section.container-fluid {
     background: linear-gradient(90deg, #20303c 71.25%, #ee851f 28.75%);
     color: #FFFFFF;
     padding: 10px 15px;
-    height: 8rem;
     margin: 0 auto;
     width: 100%;
 }
@@ -307,7 +331,7 @@ section.container-fluid {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 8rem;
+    padding: 10px 0;
 }
 
 .middleBanner h3 {
@@ -360,7 +384,84 @@ section.container-fluid {
 #chat {
     height: 6rem;
     display: inline-flex;
+    padding: 8px;
 }
+
+
+/*
+Second Half
+*/
+
+.aboutUsWrapper {
+    margin: 3rem 0;
+    padding: 3rem 0;
+}
+
+#aboutRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.aboutImage {
+    padding-right: 5rem;
+    margin-right: 3rem;
+}
+
+.aboutImage img {
+    width: 100%;
+    border-radius: 22px;
+}
+
+.aboutUs {
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+
+.introTitle {
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.introText {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #525252;
+}
+
+#aboutUsButton {
+    color: #FFFFFF;
+    background-color: #EE851F;
+    box-shadow: 0 4px 10px 2px rgba(238, 133, 31, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 14px 30px;
+    width: 100%;
+    border: none;
+    border-radius: 44px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
