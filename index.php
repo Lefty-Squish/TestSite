@@ -7,6 +7,7 @@
     <title>Tom's Test</title>
     <link href="https://github.com/Lefty-Squish/TestSite.git"/>
     <link href="./main.css" rel="stylesheet"/>
+    <link href="main.sass" rel="stylesheet"/>
     <link href="main.js"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script type="application/javascript" src="main.js"></script>
@@ -15,16 +16,21 @@
   <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+<!--  Top Banner  -->
   <div class="container-fluid" id="topBanner">
       <div class="container" id="topHeader">
           <div class="headerWrap">
               <p id="phoneNumber"><img src="Images/phone.png" alt="phone handle" id="phone"> +44 (0) 207 183 3787</p>
-              <p id="offer">Want 10% off your first order? Click here</p>
+              <p id="offer">
+                  Want 10% off your first order?
+                  <a id="clickHere"> Click Here</a>
+              </p>
               <img src="Images/socialMedia.png" alt="Social Media Icons" id="socialMedia">
           </div>
       </div>
   </div>
 
+<!--  Header  -->
   <header class="container-fluid" id="logo">
         <div class="container">
             <div class="clientLogin">
@@ -33,6 +39,7 @@
         </div>
   </header>
 
+<!--  Navigation  -->
   <nav class="container">
       <div class="navigation">
           <ul>
@@ -50,7 +57,7 @@
       </div>
   </nav>
 
-
+<!--  First Box -->
   <section class="jumbotron">
       <div class="container">
           <div class="row">
@@ -84,7 +91,7 @@
       </div>
   </section>
 
-
+<!--  Banner -->
   <section class="container-fluid">
       <div class="container">
           <div class="middleBanner">
@@ -136,7 +143,11 @@
       </div>
   </section>
 
+<!--  Introducing MYCO Works  -->
   <section class="aboutUsWrapper">
+      <div class="aboutUs-bg-img">
+          <img src="https://mycoworks.co.uk/assets/img/about_us.png" alt="About Us">
+      </div>
       <div class="container">
           <div class="row" id="aboutRow">
               <div class="col-12 col-xl-6">
@@ -163,6 +174,73 @@
           </div>
       </div>
   </section>
+
+<!--  UK Limited Company Formation  -->
+  <section class="limitedCompanyFormation">
+      <div class="container">
+          <div class="row">
+
+<!--  Left-hand Side of Company Formation-->
+                  <div class="col-6">
+                      <div class="companyFormation">
+                          <h3>UK Limited Company Formation</h3>
+                          <p>
+                              You can secure your company name from only £12.99! With our simple 'Company
+                              Formation Only' package. Or why not protect your home address from the
+                              Companies House register and include a Virtual Business Address service, by
+                              choosing from our 'Company' and 'Non-Resident' packages.
+                          </p>
+                          <div class="input_search">
+                              <input id="companyName" type="text" name="companyName" placeholder="Enter your company name to check if it is available">
+                              <button id="searchCompanyFormation" type="button">Search</button>
+                          </div>
+                          <h6>
+                              Or view
+                              <a class="text-orange"> company formation packages</a>
+                          </h6>
+                      </div>
+                  </div>
+
+<!--  Right-hand Side Of Company Formation-->
+                  <div class="col-6">
+                      <div class="companyFormationLearnMore">
+                          <div class="cfText">
+                              <h4>
+                                  Register
+                                  <br>
+                                  Your Company
+                              </h4>
+                              <h1>FROM £12.99</h1>
+                              <a class="learnMoreButton" type="button">
+                                  Learn More
+                              </a>
+                          </div>
+                          <div class="cfImage">
+                              <img src="Images/CF-home_banner.png" alt="Business man and woman back to back">
+                          </div>
+                      </div>
+                  </div>
+
+          </div>
+      </div>
+  </section>
+
+
+<!--  Prices And Services  -->
+  <section class="pricesAndServices">
+      <div class="container">
+          <div class="row">
+
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
   </body>
 </html>
 

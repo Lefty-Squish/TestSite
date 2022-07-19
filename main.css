@@ -91,7 +91,13 @@ body {
     font-family: Inter sans-serif;
 }
 
+.row {
+    display: flex;
+}
 
+.text-orange {
+    color: #EE851F;
+}
 
 /*
 Offer Banner
@@ -139,12 +145,16 @@ Offer Banner
 
 #offer {
     color: #FFFFFF;
-    letter-spacing: -0.03em;
     font-weight: 500;
     line-height: 27px;
     display: inline-flex;
     align-self: center;
     justify-self: center;
+}
+
+#clickHere {
+    color: #EE851F;
+    white-space: break-spaces;
 }
 
 #socialMedia {
@@ -178,7 +188,6 @@ nav {
     font-weight: 500;
     font-size: 1rem;
     line-height: 171.19%;
-    letter-spacing: -0.02em;
     padding-bottom: 30px;
 }
 
@@ -210,7 +219,6 @@ section.jumbotron h1 {
     font-weight: bolder;
     font-size: 50px;
     line-height: 66px;
-    letter-spacing: -0.02em;
     width: 774px;
     display: flex;
     margin: 0 0 30px;
@@ -275,12 +283,12 @@ Main Page Buttons
 }
 
 #viewPricing:hover {
-    transition-duration: 700ms;
-    background-color: #d97a1e;
+    transition-duration: 400ms;
+    background-color: #20303C;
 }
 
 #viewPricing:active {
-    background-color: #d97a1e;
+    background-color: #20303C;
     box-shadow: 0 10px 21px rgba(236, 126, 43, 0.4);
     transform: translateY(4px);
 }
@@ -302,12 +310,13 @@ Main Page Buttons
 }
 
 #ourLocations:hover {
-    transition-duration: 700ms;
-    background-color: #f5f5f5;
+    transition-duration: 400ms;
+    background-color: #EE851F;
+    color: #FFFFFF;
 }
 
 #ourLocations:active {
-    background-color: #f5f5f5;
+    background-color: #EE851F;
     transform: translateY(4px);
 }
 
@@ -384,7 +393,7 @@ section.container-fluid {
 #chat {
     height: 6rem;
     display: inline-flex;
-    padding: 8px;
+    padding: 7px;
 }
 
 
@@ -395,6 +404,25 @@ Second Half
 .aboutUsWrapper {
     margin: 3rem 0;
     padding: 3rem 0;
+}
+
+.aboutUs-bg-img {
+    background-image: url("https://mycoworks.co.uk/assets/img/about_us.png");
+    width: 30%;
+    top: 1097px;
+    left: 0;
+    height: 50%;
+    position: absolute;
+    z-index: -9;
+}
+
+.aboutUs-bg-img img {
+    width: 16%;
+    height: 41%;
+    margin-left: 36%;
+    margin-top: 17%;
+    vertical-align: middle;
+    z-index: auto;
 }
 
 #aboutRow {
@@ -447,6 +475,123 @@ Second Half
     border-radius: 44px;
     line-height: 18px;
 }
+
+#aboutUsButton:hover {
+    transition-duration: 400ms;
+    background-color: #20303C;
+}
+
+#aboutUsButton:active {
+    background-color: #20303C;
+    box-shadow: 0 10px 21px rgba(238, 133, 31, 0.2);
+    transform: translateY(4px);
+}
+
+
+
+/*
+Limited Company Formation
+*/
+.limitedCompanyFormation {
+    background-image: url("https://mycoworks.co.uk/assets/img/home-banner-img1.png");
+    background-size: contain;
+    color: #FFFFFF;
+    padding: 80px 0;
+}
+
+
+/*  Left Side  */
+.companyFormation {
+
+}
+
+.companyFormation h3 {
+    margin-bottom: 30px;
+}
+
+.input_search {
+    display: flex;
+}
+
+.input_search h6 {
+    font-weight: bolder;
+}
+
+#companyName {
+    width: 70%;
+    padding: 20px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    overflow: visible;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#searchCompanyFormation {
+    background: #EE851F;
+    color: #FFFFFF;
+    border: none;
+    padding: 0 30px;
+    margin: 20px 0;
+    cursor: pointer;
+    outline: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+/*  Right side  */
+.companyFormationLearnMore {
+    display: grid;
+    grid-template-columns: 1fr 270px;
+    background-color: #FFF;
+    border-radius: 12px;
+    padding: 20px 40px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.cfText {
+    color: #212529;
+    align-self: center;
+    font-weight: bolder;
+}
+
+.learnMoreButton {
+    display: flex;
+    width: 150px;
+    background: #EE851F;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 30px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+
+/*
+Prices And Services
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
