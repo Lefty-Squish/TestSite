@@ -329,7 +329,7 @@ Middle Banner
 */
 
 section.container-fluid {
-    background: linear-gradient(90deg, #20303c 71.25%, #ee851f 28.75%);
+    background: linear-gradient(90deg, #20303c 70.5%, #ee851f 30.5%);
     color: #FFFFFF;
     padding: 10px 15px;
     margin: 0 auto;
@@ -370,6 +370,10 @@ section.container-fluid {
 .liveChat {
     display: inline-flex;
     align-items: center;
+}
+
+.liveChat-text {
+    margin-left: 20px;
 }
 
 #clients {
@@ -540,6 +544,17 @@ Limited Company Formation
     border-bottom-right-radius: 50px;
 }
 
+#searchCompanyFormation:hover {
+    transition-duration: 400ms;
+    background-color: #20303C;
+}
+
+#searchCompanyFormation:active {
+    background-color: #20303C;
+    box-shadow: 0 10px 21px rgba(238, 133, 31, 0.2);
+    transform: translateY(4px);
+}
+
 
 /*  Right side  */
 .companyFormationLearnMore {
@@ -560,7 +575,7 @@ Limited Company Formation
 
 .learnMoreButton {
     display: flex;
-    width: 150px;
+    width: 100%;
     background: #EE851F;
     color: #FFFFFF;
     border-radius: 50px;
@@ -572,9 +587,73 @@ Limited Company Formation
     margin-top: 30px;
 }
 
+.learnMoreButton:hover {
+    transition-duration: 400ms;
+    background-color: #20303C;
+    color: #FFFFFF;
+}
+
+.learnMoreButton:active {
+    background-color: #20303C;
+    box-shadow: 0 10px 21px rgba(238, 133, 31, 0.2);
+    transform: translateY(4px);
+    color: #FFFFFF;
+}
+
+
 /*
-Prices And Services
+Business Address Services
 */
+
+.businessAddressServices {
+    background: #FFFFFF;
+    padding: 80px 0;
+}
+
+.aboutBAS h3 {
+    margin-bottom: 40px;
+}
+
+.tab {
+    margin-bottom: 40px;
+}
+
+.tabLinks {
+   background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #c4c4c4;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 0 0 10px;
+}
+
+.tabLinks:active {
+    animation: slideDown 1s;
+    color: #20303C;
+    border-bottom: 2px solid #EE851F;
+}
+
+.tabContent {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

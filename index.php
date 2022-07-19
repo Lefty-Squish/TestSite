@@ -227,10 +227,78 @@
 
 
 <!--  Prices And Services  -->
-  <section class="pricesAndServices">
+  <section class="businessAddressServices">
       <div class="container">
           <div class="row">
 
+<!-- Left-hand Side-->
+              <div class="col-7">
+                  <div class="aboutBAS">
+                      <h3>Business Address Services</h3>
+                      <div class="tab">
+                          <button class="tabLinks" onclick="openSolution(evt, ROA)" id="defaultView">Registered Office Address</button>
+                          <button class="tabLinks">Virtual Business Address</button>
+                          <button class="tabLinks">Virtual Business Plus</button>
+                      </div>
+
+<!--                      Registered Office Address Tab-->
+                      <div id="ROA" class="tabContent" style="display: block">
+                          <div class="tabText">
+                              <p>
+                                  Select from our choice of prestigious business addresses in the UK, to use as your Registered
+                                  Office Address. Instantly enhance your company image and protect your privacy, while
+                                  benefiting from a prestigious business address on all your official documents.
+                              </p>
+                              <p>
+                                  Every company is required to have an address where official correspondence, such as letters
+                                  from Companies House, HM Revenue & Customs (HMRC) or court documents can be sent.
+                              </p>
+                              <a class="learnMoreButton" type="button">Learn More</a>
+                          </div>
+                      </div>
+
+<!--                      Virtual Business Address Tab-->
+                      <div id="VBA" class="tabContent">
+                          <div class="tabText">
+                              <p>
+                                  Want to portray a professional image and create the impression of an established business with
+                                  its own premises? Use our address as your Business Address anywhere outside Companies
+                                  House e.g. on your website, invoices, stationery, adverts, letterheads etc.
+                              </p>
+                              <p>
+                                  Business mail (mail received from banks, clients, suppliers, investors, service providers and
+                                  other third parties with whom you do business) is sorted daily and forwarded to you by 1st Class
+                                  post or can be scanned and emailed. Plus with access to meeting rooms, our low-cost virtual
+                                  business address service provides a huge saving compared to a traditional office space.
+                              </p>
+                              <a class="learnMoreButton" type="button">Learn More</a>
+                          </div>
+                      </div>
+
+<!--                      Virtual Business Plus Tab-->
+                      <div id="VBP" class="tabContent">
+                          <p>
+                              Perfect for startups and SMEs, our popular 3-in-1 Virtual Business Plus package includes a
+                              Registered Office Address, Director Service Address and a Virtual Business Address. Using a
+                              virtual business address means your business portrays a professional image and creates the
+                              right impression with clients and suppliers by generating an image of an established business
+                              with its own premises.
+                          </p>
+                          <p>
+                              Our Registered Office Address and Director Service Address (which includes all directors of a
+                              company) can be used as the company’s and directors’ official address with Companies House
+                              to protect your personal privacy. Our Virtual Business Plus package also grants access to book
+                              meeting rooms.
+                          </p>
+                          <a class="learnMoreButton" type="button">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-5">
+                  <div class="BASImg">
+                      <img src="./Images/address-service-img.jpg">
+                  </div>
+              </div>
           </div>
       </div>
   </section>
