@@ -8,14 +8,14 @@
     <link href="https://github.com/Lefty-Squish/TestSite.git"/>
     <link href="./main.css" rel="stylesheet"/>
     <link href="main.sass" rel="stylesheet"/>
-    <link href="main.js"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script type="application/javascript" src="main.js"></script>
   </head>
 
   <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+  <script src="main.js"></script>
+  <script>document.getElementById("defaultView").click();</script>
 <!--  Top Banner  -->
   <div class="container-fluid" id="topBanner">
       <div class="container" id="topHeader">
@@ -180,7 +180,7 @@
       <div class="container">
           <div class="row">
 
-<!--  Left-hand Side of Company Formation-->
+<!--  Left-hand Side of Company Formation  -->
                   <div class="col-6">
                       <div class="companyFormation">
                           <h3>UK Limited Company Formation</h3>
@@ -191,7 +191,7 @@
                               choosing from our 'Company' and 'Non-Resident' packages.
                           </p>
                           <div class="input_search">
-                              <input id="companyName" type="text" name="companyName" placeholder="Enter your company name to check if it is available">
+                              <label for="companyName"></label><input id="companyName" type="text" name="companyName" placeholder="Enter your company name to check if it is available">
                               <button id="searchCompanyFormation" type="button">Search</button>
                           </div>
                           <h6>
@@ -201,7 +201,7 @@
                       </div>
                   </div>
 
-<!--  Right-hand Side Of Company Formation-->
+<!--  Right-hand Side Of Company Formation  -->
                   <div class="col-6">
                       <div class="companyFormationLearnMore">
                           <div class="cfText">
@@ -236,10 +236,11 @@
                   <div class="aboutBAS">
                       <h3>Business Address Services</h3>
                       <div class="tab">
-                          <button class="tabLinks" onclick="openSolution(evt, ROA)" id="defaultView">Registered Office Address</button>
-                          <button class="tabLinks">Virtual Business Address</button>
-                          <button class="tabLinks">Virtual Business Plus</button>
+                          <button class="tabLinks active" onclick="openSolution(event, 'ROA')" id="defaultView">Registered Office Address</button>
+                          <button class="tabLinks" onclick="openSolution(event, 'VBA')">Virtual Business Address</button>
+                          <button class="tabLinks" onclick="openSolution(event, 'VBP')">Virtual Business Plus</button>
                       </div>
+
 
 <!--                      Registered Office Address Tab-->
                       <div id="ROA" class="tabContent" style="display: block">
@@ -258,7 +259,7 @@
                       </div>
 
 <!--                      Virtual Business Address Tab-->
-                      <div id="VBA" class="tabContent">
+                      <div id="VBA" class="tabContent" style="display: none">
                           <div class="tabText">
                               <p>
                                   Want to portray a professional image and create the impression of an established business with
@@ -276,27 +277,29 @@
                       </div>
 
 <!--                      Virtual Business Plus Tab-->
-                      <div id="VBP" class="tabContent">
-                          <p>
-                              Perfect for startups and SMEs, our popular 3-in-1 Virtual Business Plus package includes a
-                              Registered Office Address, Director Service Address and a Virtual Business Address. Using a
-                              virtual business address means your business portrays a professional image and creates the
-                              right impression with clients and suppliers by generating an image of an established business
-                              with its own premises.
-                          </p>
-                          <p>
-                              Our Registered Office Address and Director Service Address (which includes all directors of a
-                              company) can be used as the company’s and directors’ official address with Companies House
-                              to protect your personal privacy. Our Virtual Business Plus package also grants access to book
-                              meeting rooms.
-                          </p>
-                          <a class="learnMoreButton" type="button">Learn More</a>
+                      <div id="VBP" class="tabContent" style="display: none">
+                          <div class="tabText">
+                              <p>
+                                  Perfect for startups and SMEs, our popular 3-in-1 Virtual Business Plus package includes a
+                                  Registered Office Address, Director Service Address and a Virtual Business Address. Using a
+                                  virtual business address means your business portrays a professional image and creates the
+                                  right impression with clients and suppliers by generating an image of an established business
+                                  with its own premises.
+                              </p>
+                              <p>
+                                  Our Registered Office Address and Director Service Address (which includes all directors of a
+                                  company) can be used as the company’s and directors’ official address with Companies House
+                                  to protect your personal privacy. Our Virtual Business Plus package also grants access to book
+                                  meeting rooms.
+                              </p>
+                              <a class="learnMoreButton" type="button">Learn More</a>
+                          </div>
                       </div>
                   </div>
               </div>
               <div class="col-5">
                   <div class="BASImg">
-                      <img src="./Images/address-service-img.jpg">
+                      <img src="./Images/address-service-img.jpg" alt="Skyscrapers">
                   </div>
               </div>
           </div>

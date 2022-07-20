@@ -619,7 +619,7 @@ Business Address Services
 }
 
 .tabLinks {
-   background: none;
+    background: none;
     border: none;
     outline: none;
     box-shadow: none;
@@ -630,7 +630,16 @@ Business Address Services
 }
 
 .tabLinks:active {
-    animation: slideDown 1s;
+    background: none;
+    color: #20303C;
+    border-bottom: 2px solid #EE851F;
+    outline: none;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 0 0 10px;
+}
+
+.tabLinks:focus {
     color: #20303C;
     border-bottom: 2px solid #EE851F;
 }
@@ -639,7 +648,12 @@ Business Address Services
     display: none;
 }
 
-
+.tabText p {
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #6A6A6A;
+}
 
 
 
