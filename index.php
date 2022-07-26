@@ -9,7 +9,8 @@
     <link href="./main.css" rel="stylesheet"/>
     <link href="main.sass" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script type="application/javascript" src="main.js"></script>
+    <script type="application/javascript" src="main.js"></script>
+    <script src=" https://code.jquery.com/jquery-2.1.4.min.js"></script>
   </head>
 
   <body>
@@ -42,18 +43,20 @@
 <!--  Navigation  -->
   <nav class="container">
       <div class="navigation">
-          <ul>
-              <li>Address Services</li>
-              <li>Company Formations</li>
-              <li>Pricing</li>
-              <li>Other Services</li>
-              <li>Locations</li>
-              <li>FAQs</li>
-              <li>About Us</li>
-              <li>Blogs</li>
-              <li>Partners</li>
-              <li>Contact Us</li>
-          </ul>
+          <div class="nav">
+              <ul>
+                  <li>Address Services</li>
+                  <li>Company Formations</li>
+                  <li>Pricing</li>
+                  <li>Other Services</li>
+                  <li>Locations</li>
+                  <li>FAQs</li>
+                  <li>About Us</li>
+                  <li>Blogs</li>
+                  <li>Partners</li>
+                  <li>Contact Us</li>
+              </ul>
+          </div>
       </div>
   </nav>
 
@@ -94,49 +97,51 @@
 <!--  Banner -->
   <section class="container-fluid">
       <div class="container">
-          <div class="middleBanner">
+          <div class="row">
+              <div class="middleBanner">
 
-              <!--Trusted Clients-->
-              <div class="trustedClients">
-                  <div class="trustedClients-img">
-                      <img src="Images/Trusted_Clients.svg" alt="Three stick figures" id="clients"/>
+                  <!--Trusted Clients-->
+                  <div class="trustedClients-col trustedClients-col--1 col-xl-2 col-md-3 col-12">
+                      <div class="trustedClients-img">
+                          <img src="Images/Trusted_Clients.svg" alt="Three stick figures" id="clients"/>
+                      </div>
+                      <div class="trustedClients-text">
+                          <h3>30K+</h3>
+                          <p>Trusted Clients</p>
+                      </div>
                   </div>
-                  <div class="trustedClients-text">
-                      <h3>30K+</h3>
-                      <p>Trusted Clients</p>
-                  </div>
-              </div>
 
-              <!--Combines Experience-->
-              <div class="experience">
-                  <div class="experience-img">
-                      <img src="Images/Years_of_Experience_icon.svg" alt="A calendar with a tick" id="over100Years">
+                  <!--Combines Experience-->
+                  <div class="experience-col experience-col--2 col-xl-4 col-md-6 col-12">
+                      <div class="experience-img">
+                          <img src="Images/Years_of_Experience_icon.svg" alt="A calendar with a tick" id="over100Years">
+                      </div>
+                      <div class="experience-text">
+                          <h3>Over 100 Years</h3>
+                          <p>Combined Industry Experience</p>
+                      </div>
                   </div>
-                  <div class="experience-text">
-                      <h3>Over 100 Years</h3>
-                      <p>Combined Industry Experience</p>
-                  </div>
-              </div>
 
-              <!--Prestigious Offices-->
-              <div class="prestigiousOffices">
-                  <div class="prestigiousOffices-img">
-                      <img src="Images/Amazing_Offices_icon.svg" alt="Small building" id="offices">
+                  <!--Prestigious Offices-->
+                  <div class="prestigiousOffices-col prestigiousOffices-col--3 col-xl-3 col-md-3 col-12 pr-xl-5">
+                      <div class="prestigiousOffices-img">
+                          <img src="Images/Amazing_Offices_icon.svg" alt="Small building" id="offices">
+                      </div>
+                      <div class="prestigiousOffices-text">
+                          <h3>6</h3>
+                          <p>Prestigious Offices</p>
+                      </div>
                   </div>
-                  <div class="prestigiousOffices-text">
-                      <h3>6</h3>
-                      <p>Prestigious Offices</p>
-                  </div>
-              </div>
 
-              <!--Live Chat-->
-              <div class="liveChat">
-                  <div class="liveChat-img">
-                    <img src="Images/Live%20Chat.png" alt="Speech Bubbles" id="chat">
-                  </div>
-                  <div class="liveChat-text">
-                      <h3>Live Chat</h3>
-                      <p>Chat with one of our friendly staff</p>
+                  <!--Live Chat-->
+                  <div class="liveChat-col liveChat-col--4 col-xl-3 col-12 pl-xl-5">
+                      <div class="liveChat-img">
+                        <img src="Images/Live%20Chat.png" alt="Speech Bubbles" id="chat">
+                      </div>
+                      <div class="liveChat-text">
+                          <h3>Live Chat</h3>
+                          <p>Chat with one of our friendly staff</p>
+                      </div>
                   </div>
               </div>
           </div>
@@ -236,9 +241,9 @@
                   <div class="aboutBAS">
                       <h3>Business Address Services</h3>
                       <div class="tab">
-                          <button class="tabLinks active" onclick="openSolution(event, 'ROA')" id="defaultView">Registered Office Address</button>
-                          <button class="tabLinks" onclick="openSolution(event, 'VBA')">Virtual Business Address</button>
-                          <button class="tabLinks" onclick="openSolution(event, 'VBP')">Virtual Business Plus</button>
+                          <button class="BASLinks active" onclick="openSolution(event, 'ROA')" id="defaultView">Registered Office Address</button>
+                          <button class="BASLinks" onclick="openSolution(event, 'VBA')">Virtual Business Address</button>
+                          <button class="BASLinks" onclick="openSolution(event, 'VBP')">Virtual Business Plus</button>
                       </div>
 
 
@@ -306,11 +311,259 @@
       </div>
   </section>
 
+  <section class="telephoneAnsweringService">
+      <div class="container">
+          <div class="row">
+
+
+<!--              Left-Hand Side  -->
+              <div class="col-5">
+                  <div class="TASImg">
+                      <img src="Images/TAS-img.jpg" alt="telephone answering service">
+                  </div>
+              </div>
+
+<!--              Right-Hand Side  -->
+              <div class="col-7">
+                  <div class="aboutTAS">
+                      <h3>Telephone Answering Service</h3>
+                  </div>
+                  <div class="tab">
+                      <button class="TASLinks active" onclick="openTab(event, 'TAS')" id="defaultView">Telephone Answering Service</button>
+                      <button class="TASLinks" onclick="openTab(event, 'whoItsFor')">Who It's For</button>
+                      <button class="TASLinks" onclick="openTab(event, 'keyFeatures')">Key Features</button>
+                      <button class="TASLinks" onclick="openTab(event, 'howItWorks')">How It Works</button>
+                  </div>
+
+
+                  <div id="TAS" class="TASContent" style="display: block">
+                      <div class="tabText">
+                          <p>
+                              Our affordable Telephone Answering Service is ideal for busy startups, SMEs, entrepreneurs, and
+                              freelancers who don't have time to answer the phone.
+                          </p>
+                          <p>
+                              Our friendly staff ensure a professional image is portrayed to your clients by answering your
+                              calls promptly
+                          </p>
+                          <a class="learnMoreButton" type="button">Learn More</a>
+                      </div>
+                  </div>
+                  <div id="whoItsFor" class="TASContent" style="display: none">
+                      <div class="tabText">
+                          <p>
+                              Startups, freelancers, entrepreneurs and SMEs
+                          </p>
+                          <p>
+                              Business owners who cannot always get to the phone
+                          </p>
+                          <p>Companies that want to save money on hiring a receptionist</p>
+                          <a class="learnMoreButton" type="button">Learn More</a>
+                      </div>
+                  </div>
+                  <div id="keyFeatures" class="TASContent" style="display: none">
+                      <div class="tabText">
+                          <p>
+                              Choice of telephone numbers
+                          </p>
+                          <p>
+                              Calls answered professionally in your company name
+                          </p>
+                          <p>
+                              Unlimited phone calls
+                          </p>
+                          <p>
+                              All messages taken
+                          </p>
+                          <a class="learnMoreButton" type="button">Learn More</a>
+                      </div>
+                  </div>
+                  <div id="howItWorks" class="TASContent" style="display: none">
+                      <div class="tabText">
+                          <p>
+                              Select your required package, complete your order and start receiving messages within
+                              the hour
+                          </p>
+                          <p>
+                              Our friendly and professional staff answer your calls in your business name
+                          </p>
+                          <p>
+                              Messages (including contact details) are taken and sent to you instantly via email, your
+                              online admin panel and our free MYCO app
+                          </p>
+                          <p>
+                              Never miss a call or opportunity again!
+                          </p>
+                          <a class="learnMoreButton" type="button">Learn More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
 
 
 
 
+
+
+
+
+  <footer>
+<!--      Footer Logos  -->
+      <div class="container">
+          <div class="row">
+              <div class="footerLogos">
+                  <img src="Images/HM.png" alt="Footer Logo's">
+              </div>
+          </div>
+      </div>
+
+<!--      Footer Info and Mailing List  -->
+      <div class="container-fluid" id="footerLower">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="footerInfo">
+                          <div class="col-8" id="greyLine">
+                              <div>
+                                  <img src="Images/Sales.png" alt="Sales" class="footerIcons">
+                                  <p>Sales</p>
+                                  <p><strong>020 7183 3787</strong></p>
+                              </div>
+                              <div>
+                                  <img src="Images/supportFooter.png" alt="Support" class="footerIcons">
+                                  <p>Support</p>
+                                  <p><strong>020 7183 2653</strong></p>
+                              </div>
+                              <div>
+                                  <img src="Images/companyFormations.png" alt="Company Formations" class="footerIcons">
+                                  <p>Company Formations</p>
+                                  <p><strong>020 7183 5369</strong></p>
+                              </div>
+                              <div>
+                                  <img src="Images/openingHours.png" alt="Opening Hours" class="footerIcons">
+                                  <p>Opening Hours</p>
+                                  <p><strong>09:00 - 17:30</strong></p>
+                                  <p>Monday to Friday</p>
+                              </div>
+                          </div>
+                          <div class="col-4" id="mailingList">
+                              <div>
+                                  <p>Want 10% off your first order?</p>
+                                  <p>Join our mailing list</p>
+                                  <div class="enterEmailAddress">
+                                      <label for="customerEmailAddress"></label><input id="customerEmailAddress" type="text" name="customerEmailAddress" placeholder="Enter your email address..."><button id="subscribe" type="button">Subscribe</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+<!--      Footer Links  -->
+      <div class="container-fluid" id="footerLinks">
+          <div class="container">
+              <div class="row">
+                  <div class="MYCOFooter">
+                      <div class="MYCOText">
+                          <img src="Images/MYCOFooterLogo.png" alt="MYCO Works">
+                          <p>
+                              MYCO Works is a UK-based, behind-the-scenes
+                              B2B service provider, specialising
+                              in Registered Office Address, Director
+                              Service Address, Virtual Business
+                              Address, Company Formations, Ready
+                              Made Companies, Meeting Space and
+                              Telephone Answering services with cost-effective
+                              packages and customer service at its core.
+                          </p>
+                      </div>
+
+                      <div class="links">
+                          <div class="ourServices">
+                              <h4>Our Services</h4>
+                              <ul>
+                                  <li>Registered Office Address</li>
+                                  <li>Director Service Address</li>
+                                  <li>Virtual Business Address</li>
+                                  <li>Virtual Business Plus</li>
+                              </ul>
+                          </div>
+
+                          <div class="additionalServices">
+                              <h4>Additional Services</h4>
+                              <ul>
+                                  <li>Telephone Answering Service</li>
+                                  <li>Company Formation</li>
+                                  <li>Meeting Rooms</li>
+                                  <li>Ready Made Companies</li>
+                              </ul>
+                          </div>
+
+                          <div class="ourCompany">
+                              <h4>Our Company</h4>
+                              <ul>
+                                  <li>Make A Payment</li>
+                                  <li>About Us</li>
+                                  <li>Meet The Team</li>
+                                  <li>Our Blog</li>
+                                  <li>Our Locations</li>
+                                  <li>Pricing</li>
+                                  <li>FAQs</li>
+                              </ul>
+                          </div>
+                      </div>
+
+                      <div class="contactUs">
+                          <h4>Contact Us</h4>
+                          <p>
+                              Our Registered Address:<br>
+                              85 Great Portland St<br>
+                              First Floor<br>
+                              London<br>
+                              W1W 7LT<br>
+                              United Kingdom
+                          </p>
+                          <a class="footerContact d-flex align-items-center" href="tel:02071125367">
+                              <i class="fas fa-phone-alt" aria-hidden="true">
+                                  ::before
+                              </i>
+                              <span>+44 (0) 207 112 5367</span>
+                          </a>
+                          <a class="footerContact d-flex align-items-center" href="mailto:contact@mycosupport.co.uk">
+                             <i class="fas fa-envelope" aria-hidden="true">
+                                 ::before
+                             </i>
+                            <span>contact@mycosupport.co.uk</span>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+<!--      Copyright  -->
+      <div class="container-fluid" id="copyrightTermsAndConditions">
+          <div class="container">
+              <div class="row">
+                  <div class="copyright">
+                      <div class="col-8" id="endOfPage">
+                          <p>&copy 2022 Registered Office (UK) Ltd, All Rights Reserved. Trading as The London Office   | VAT No: GB263877953 | Company No: 09347868</p>
+                      </div>
+                      <div class="col-4" id="TAndC">
+                          <p>Privacy & Cookies</p>
+                          <p>Terms & Conditions</p>
+                          <p>Site Security</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
 
   </body>
 </html>
