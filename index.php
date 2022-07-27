@@ -231,12 +231,12 @@
   </section>
 
 
-<!--  Prices And Services  -->
+<!--  Business Address Service  -->
   <section class="businessAddressServices">
       <div class="container">
           <div class="row">
 
-<!-- Left-hand Side-->
+<!--         Left-hand Side  -->
               <div class="col-7">
                   <div class="aboutBAS">
                       <h3>Business Address Services</h3>
@@ -302,6 +302,8 @@
                       </div>
                   </div>
               </div>
+
+<!--              Right-Hand Side  -->
               <div class="col-5">
                   <div class="BASImg">
                       <img src="./Images/address-service-img.jpg" alt="Skyscrapers">
@@ -311,10 +313,11 @@
       </div>
   </section>
 
+
+<!--  Telephone Answering Service  -->
   <section class="telephoneAnsweringService">
       <div class="container">
           <div class="row">
-
 
 <!--              Left-Hand Side  -->
               <div class="col-5">
@@ -335,7 +338,7 @@
                       <button class="TASLinks" onclick="openTab(event, 'howItWorks')">How It Works</button>
                   </div>
 
-
+<!--                  Telephone Answering Service  -->
                   <div id="TAS" class="TASContent" style="display: block">
                       <div class="tabText">
                           <p>
@@ -349,49 +352,68 @@
                           <a class="learnMoreButton" type="button">Learn More</a>
                       </div>
                   </div>
+
+<!--                  Who It's For  -->
                   <div id="whoItsFor" class="TASContent" style="display: none">
                       <div class="tabText">
                           <p>
+                              <img src="Images/TAS%20icons/icon-rocket.svg" alt="Rocket">
                               Startups, freelancers, entrepreneurs and SMEs
                           </p>
                           <p>
+                              <img src="Images/TAS%20icons/icon-call-answ.svg" alt="Call Agent">
                               Business owners who cannot always get to the phone
                           </p>
-                          <p>Companies that want to save money on hiring a receptionist</p>
+                          <p>
+                              <img src="Images/TAS%20icons/icon-support.svg" alt="Support">
+                              Companies that want to save money on hiring a receptionist
+                          </p>
                           <a class="learnMoreButton" type="button">Learn More</a>
                       </div>
                   </div>
+
+<!--                  Key Features  -->
                   <div id="keyFeatures" class="TASContent" style="display: none">
                       <div class="tabText">
                           <p>
+                              <img src="Images/TAS%20icons/icon-phone2.svg" alt="Telephone">
                               Choice of telephone numbers
                           </p>
                           <p>
+                              <img src="Images/TAS%20icons/icon-support.svg" alt="support">
                               Calls answered professionally in your company name
                           </p>
                           <p>
+                              <img src="Images/TAS%20icons/icon-phone1.svg" alt="Handset">
                               Unlimited phone calls
                           </p>
                           <p>
+                              <img src="Images/TAS%20icons/calls-taken.svg" alt="Calls Taken">
                               All messages taken
                           </p>
                           <a class="learnMoreButton" type="button">Learn More</a>
                       </div>
                   </div>
+
+<!--                  How It Works  -->
                   <div id="howItWorks" class="TASContent" style="display: none">
                       <div class="tabText">
                           <p>
+                              <img src="Images/TAS%20icons/icon-website.svg" alt="Monitor">
                               Select your required package, complete your order and start receiving messages within
                               the hour
                           </p>
                           <p>
+                              <img src="Images/TAS%20icons/icon-support.svg" alt="Support">
                               Our friendly and professional staff answer your calls in your business name
                           </p>
                           <p>
+                              <img src="Images/TAS%20icons/icon-email.svg" alt="Email">
                               Messages (including contact details) are taken and sent to you instantly via email, your
                               online admin panel and our free MYCO app
                           </p>
                           <p>
+                              <img src="Images/TAS%20icons/icon-handshake.svg" alt="Handshake">
                               Never miss a call or opportunity again!
                           </p>
                           <a class="learnMoreButton" type="button">Learn More</a>
@@ -403,7 +425,62 @@
   </section>
 
 
+<!--  Company Formation & Ready Made Companies  -->
+  <section class="CFAndRM">
+      <div class="container">
+          <div class="row">
 
+<!--              Left-Hand Side  -->
+              <div class="col-7">
+                  <div class="aboutCFAndRM">
+                      <h3>Company Formation & Ready Made Companies</h3>
+                      <div class="tab">
+                          <button class="CFLinks active" onclick="openCF(event, 'companyFormation')" id="defaultView">Company Formation</button>
+                          <button class="CFLinks" onclick="openCF(event, 'readyMade')">Ready Made Companies</button>
+                      </div>
+
+<!--                      Company Formation  -->
+                      <div id="companyFormation" class="CFContent" style="display: block">
+                          <div class="tabText">
+                              <p>
+                                  There's never been a more exciting time to start a new business and to help you business get
+                                  off to the perfect start, you can register a limited company from just £12.99!
+                              </p>
+                              <p>
+                                  All our company formation packages include free digital versions of your company documents,
+                                  which are emailed directly to you as PDF documents.
+                              </p>
+                              <a class="learnMoreButton" type="button">Learn More</a>
+                          </div>
+                      </div>
+
+<!--                      Ready Made Companies  -->
+                      <div id="readyMade" class="CFContent" style="display:none">
+                          <div class="tabText">
+                              <p>
+                                  Ready Made companies are a great way to ensure that those initial start-up worries are taken
+                                  care of, and to get yourself established in the market quickly.
+                              </p>
+                              <p>
+                                  Included in our admin fees, Companies House fees and electronic filing of the new director's
+                                  details. Our Ready Made companies also come with a free registered office and directors
+                                  service address for one year (you can renew at £49.99 plus VAT on an annual basis).
+                              </p>
+                              <a class="learnMoreButton" type="button">Learn More</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+<!--              Right-Hand Side  -->
+              <div class="col-5">
+                  <div class="CFImg">
+                      <img src="Images/CF-img.jpg" alt="Company Formation">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
 
 

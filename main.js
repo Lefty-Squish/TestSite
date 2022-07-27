@@ -13,7 +13,7 @@ function openSolution(event, solutionName) {
         tabContent[i].style.display = "none";
     }
 
-    BASLinks = document.getElementsByClassName("tabLinks");
+    BASLinks = document.getElementsByClassName("BASLinks");
     for (i = 0; i < BASLinks.length; i++) {
         BASLinks[i].className = BASLinks[i].className.replace(" active", "");
     }
@@ -41,3 +41,21 @@ function openTab(event, tabName) {
     event.currentTarget.className += " active";
 }
 
+
+//Tabs for Company Formation & Ready Made Companies
+
+function openCF(event, CFName) {
+    let k, CFContent, CFLinks;
+    CFContent = document.getElementsByClassName("CFContent");
+    for (k = 0; k < CFContent.length; k++) {
+        CFContent[k].style.display = "none";
+    }
+
+    CFLinks = document.getElementsByClassName("CFLinks");
+    for (k = 0; k < CFLinks.length; k++) {
+        CFLinks[k].className = CFLinks[k].className.replace(" active", "");
+    }
+
+    document.getElementById(CFName).style.display = "block";
+    event.currentTarget.className += " active";
+}
