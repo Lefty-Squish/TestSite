@@ -1,4 +1,5 @@
 $primaryOrange: #EE851F
+
 $primaryBlue: #20303c
 
 @mixin tabLinks
@@ -10,6 +11,14 @@ $primaryBlue: #20303c
   cursor: pointer
   margin-right: 20px
   padding: 0 0 10px
+  &:active
+    background: none
+    color: $primaryBlue
+    border-bottom: 2px solid $primaryOrange
+    outline: none
+    cursor: pointer
+    margin-right: 20px
+    padding: 0 0 10px
   &:focus
     color: $primaryBlue
     border-bottom: 2px solid $primaryOrange
@@ -25,6 +34,9 @@ $primaryBlue: #20303c
   cursor: pointer
   margin-right: 20px
   padding: 0 0 10px
+
+@mixin boxShadow
+  box-shadow: 0 40px 55px -20px #111
 
 root
   --blue: #007bff
@@ -196,15 +208,52 @@ body
 
 
 //Logo and Client Login
-
+.clientLogin
+  width: 100%
+  display: flex
+  margin: 10px
 
 #logo
   border-bottom: 1px solid #e8e8e8
 
+.loginButtons
+  display: flex
+  width: 100%
+  justify-content: flex-end
 
-.clientLogin
-  margin: 10px
+.client
+  font-size: 14px
+  background-color: transparent
+  color: $primaryOrange
+  border: 1px solid $primaryOrange
+  border-radius: 50px
+  padding: 10px 30px
+  gap: 10px
+  margin: 1rem 0.5rem
+  &:hover
+    transition-duration: 400ms
+    background-color: $primaryOrange
+    color: #FFFFFF
+  &:active
+    background-color: $primaryOrange
+    transform: translateY(4px)
 
+.enquire
+  font-size: 14px
+  background-color: $primaryOrange
+  color: #FFFFFF
+  border-radius: 50px
+  border: none
+  padding: 10px 30px
+  margin: 1rem 0.5rem
+  box-shadow: 0 10px 21px rgba(236, 126, 43, 0.4)
+  &:hover
+    transition-duration: 400ms
+    background-color: $primaryBlue
+  &:active
+    background-color: $primaryBlue
+    box-shadow: 0 10px 21px rgba(236, 126, 43, 0.4)
+    transform: translateY(4px)
 
 
 //Navigation Bar
@@ -264,7 +313,6 @@ section.jumbotron h1
 
 .addressImage
   position: relative
-
 
 
 #homeBanner-img
@@ -358,14 +406,14 @@ section.container-fluid
   padding: 0 15px
   margin: 0 auto
   width: 100%
-  height: 100%
+  height: 7rem
 
 
 .middleBanner
   display: flex
   align-items: center
   justify-content: space-between
-  height: 100%
+  height: 7rem
   background: linear-gradient(90deg, $primaryBlue 80%, $primaryOrange 20%)
 
 
@@ -374,7 +422,7 @@ section.container-fluid
 
 
 .middleBanner p
-  font-size: small
+  font-size: 0.85rem
   align-items: center
 
 
@@ -407,11 +455,23 @@ section.container-fluid
   justify-content: center
   margin: 0
 
+.inner
+  border-radius: 50%
+  color: rgba(238, 134, 31, 0.5)
+
+.inner:hover
+  border-radius: 50%
+  left: 0
+  transition-property: right, left
+  transition-duration: 5s
+  background-color: $primaryOrange
+
 .liveChat-img
   background: linear-gradient(90deg, $primaryBlue 50%, $primaryOrange 50%)
+  display: flex
 
 .liveChat-text
-  margin-left: 20px
+  margin-left: 10px
   background-color: $primaryOrange
 
 
@@ -434,7 +494,7 @@ section.container-fluid
 
 
 #chat
-  height: 6rem
+  height: 7rem
   display: inline-flex
   padding: 7px
 
@@ -514,7 +574,6 @@ section.container-fluid
   display: flex
   align-items: center
   padding: 14px 30px
-  width: 100%
   border: none
   border-radius: 44px
   line-height: 18px
@@ -606,7 +665,7 @@ section.container-fluid
 
 .learnMoreButton
   display: flex
-  width: 100%
+  width: 150px
   background: $primaryOrange
   color: #FFFFFF
   border-radius: 50px
@@ -633,7 +692,7 @@ section.container-fluid
 
 
 
-//Business Address Services, Telephone Answering Service, Company Formation
+//Business Address Services, Telephone Answering Service, Company Formation, and Meeting Rooms
 .tab
   margin-bottom: 40px
 
@@ -654,6 +713,9 @@ section.container-fluid
 .aboutBAS h3
   margin-bottom: 40px
 
+.BASImg img
+  border-radius: 22px
+  box-shadow: 0 40px 55px -20px #111
 
 
 
@@ -664,25 +726,60 @@ section.container-fluid
 .aboutTAS h3
   margin-bottom: 40px
 
-
-
-
-
 .telephoneAnsweringService img
   margin-right: 20px
+  border-radius: 22px
+  box-shadow: 0 40px 55px -20px #111
+
+
 
 .CFAndRM
   padding: 80px 0
 
-
 .aboutCFAndRM h3
   margin-bottom: 40px
 
-
-
 .cfImage img
   margin-left: 20px
+  border-radius: 22px
+  box-shadow: 0 40px 55px -20px #111
 
+
+
+.meetingRooms
+  background: #F2F3F3
+  padding: 80px
+
+.aboutMeetingRooms h3
+  margin-bottom: 40px
+
+.meetingRoomImg
+  margin-right: 20px
+  border-radius: 22px
+  box-shadow: 0 40px 55px -20px #111
+
+.meetingButton
+  display: inline-flex
+  width: fit-content
+  background: $primaryOrange
+  color: #FFFFFF
+  border-radius: 50px
+  text-decoration: none
+  text-align: center
+  padding: 14px 30px
+  outline: none
+  border: none
+  margin-top: 30px
+  margin-right: 1rem
+  &:hover
+    transition-duration: 400ms
+    background-color: $primaryBlue
+    color: #FFFFFF
+  &:active
+    background-color: $primaryBlue
+    box-shadow: 0 10px 21px rgba(238, 133, 31, 0.2)
+    transform: translateY(4px)
+    color: #FFFFFF
 
 
 .BASLinks
@@ -692,6 +789,9 @@ section.container-fluid
   @include tabLinks
 
 .CFLinks
+  @include tabLinks
+
+.meetingLinks
   @include tabLinks
 
 .active
@@ -704,8 +804,12 @@ section.container-fluid
   padding: 0 0 10px
 
 
+//Virtual Office Packages
 
-
+#privacyPricingTable
+  display: grid
+  align-items: stretch
+  grid-template-columns: 1fr 230px 230px 230px
 
 
 

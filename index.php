@@ -36,7 +36,12 @@
         <div class="container">
             <div class="clientLogin">
                 <img class="row" id="mycoLogo" src="Images/myco-works-logo.svg" alt="MyCo Works Logo" width="300px" height="72px">
+                <div class="loginButtons">
+                    <button class="client" name="Client Login">Client Log In</button>
+                    <button class="enquire" name="Enquire">Enquire</button>
+                </div>
             </div>
+
         </div>
   </header>
 
@@ -107,7 +112,7 @@
                       </div>
                       <div class="trustedClients-text">
                           <h3>30K+</h3>
-                          <p>Trusted Clients</p>
+                          <p>Global Clients</p>
                       </div>
                   </div>
 
@@ -136,7 +141,9 @@
                   <!--Live Chat-->
                   <div class="liveChat-col liveChat-col--4 col-xl-3 col-12 pl-xl-5">
                       <div class="liveChat-img">
-                        <img src="Images/Live%20Chat.png" alt="Speech Bubbles" id="chat">
+                          <div class="inner">
+                            <img src="Images/Live%20Chat.png" alt="Speech Bubbles" id="chat">
+                          </div>
                       </div>
                       <div class="liveChat-text">
                           <h3>Live Chat</h3>
@@ -483,6 +490,458 @@
   </section>
 
 
+<!--  Meeting Rooms  -->
+  <section class="meetingRooms">
+      <div class="container">
+           <div class="row">
+
+<!--               Left-Hand Side  -->
+               <div class="col-5">
+                   <div class="meetingRoomImg">
+                       <img src="Images/Meeting-rooms-img.jpg" alt="Meeting Rooms">
+                   </div>
+               </div>
+
+<!--               Right-Hand Side  -->
+               <div class="col-7">
+                   <div class="aboutMeetingRooms">
+                       <h3>Meeting Rooms</h3>
+                   </div>
+
+                   <div class="tab">
+                       <button class="meetingLinks active" onclick="openMeeting(event, 'ourMeetingRooms')" id="defaultView">Our Meeting Rooms</button>
+                       <button class="meetingLinks" onclick="openMeeting(event, 'KFAndPricing')">Key Features And Pricing</button>
+                       <button class="meetingLinks" onclick="openMeeting(event, 'howToBook')">How To Book</button>
+                   </div>
+
+<!--                   Our Meeting Rooms  -->
+                   <div id="ourMeetingRooms" class="meetingContent" style="display: block">
+                       <div class="tabText">
+                           <p>
+                               Need access to an affordable meeting room for a brainstorming session, client pitch,
+                               collaboration, or get-together with your team?
+                           </p>
+                           <p>
+                               MYCO Works has a range of contemporary, unbranded private meeting rooms available for hire
+                               in Central London, Edinburgh, and Ipswich for up to 12 people with a range of facilities.
+                           </p>
+                           <a class="meetingButton" type="button">London</a>
+                           <a class="meetingButton" type="button">Edinburgh</a>
+                           <a class="meetingButton" type="button">Ipswich</a>
+                       </div>
+                   </div>
+
+<!--                    Key Features And Pricing  -->
+                   <div id="KFAndPricing" class="meetingContent" style="display: none">
+                       <div class="tabText">
+                           <p>
+                               We have a range of private, unbranded meeting rooms to suit all requirements, comfortably
+                               sitting between four and twelve people starting from just £12 an hour (+VAT).
+                           </p>
+                           <p>
+                               Our meeting room spaces offer a range of great amenities, including a business lounge, staffed
+                               reception areas, free Wi-Fi, free tea and coffee, kitchen and toilet facilities, modern ergonomic
+                               furniture, as well as air-conditioned rooms. The facilities differ slightly for each location, so we
+                               advise you to check before choosing your virtual office address.
+                           </p>
+                       </div>
+                   </div>
+
+<!--                    How To Book  -->
+                   <div id="howToBook" class="meetingContent" style="display: none">
+                       <div class="tabText">
+                           <p>
+                               Book one of our meeting rooms and impress at your next pitch, interview or workshop. Book by
+                               the hour or the day.
+                           </p>
+                           <p>
+                               Our meeting rooms are available to book online via your account. You can also reserve a meeting
+                               room on the go by downloading our ‘MYCO Meeting’ app.
+                           </p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+      </div>
+  </section>
+
+
+  <section class="virtualOfficePackages">
+      <div class="container">
+          <div class="row">
+
+
+              <div class="col-12">
+                  <h2>Our Virtual Office Packages</h2>
+                  <p>Save £49.99 when you upgrade to a combined package</p>
+              </div>
+
+              <div class="tableButtons col-12">
+                  <a class="VOPackagesTab" type="button">Privacy</a>
+                  <a class="VOPackagesTab" type="button">Business Address</a>
+                  <a class="VOPackagesTab" type="button">Company Formation</a>
+                  <a class="VOPackagesTab" type="button">Call Answering</a>
+              </div>
+
+              <div class="col-12">
+                  <div class="tableContent">
+                      <p>
+                          Every company is legally required to have an address where official correspondence, such as letters from Companies House, HM Revenue & Customs (HMRC) or court
+                          documents can be sent. Keep your work and home lives separate and protect your privacy by ensuring your residential address stays off the public register with our
+                          Registered Office & Director Service Address. Our privacy packages include free mail forwarding or scan and email of all statutory mail.
+                      </p>
+                      <div id="privacyPricingTable" class="pricingTable pricingTable-4-col">
+
+<!--                        ROA Header  -->
+                          <div class="table-header table-header--1">
+                               <div class="serviceName">
+                                   <p class="serviceName_lg">
+                                       Registered Office
+                                       <br>
+                                       Address
+                                   </p>
+                               </div>
+                                <p>
+                                    <span class="sm">£</span>
+                                    39.
+                                    <span class="sm">99</span>
+
+                                    <span class="vat">+VAT</span>
+                                </p>
+                                <p class="pricePeriod">Per Year</p>
+                                <a class="packageButtons" type="button">Learn More</a>
+                          </div>
+
+<!--                          ROA + DSA Header  -->
+                          <div class="table-header table-header--2">
+                              <div class="serviceName">
+                                  <p class="serviceName_lg">
+                                      Registered Office &
+                                      <br>
+                                      Director Service
+                                      <br>
+                                      Address
+                                  </p>
+                              </div>
+                              <p class="servicePrice">
+                                  <span class="sm">£</span>
+                                  49.
+                                  <span class="sm">99</span>
+
+                                  <span class="vat">+VAT</span>
+                              </p>
+                              <p class="pricePeriod">Per Year</p>
+                              <a class="packageButtons" type="button">Learn More</a>
+                          </div>
+
+<!--                          VBP Header  -->
+                          <div class="table-header table-header-most-pop table-header--3">
+                              <p class="most">MOST POPULAR</p>
+                              <div class="serviceName">
+                                  <p class="serviceName_lg">
+                                      Virtual Business
+                                      <br>
+                                      Plus
+                                  </p>
+                              </div>
+                              <p class="servicePrice">
+                                  <span class="sm">£</span>
+                                  199
+                                  <span class="sm">99</span>
+
+                                  <span class="vat">+VAT</span>
+                              </p>
+                              <p class="pricePeriod">Per Year</p>
+                              <div class="postal-deposit">
+                                  <p class="postal-deposit_lg">
+                                      Plus £20 postal deposit
+                                  </p>
+                              </div>
+                              <a class="packageButtons" type="button">Learn More</a>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature">
+                              <div class="featureName">
+                                  <p class="name">Registered Office Address</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Protect your privacy">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature feature-even">
+                              <div class="featureName">
+                                  <p class="name">Option to Forward, Scan, or Collect 'Statutory' Mail</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Statutory Mail">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature">
+                              <div class="featureName">
+                                  <p class="name">Option to Forward, Scan, or Collect 'Business' Mail</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Business Mail">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature feature-even">
+                              <div class="featureName">
+                                  <p class="name">Mail Sorted Daily</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Mail is sorted">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature">
+                              <div class="featureName">
+                                  <p class="name">Free MYCO Apps</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Download our apps">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature feature-even">
+                              <div class="featureName">
+                                  <p class="name">Client Portal</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Manage your account">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature">
+                              <div class="featureName">
+                                  <p class="name">Directors Service Address</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Choose from out office addresses">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--yes">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature feature-even">
+                              <div class="featureName">
+                                  <p class="name">Prestigious Business Address</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Choose from our prestigious office addresses">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature">
+                              <div class="featureName">
+                                  <p class="name">Parcels & Packages Signed For</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="We accept a maximum of 1-2 parcels per month">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature feature-even">
+                              <div class="featureName">
+                                  <p class="name">Meeting Room Access</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="VB Clients have access to our meeting rooms">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                          Feature  -->
+                          <div class="feature">
+                              <div class="featureName">
+                                  <p class="name">Access to Business Lounge</p>
+                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Ideal for use as a breakout area">
+                                      <span class="material-icons material-icons-outlined">info</span>
+                                  </p>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--no">
+                                  <span class="material-icons yes">horizontal_rules</span>
+                              </div>
+                              <div class="yes-no yes-no--yes yes-no--most-pop">
+                                  <span class="material-icons yes">check</span>
+                              </div>
+                          </div>
+
+<!--                        ROA Footer  -->
+                          <div class="table-footer table-footer--1">
+                              <div class="serviceName">
+                                  <p class="serviceName_lg">
+                                      Registered Office
+                                      <br>
+                                      Address
+                                  </p>
+                              </div>
+                              <p>
+                                  <span class="sm">£</span>
+                                  39.
+                                  <span class="sm">99</span>
+
+                                  <span class="vat">+VAT</span>
+                              </p>
+                              <p class="pricePeriod">Per Year</p>
+                              <a class="regBuyNowBtn" type="button">Buy Now</a>
+                          </div>
+
+<!--                          ROA + DSA Footer  -->
+                          <div class="table-footer table-footer--2">
+                              <div class="serviceName">
+                                  <p class="serviceName_lg">
+                                      Registered Office &
+                                      <br>
+                                      Director Service
+                                      <br>
+                                      Address
+                                  </p>
+                              </div>
+                              <p class="servicePrice">
+                                  <span class="sm">£</span>
+                                  49.
+                                  <span class="sm">99</span>
+
+                                  <span class="vat">+VAT</span>
+                              </p>
+                              <p class="pricePeriod">Per Year</p>
+                              <a class="regBuyNowBtn" type="button">Buy Now</a>
+                          </div>
+
+<!--                          VBP Footer  -->
+                          <div class="table-footer table-footer--3 table-footer-last table-footer--most-pop">
+                              <div class="serviceName">
+                                  <p class="serviceName_lg">
+                                      Virtual Business
+                                      <br>
+                                      Plus
+                                  </p>
+                              </div>
+                              <p class="servicePrice">
+                                  <span class="sm">£</span>
+                                  199
+                                  <span class="sm">99</span>
+
+                                  <span class="vat">+VAT</span>
+                              </p>
+                              <p class="pricePeriod">Per Year</p>
+                              <div class="postal-deposit">
+                                  <p class="postal-deposit_lg">
+                                      Plus £20 postal deposit
+                                  </p>
+                              </div>
+                              <a class="regBuyNowBtn" type="button">Buy Now</a>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
 
 

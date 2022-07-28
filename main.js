@@ -59,3 +59,26 @@ function openCF(event, CFName) {
     document.getElementById(CFName).style.display = "block";
     event.currentTarget.className += " active";
 }
+
+
+//Tabs for Meeting Rooms
+
+function openMeeting(event, meetingName) {
+    let l, meetingContent, meetingLinks;
+    meetingContent = document.getElementsByClassName("meetingContent");
+    for (l = 0; l < meetingContent.length; l++) {
+        meetingContent[l].style.display = "none";
+    }
+
+    meetingLinks = document.getElementsByClassName("meetingLinks");
+    for (l = 0; l < meetingLinks.length; l++) {
+        meetingLinks[l].className = meetingLinks[l].className.replace(" active", "");
+    }
+
+    document.getElementById(meetingName).style.display = "block";
+    event.currentTarget.className += " active";
+}
+
+
+
+
