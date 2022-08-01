@@ -565,385 +565,396 @@
       </div>
   </section>
 
-
-  <section class="virtualOfficePackages">
-      <div class="container">
+  <section class="packageTable">
+      <div class="container table1">
+<!--          Row 1 - Header Row  -->
           <div class="row">
-
-
-              <div class="col-12">
-                  <h2>Our Virtual Office Packages</h2>
-                  <p>Save £49.99 when you upgrade to a combined package</p>
+<!--              Blank Column  -->
+              <div class="col-lg-4">
+<!--                  Blank  -->
               </div>
+<!--              ROA  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
 
-              <div class="tableButtons col-12">
-                  <a class="VOPackagesTab" type="button">Privacy</a>
-                  <a class="VOPackagesTab" type="button">Business Address</a>
-                  <a class="VOPackagesTab" type="button">Company Formation</a>
-                  <a class="VOPackagesTab" type="button">Call Answering</a>
-              </div>
-
-              <div class="col-12">
-                  <div class="tableContent">
+                  </div>
+                  <div class="planName">
                       <p>
-                          Every company is legally required to have an address where official correspondence, such as letters from Companies House, HM Revenue & Customs (HMRC) or court
-                          documents can be sent. Keep your work and home lives separate and protect your privacy by ensuring your residential address stays off the public register with our
-                          Registered Office & Director Service Address. Our privacy packages include free mail forwarding or scan and email of all statutory mail.
+                          Registered Office
+                          <br>
+                          Address
                       </p>
-                      <div id="privacyPricingTable" class="pricingTable pricingTable-4-col">
+                  </div>
+                  <div class="planPrice">
+                      <span class="sm">£</span>
+                      39.
+                      <span class="sm">99</span>
 
-<!--                        ROA Header  -->
-                          <div class="table-header table-header--1">
-                               <div class="serviceName">
-                                   <p class="serviceName_lg">
-                                       Registered Office
-                                       <br>
-                                       Address
-                                   </p>
-                               </div>
-                                <p>
-                                    <span class="sm">£</span>
-                                    39.
-                                    <span class="sm">99</span>
+                      <span class="vat">+VAT</span>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="planButton">
+                      <button name="Learn More">Learn More</button>
+                  </div>
+              </div>
 
-                                    <span class="vat">+VAT</span>
-                                </p>
-                                <p class="pricePeriod">Per Year</p>
-                                <a class="packageButtons" type="button">Learn More</a>
-                          </div>
+<!--              ROA + DSA  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
 
-<!--                          ROA + DSA Header  -->
-                          <div class="table-header table-header--2">
-                              <div class="serviceName">
-                                  <p class="serviceName_lg">
-                                      Registered Office &
-                                      <br>
-                                      Director Service
-                                      <br>
-                                      Address
-                                  </p>
-                              </div>
-                              <p class="servicePrice">
-                                  <span class="sm">£</span>
-                                  49.
-                                  <span class="sm">99</span>
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Registered Office &
+                          <br>
+                          Directors Service
+                          <br>
+                          Address
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <span class="sm">£</span>
+                      49.
+                      <span class="sm">99</span>
 
-                                  <span class="vat">+VAT</span>
-                              </p>
-                              <p class="pricePeriod">Per Year</p>
-                              <a class="packageButtons" type="button">Learn More</a>
-                          </div>
+                      <span class="vat">+VAT</span>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="planButton">
+                      <button name="Learn More">Learn More</button>
+                  </div>
+              </div>
 
-<!--                          VBP Header  -->
-                          <div class="table-header table-header-most-pop table-header--3">
-                              <p class="most">MOST POPULAR</p>
-                              <div class="serviceName">
-                                  <p class="serviceName_lg">
-                                      Virtual Business
-                                      <br>
-                                      Plus
-                                  </p>
-                              </div>
-                              <p class="servicePrice">
-                                  <span class="sm">£</span>
-                                  199
-                                  <span class="sm">99</span>
-
-                                  <span class="vat">+VAT</span>
-                              </p>
-                              <p class="pricePeriod">Per Year</p>
-                              <div class="postal-deposit">
-                                  <p class="postal-deposit_lg">
-                                      Plus £20 postal deposit
-                                  </p>
-                              </div>
-                              <a class="packageButtons" type="button">Learn More</a>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature">
-                              <div class="featureName">
-                                  <p class="name">Registered Office Address</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Protect your privacy">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature feature-even">
-                              <div class="featureName">
-                                  <p class="name">Option to Forward, Scan, or Collect 'Statutory' Mail</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Statutory Mail">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature">
-                              <div class="featureName">
-                                  <p class="name">Option to Forward, Scan, or Collect 'Business' Mail</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Business Mail">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature feature-even">
-                              <div class="featureName">
-                                  <p class="name">Mail Sorted Daily</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Mail is sorted">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature">
-                              <div class="featureName">
-                                  <p class="name">Free MYCO Apps</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Download our apps">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature feature-even">
-                              <div class="featureName">
-                                  <p class="name">Client Portal</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Manage your account">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature">
-                              <div class="featureName">
-                                  <p class="name">Directors Service Address</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Choose from out office addresses">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--yes">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature feature-even">
-                              <div class="featureName">
-                                  <p class="name">Prestigious Business Address</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Choose from our prestigious office addresses">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature">
-                              <div class="featureName">
-                                  <p class="name">Parcels & Packages Signed For</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="We accept a maximum of 1-2 parcels per month">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature feature-even">
-                              <div class="featureName">
-                                  <p class="name">Meeting Room Access</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="VB Clients have access to our meeting rooms">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                          Feature  -->
-                          <div class="feature">
-                              <div class="featureName">
-                                  <p class="name">Access to Business Lounge</p>
-                                  <p class="info" data-toggle="tool-tip" data-placement="top" title="" data-orginal-title="Ideal for use as a breakout area">
-                                      <span class="material-icons material-icons-outlined">info</span>
-                                  </p>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--no">
-                                  <span class="material-icons yes">horizontal_rules</span>
-                              </div>
-                              <div class="yes-no yes-no--yes yes-no--most-pop">
-                                  <span class="material-icons yes">check</span>
-                              </div>
-                          </div>
-
-<!--                        ROA Footer  -->
-                          <div class="table-footer table-footer--1">
-                              <div class="serviceName">
-                                  <p class="serviceName_lg">
-                                      Registered Office
-                                      <br>
-                                      Address
-                                  </p>
-                              </div>
-                              <p>
-                                  <span class="sm">£</span>
-                                  39.
-                                  <span class="sm">99</span>
-
-                                  <span class="vat">+VAT</span>
-                              </p>
-                              <p class="pricePeriod">Per Year</p>
-                              <a class="regBuyNowBtn" type="button">Buy Now</a>
-                          </div>
-
-<!--                          ROA + DSA Footer  -->
-                          <div class="table-footer table-footer--2">
-                              <div class="serviceName">
-                                  <p class="serviceName_lg">
-                                      Registered Office &
-                                      <br>
-                                      Director Service
-                                      <br>
-                                      Address
-                                  </p>
-                              </div>
-                              <p class="servicePrice">
-                                  <span class="sm">£</span>
-                                  49.
-                                  <span class="sm">99</span>
-
-                                  <span class="vat">+VAT</span>
-                              </p>
-                              <p class="pricePeriod">Per Year</p>
-                              <a class="regBuyNowBtn" type="button">Buy Now</a>
-                          </div>
-
-<!--                          VBP Footer  -->
-                          <div class="table-footer table-footer--3 table-footer-last table-footer--most-pop">
-                              <div class="serviceName">
-                                  <p class="serviceName_lg">
-                                      Virtual Business
-                                      <br>
-                                      Plus
-                                  </p>
-                              </div>
-                              <p class="servicePrice">
-                                  <span class="sm">£</span>
-                                  199
-                                  <span class="sm">99</span>
-
-                                  <span class="vat">+VAT</span>
-                              </p>
-                              <p class="pricePeriod">Per Year</p>
-                              <div class="postal-deposit">
-                                  <p class="postal-deposit_lg">
-                                      Plus £20 postal deposit
-                                  </p>
-                              </div>
-                              <a class="regBuyNowBtn" type="button">Buy Now</a>
-                          </div>
-
+<!--              Virtual Business Plus  -->
+              <div class="col-sm popular">
+                  <div class="container-fluid pop">
+                      <div class="mostPopular">
+                          <p>MOST POPULAR</p>
                       </div>
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Plus
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <span class="sm">£</span>
+                      199.
+                      <span class="sm">99</span>
+
+                      <span class="vat">+VAT</span>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button name="Learn More">Learn More</button>
+                  </div>
+              </div>
+          </div>
+
+<!--          Row 2  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Registered Office Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 3  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Option to Forward, Scan, or Collect 'Statutory' Mail</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 4  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Option to Forward, Scan, or Collect 'Business' Mail</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 5  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Mail Sorted Daily</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 6  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Free MYCO Apps</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 7  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Client Portal</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 8  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Directors Service Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm">
+                  <p>tick</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 9  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Prestigious Business Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 10  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Parcels & Packages Signed For</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 11  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Meeting Room Access</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 12  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-4">
+                  <p>Access to Business Lounge</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm">
+                  <p>dash</p>
+              </div>
+              <div class="col-sm popular">
+                  <p>tick</p>
+              </div>
+          </div>
+
+<!--          Row 13 - Footer  -->
+          <div class="row">
+              <!--              Blank Column  -->
+              <div class="col-lg-4">
+                  <!--                  Blank  -->
+              </div>
+              <!--              ROA  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Registered Office
+                          <br>
+                          Address
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <span class="sm">£</span>
+                      39.
+                      <span class="sm">99</span>
+
+                      <span class="vat">+VAT</span>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="planButton">
+                      <button name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+
+              <!--              ROA + DSA  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Registered Office &
+                          <br>
+                          Directors Service
+                          <br>
+                          Address
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <span class="sm">£</span>
+                      49.
+                      <span class="sm">99</span>
+
+                      <span class="vat">+VAT</span>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="planButton">
+                      <button name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+
+              <!--              Virtual Business Plus  -->
+              <div class="col-sm popular">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Plus
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <span class="sm">£</span>
+                      199.
+                      <span class="sm">99</span>
+
+                      <span class="vat">+VAT</span>
+
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button name="Buy Now">Buy Now</button>
                   </div>
               </div>
           </div>
       </div>
   </section>
-
-
 
 
   <footer>

@@ -1,6 +1,6 @@
 $primaryOrange: #EE851F
-
 $primaryBlue: #20303c
+$orangeHighlight: rgba(238, 133, 31, 0.06)
 
 @mixin tabLinks
   background: none
@@ -805,24 +805,78 @@ section.container-fluid
 
 
 //Virtual Office Packages
+.table1
+  margin: 2rem auto
+  text-align: center
 
-#privacyPricingTable
-  display: grid
-  align-items: stretch
-  grid-template-columns: 1fr 230px 230px 230px
+.col-lg-4
+  border: 1px solid #E5E5E5
+  text-align: left
 
+.col-sm
+  border: 1px solid #E5E5E5
+  width: 100%
+  height: auto
+  display: table-cell
 
+.mostSpace
+  height: 40px
 
+.mostPopular
+  position: relative
+  background: $primaryOrange
+  color: #FFFFFF
 
+.pop
+  background: $primaryOrange
+  margin: 0
+  padding: 0
+  width: 100%
+  height: auto
 
+.popular
+  background: $orangeHighlight
 
+.planName
+  font-size: 1.125rem
 
+.planPrice
+  color: $primaryOrange
+  font-size: 2.875rem
+  font-weight: 600
 
+.sm
+  color: $primaryOrange
+  font-size: 1rem
 
+.vat
+  color: #BDBDBD
+  font-size: 0.75rem
 
+.planDuration
+  color: $primaryOrange
+  font-size: 0.9rem
+  margin-top: 0
 
+.postalDeposit
+  color: #6c757d
+  font-size: 0.9rem
 
+.planButton
+  width: 100%
+  height: auto
 
+.planButton button
+  background: $primaryOrange
+  color: #FFFFFF
+  border-radius: 50px
+  border: none
+  outline: none
+  padding: 6px 15px
+  margin-bottom: 1rem
+
+.table-light
+  background: #FAFAFA
 
 
 
