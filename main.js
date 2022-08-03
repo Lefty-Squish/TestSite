@@ -80,5 +80,93 @@ function openMeeting(event, meetingName) {
 }
 
 
+//Tabs for Virtual Office Packages
+function openTables(event, packageName) {
+    let m, privacyTable, VOPackages;
+    privacyTable = document.getElementsByClassName("privacyTable");
+    for (m = 0; m < privacyTable.length; m++) {
+        privacyTable[m].style.display = "none";
+    }
+
+    VOPackages = document.getElementsByClassName("VOPackages");
+    for (m = 0; m < VOPackages.length; m++) {
+        VOPackages[m].className = VOPackages[m].className.replace(" currentlyActive", "");
+    }
+
+    document.getElementById(packageName).style.display = "block";
+    event.currentTarget.className += " currentlyActive";
+}
+
+//For Business Address Sub Tabs
+function openSubTabs(event, subTabName) {
+    let n, subTable, BASubTab;
+    subTable = document.getElementsByClassName("subTable");
+    for (n = 0; n < subTable.length; n++) {
+        subTable[n].style.display = "none";
+    }
+
+    BASubTab = document.getElementsByClassName("BASubTab");
+    for (n = 0; n < BASubTab.length; n++) {
+        BASubTab[n].className = BASubTab[n].className.replace(" activeSubTab", "");
+    }
+
+    document.getElementById(subTabName).style.display = "block";
+    event.currentTarget.className += " activeSubTab";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

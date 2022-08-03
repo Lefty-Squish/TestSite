@@ -8,6 +8,7 @@
     <link href="https://github.com/Lefty-Squish/TestSite.git"/>
     <link href="./main.css" rel="stylesheet"/>
     <link href="main.sass" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script type="application/javascript" src="main.js"></script>
     <script src=" https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -37,6 +38,7 @@
             <div class="clientLogin">
                 <img class="row" id="mycoLogo" src="Images/myco-works-logo.svg" alt="MyCo Works Logo" width="300px" height="72px">
                 <div class="loginButtons">
+                    <img src="Images/trolley.png" alt="Cart" class="cart">
                     <button class="client" name="Client Login">Client Log In</button>
                     <button class="enquire" name="Enquire">Enquire</button>
                 </div>
@@ -44,6 +46,7 @@
 
         </div>
   </header>
+
 
 <!--  Navigation  -->
   <nav class="container">
@@ -65,6 +68,8 @@
       </div>
   </nav>
 
+
+
 <!--  First Box -->
   <section class="jumbotron">
       <div class="container">
@@ -84,7 +89,6 @@
                   </div>
               </div>
 
-
               <div class="col-5">
                   <div class="addressImage">
                       <img src="Images/home-banner-img.jpg" alt="A man and woman looking at a tablet" id="homeBanner-img"/>
@@ -99,12 +103,13 @@
       </div>
   </section>
 
+
+
 <!--  Banner -->
   <section class="container-fluid">
       <div class="container">
           <div class="row">
               <div class="middleBanner">
-
                   <!--Trusted Clients-->
                   <div class="trustedClients-col trustedClients-col--1 col-xl-2 col-md-3 col-12">
                       <div class="trustedClients-img">
@@ -115,7 +120,6 @@
                           <p>Global Clients</p>
                       </div>
                   </div>
-
                   <!--Combines Experience-->
                   <div class="experience-col experience-col--2 col-xl-4 col-md-6 col-12">
                       <div class="experience-img">
@@ -126,7 +130,6 @@
                           <p>Combined Industry Experience</p>
                       </div>
                   </div>
-
                   <!--Prestigious Offices-->
                   <div class="prestigiousOffices-col prestigiousOffices-col--3 col-xl-3 col-md-3 col-12 pr-xl-5">
                       <div class="prestigiousOffices-img">
@@ -137,7 +140,6 @@
                           <p>Prestigious Offices</p>
                       </div>
                   </div>
-
                   <!--Live Chat-->
                   <div class="liveChat-col liveChat-col--4 col-xl-3 col-12 pl-xl-5">
                       <div class="liveChat-img">
@@ -154,6 +156,8 @@
           </div>
       </div>
   </section>
+
+
 
 <!--  Introducing MYCO Works  -->
   <section class="aboutUsWrapper">
@@ -187,52 +191,51 @@
       </div>
   </section>
 
+
+
 <!--  UK Limited Company Formation  -->
   <section class="limitedCompanyFormation">
       <div class="container">
           <div class="row">
-
 <!--  Left-hand Side of Company Formation  -->
-                  <div class="col-6">
-                      <div class="companyFormation">
-                          <h3>UK Limited Company Formation</h3>
-                          <p>
-                              You can secure your company name from only £12.99! With our simple 'Company
-                              Formation Only' package. Or why not protect your home address from the
-                              Companies House register and include a Virtual Business Address service, by
-                              choosing from our 'Company' and 'Non-Resident' packages.
-                          </p>
-                          <div class="input_search">
-                              <label for="companyName"></label><input id="companyName" type="text" name="companyName" placeholder="Enter your company name to check if it is available">
-                              <button id="searchCompanyFormation" type="button">Search</button>
-                          </div>
-                          <h6>
-                              Or view
-                              <a class="text-orange"> company formation packages</a>
-                          </h6>
+              <div class="col-6">
+                  <div class="companyFormation">
+                      <h3>UK Limited Company Formation</h3>
+                      <p>
+                          You can secure your company name from only £12.99! With our simple 'Company
+                          Formation Only' package. Or why not protect your home address from the
+                          Companies House register and include a Virtual Business Address service, by
+                          choosing from our 'Company' and 'Non-Resident' packages.
+                      </p>
+                      <div class="input_search">
+                          <label for="companyName"></label><input id="companyName" type="text" name="companyName" placeholder="Enter your company name to check if it is available">
+                          <button id="searchCompanyFormation" type="button">Search</button>
                       </div>
+                      <h6>
+                          Or view
+                          <a class="text-orange"> company formation packages</a>
+                      </h6>
                   </div>
-
+              </div>
 <!--  Right-hand Side Of Company Formation  -->
-                  <div class="col-6">
-                      <div class="companyFormationLearnMore">
-                          <div class="cfText">
-                              <h4>
-                                  Register
-                                  <br>
-                                  Your Company
-                              </h4>
-                              <h1>FROM £12.99</h1>
-                              <a class="learnMoreButton" type="button">
-                                  Learn More
-                              </a>
-                          </div>
-                          <div class="cfImage">
-                              <img src="Images/CF-home_banner.png" alt="Business man and woman back to back">
-                          </div>
+              <div class="col-6">
+                  <div class="companyFormationLearnMore">
+                      <div class="cfText">
+                          <h4>
+                              Register
+                              <br>
+                              Your Company
+                          </h4>
+                          <h1>FROM £12.99</h1>
+                          <a class="learnMoreButton" type="button">
+                              Learn More
+                          </a>
+                      </div>
+                      <div class="cfImage">
+                          <img src="Images/CF-home_banner.png" alt="Business man and woman back to back">
                       </div>
                   </div>
-
+              </div>
           </div>
       </div>
   </section>
@@ -242,7 +245,6 @@
   <section class="businessAddressServices">
       <div class="container">
           <div class="row">
-
 <!--         Left-hand Side  -->
               <div class="col-7">
                   <div class="aboutBAS">
@@ -252,8 +254,6 @@
                           <button class="BASLinks" onclick="openSolution(event, 'VBA')">Virtual Business Address</button>
                           <button class="BASLinks" onclick="openSolution(event, 'VBP')">Virtual Business Plus</button>
                       </div>
-
-
 <!--                      Registered Office Address Tab-->
                       <div id="ROA" class="tabContent" style="display: block">
                           <div class="tabText">
@@ -269,7 +269,6 @@
                               <a class="learnMoreButton" type="button">Learn More</a>
                           </div>
                       </div>
-
 <!--                      Virtual Business Address Tab-->
                       <div id="VBA" class="tabContent" style="display: none">
                           <div class="tabText">
@@ -287,7 +286,6 @@
                               <a class="learnMoreButton" type="button">Learn More</a>
                           </div>
                       </div>
-
 <!--                      Virtual Business Plus Tab-->
                       <div id="VBP" class="tabContent" style="display: none">
                           <div class="tabText">
@@ -309,7 +307,6 @@
                       </div>
                   </div>
               </div>
-
 <!--              Right-Hand Side  -->
               <div class="col-5">
                   <div class="BASImg">
@@ -332,7 +329,6 @@
                       <img src="Images/TAS-img.jpg" alt="telephone answering service">
                   </div>
               </div>
-
 <!--              Right-Hand Side  -->
               <div class="col-7">
                   <div class="aboutTAS">
@@ -344,7 +340,6 @@
                       <button class="TASLinks" onclick="openTab(event, 'keyFeatures')">Key Features</button>
                       <button class="TASLinks" onclick="openTab(event, 'howItWorks')">How It Works</button>
                   </div>
-
 <!--                  Telephone Answering Service  -->
                   <div id="TAS" class="TASContent" style="display: block">
                       <div class="tabText">
@@ -359,7 +354,6 @@
                           <a class="learnMoreButton" type="button">Learn More</a>
                       </div>
                   </div>
-
 <!--                  Who It's For  -->
                   <div id="whoItsFor" class="TASContent" style="display: none">
                       <div class="tabText">
@@ -401,7 +395,6 @@
                           <a class="learnMoreButton" type="button">Learn More</a>
                       </div>
                   </div>
-
 <!--                  How It Works  -->
                   <div id="howItWorks" class="TASContent" style="display: none">
                       <div class="tabText">
@@ -436,7 +429,6 @@
   <section class="CFAndRM">
       <div class="container">
           <div class="row">
-
 <!--              Left-Hand Side  -->
               <div class="col-7">
                   <div class="aboutCFAndRM">
@@ -445,7 +437,6 @@
                           <button class="CFLinks active" onclick="openCF(event, 'companyFormation')" id="defaultView">Company Formation</button>
                           <button class="CFLinks" onclick="openCF(event, 'readyMade')">Ready Made Companies</button>
                       </div>
-
 <!--                      Company Formation  -->
                       <div id="companyFormation" class="CFContent" style="display: block">
                           <div class="tabText">
@@ -460,7 +451,6 @@
                               <a class="learnMoreButton" type="button">Learn More</a>
                           </div>
                       </div>
-
 <!--                      Ready Made Companies  -->
                       <div id="readyMade" class="CFContent" style="display:none">
                           <div class="tabText">
@@ -488,6 +478,7 @@
           </div>
       </div>
   </section>
+
 
 
 <!--  Meeting Rooms  -->
@@ -565,12 +556,39 @@
       </div>
   </section>
 
-  <section class="packageTable">
+
+
+<!--  Virtual Office Packages And Tables  -->
+  <div class="container">
+      <div class="virtualOfficePackages">
+          <h2>Our Virtual Office Packages</h2>
+          <p>Save £49.99 when you upgrade to a combined package</p>
+      </div>
+      <div class="VOPTabs">
+          <button class="VOPackages currentlyActive" onclick="openTables(event, 'firstTable')" id="defaultView">Privacy</button>
+          <button class="VOPackages" onclick="openTables(event, 'secondTable')">Business Address</button>
+          <button class="VOPackages" onclick="openTables(event, 'thirdTable')">Company Formation</button>
+          <button class="VOPackages" onclick="openTables(event, 'fourthTable')">Call Answering</button>
+          <div class="tabsLine"></div>
+      </div>
+  </div>
+
+
+  <section class="privacyTable" id="firstTable" style="display: block">
+      <div class="container">
+          <div class="privacyText">
+              <p>
+                  Every company is legally required to have an address where official correspondence, such as letters from Companies House, HM Revenue & Customs (HMRC) or court
+                  documents can be sent. Keep your work and home lives separate and protect your privacy by ensuring your residential address stays off the public register with our
+                  Registered Office & Director Service Address. Our privacy packages include free mail forwarding or scan and email of all statutory mail.
+              </p>
+          </div>
+      </div>
       <div class="container table1">
 <!--          Row 1 - Header Row  -->
           <div class="row">
 <!--              Blank Column  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6">
 <!--                  Blank  -->
               </div>
 <!--              ROA  -->
@@ -586,17 +604,16 @@
                       </p>
                   </div>
                   <div class="planPrice">
-                      <span class="sm">£</span>
-                      39.
-                      <span class="sm">99</span>
-
-                      <span class="vat">+VAT</span>
+                      <div class="price">
+                        <p><small>£</small>39.<small>99</small></p>
+                        <span class="vat">+VAT</span>
+                      </div>
                   </div>
                   <div class="planDuration">
                       <p>Per Year</p>
                   </div>
-                  <div class="planButton">
-                      <button name="Learn More">Learn More</button>
+                  <div class="planButton TopBtnSpace">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
                   </div>
               </div>
 
@@ -615,22 +632,21 @@
                       </p>
                   </div>
                   <div class="planPrice">
-                      <span class="sm">£</span>
-                      49.
-                      <span class="sm">99</span>
-
-                      <span class="vat">+VAT</span>
+                      <div class="price">
+                          <p><small>£</small>49.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
                   </div>
                   <div class="planDuration">
                       <p>Per Year</p>
                   </div>
-                  <div class="planButton">
-                      <button name="Learn More">Learn More</button>
+                  <div class="planButton TopBtnSpace">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
                   </div>
               </div>
 
 <!--              Virtual Business Plus  -->
-              <div class="col-sm popular">
+              <div class="col-sm popular tableBorderRight">
                   <div class="container-fluid pop">
                       <div class="mostPopular">
                           <p>MOST POPULAR</p>
@@ -644,11 +660,10 @@
                       </p>
                   </div>
                   <div class="planPrice">
-                      <span class="sm">£</span>
-                      199.
-                      <span class="sm">99</span>
-
-                      <span class="vat">+VAT</span>
+                      <div class="price">
+                          <p><small>£</small>199.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
                   </div>
                   <div class="planDuration">
                       <p>Per Year</p>
@@ -657,7 +672,7 @@
                       <p>Plus £20 Postal deposit</p>
                   </div>
                   <div class="planButton">
-                      <button name="Learn More">Learn More</button>
+                      <button class="tableBtn" name="Learn More">Learn More</button>
                   </div>
               </div>
           </div>
@@ -665,209 +680,209 @@
 <!--          Row 2  -->
           <div class="row">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Registered Office Address</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 3  -->
           <div class="row table-light">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Option to Forward, Scan, or Collect 'Statutory' Mail</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 4  -->
           <div class="row">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Option to Forward, Scan, or Collect 'Business' Mail</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 5  -->
           <div class="row table-light">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Mail Sorted Daily</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 6  -->
           <div class="row">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Free MYCO Apps</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 7  -->
           <div class="row table-light">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Client Portal</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 8  -->
           <div class="row">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Directors Service Address</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm">
-                  <p>tick</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 9  -->
           <div class="row table-light">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Prestigious Business Address</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 10  -->
           <div class="row">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Parcels & Packages Signed For</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 11  -->
           <div class="row table-light">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder">
                   <p>Meeting Room Access</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 12  -->
           <div class="row">
 <!--              Column Title  -->
-              <div class="col-lg-4">
+              <div class="col-lg-6 rowTitle tableBorder tableBorderBottom">
                   <p>Access to Business Lounge</p>
               </div>
 <!--              Table Cells  -->
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm">
-                  <p>dash</p>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
               </div>
-              <div class="col-sm popular">
-                  <p>tick</p>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
               </div>
           </div>
 
 <!--          Row 13 - Footer  -->
           <div class="row">
-              <!--              Blank Column  -->
-              <div class="col-lg-4">
-                  <!--                  Blank  -->
+<!--              Blank Column  -->
+              <div class="col-lg-6">
+<!--                  Blank  -->
               </div>
-              <!--              ROA  -->
-              <div class="col-sm">
+<!--              ROA  -->
+              <div class="col-sm tableBorderBottom">
                   <div class="mostSpace">
 
                   </div>
@@ -879,22 +894,21 @@
                       </p>
                   </div>
                   <div class="planPrice">
-                      <span class="sm">£</span>
-                      39.
-                      <span class="sm">99</span>
-
-                      <span class="vat">+VAT</span>
+                      <div class="price">
+                          <p><small>£</small>39.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
                   </div>
                   <div class="planDuration">
                       <p>Per Year</p>
                   </div>
-                  <div class="planButton">
-                      <button name="Buy Now">Buy Now</button>
+                  <div class="planButton bottomBtnSpace">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
                   </div>
               </div>
 
-              <!--              ROA + DSA  -->
-              <div class="col-sm">
+<!--              ROA + DSA  -->
+              <div class="col-sm tableBorderBottom">
                   <div class="mostSpace">
 
                   </div>
@@ -908,22 +922,21 @@
                       </p>
                   </div>
                   <div class="planPrice">
-                      <span class="sm">£</span>
-                      49.
-                      <span class="sm">99</span>
-
-                      <span class="vat">+VAT</span>
+                      <div class="price">
+                          <p><small>£</small>49.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
                   </div>
                   <div class="planDuration">
                       <p>Per Year</p>
                   </div>
-                  <div class="planButton">
-                      <button name="Buy Now">Buy Now</button>
+                  <div class="planButton bottomBtnSpace">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
                   </div>
               </div>
 
-              <!--              Virtual Business Plus  -->
-              <div class="col-sm popular">
+<!--              Virtual Business Plus  -->
+              <div class="col-sm popular tableBorderBottom tableBorderRight">
                   <div class="mostSpace">
 
                   </div>
@@ -935,12 +948,10 @@
                       </p>
                   </div>
                   <div class="planPrice">
-                      <span class="sm">£</span>
-                      199.
-                      <span class="sm">99</span>
-
-                      <span class="vat">+VAT</span>
-
+                      <div class="price">
+                          <p><small>£</small>199.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
                   </div>
                   <div class="planDuration">
                       <p>Per Year</p>
@@ -949,12 +960,1817 @@
                       <p>Plus £20 Postal deposit</p>
                   </div>
                   <div class="planButton">
-                      <button name="Buy Now">Buy Now</button>
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
                   </div>
               </div>
           </div>
       </div>
   </section>
+
+<!--  Second Table  -->
+  <section class="privacyTable" id="secondTable" style="display: none">
+      <div class="container">
+          <div class="businessAddressText">
+              <p>
+                  Create an instant presence and improve your business image with our choice of prestigious business addresses. Our most popular 3-in-1 package Virtual Business Plus is
+                  perfect for start-ups and SMES and includes a Registered Office Address, Director Service Address and a Virtual Business Address. Our Virtual Business Plus package
+                  covers both official and business mail and allows your business access to book meeting rooms and free use of our Business Lounge.
+              </p>
+          </div>
+          <button class="BASubTab activeSubTab" onclick="openSubTabs(event, 'BATable1')" id="defaultView">Individual Packages</button>
+          <button class="BASubTab" onclick="openSubTabs(event, 'BATable2')">Combined Packages</button>
+      </div>
+      <div class="container subTable" id="BATable1">
+<!--          Row 1 - Header Row  -->
+          <div class="row">
+<!--              Blank Column  -->
+              <div class="col-lg-6">
+<!--                  Blank  -->
+              </div>
+<!--              ROA  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Registered Office
+                          <br>
+                          Address
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>39.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="planButton TopBtnSpace">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+
+<!--              ROA + DSA  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Address
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>169.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+
+<!--              Virtual Business Plus  -->
+              <div class="col-sm popular tableBorderRight">
+                  <div class="container-fluid pop">
+                      <div class="mostPopular">
+                          <p>MOST POPULAR</p>
+                      </div>
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Plus
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>199.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+          </div>
+
+<!--          Row 2  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Registered Office Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 3  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Option to Forward, Scan, or Collect 'Statutory' Mail</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 4  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Option to Forward, Scan, or Collect 'Business' Mail</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 5  -->
+          <div class="row table-light">
+              <!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Mail Sorted Daily</p>
+              </div>
+              <!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 6  -->
+          <div class="row">
+              <!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Free MYCO Apps</p>
+              </div>
+              <!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 7  -->
+          <div class="row table-light">
+              <!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Client Portal</p>
+              </div>
+              <!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 8  -->
+          <div class="row">
+              <!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Directors Service Address</p>
+              </div>
+              <!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 9  -->
+          <div class="row table-light">
+              <!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Prestigious Business Address</p>
+              </div>
+              <!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 10  -->
+          <div class="row">
+              <!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Parcels & Packages Signed For</p>
+              </div>
+              <!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 11  -->
+          <div class="row table-light">
+              <!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Meeting Room Access</p>
+              </div>
+              <!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 12  -->
+          <div class="row">
+              <!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder tableBorderBottom">
+                  <p>Access to Business Lounge</p>
+              </div>
+              <!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 13 - Footer  -->
+          <div class="row">
+              <!--              Blank Column  -->
+              <div class="col-lg-6">
+                  <!--                  Blank  -->
+              </div>
+              <!--              ROA  -->
+              <div class="col-sm tableBorderBottom">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Registered Office
+                          <br>
+                          Address
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>39.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="planButton bottomBtnSpace">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+
+              <!--              ROA + DSA  -->
+              <div class="col-sm tableBorderBottom">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Address
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>169.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+
+              <!--              Virtual Business Plus  -->
+              <div class="col-sm popular tableBorderBottom tableBorderRight">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Plus
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>199.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+<!--      Sub Tab Table 2  -->
+      <div class="container subTable" id="BATable2">
+<!--          Row 1 Header Row  -->
+          <div class="row">
+<!--              Blank Column  -->
+              <div class="col-md-3">
+<!--                  Blank  -->
+              </div>
+<!--              VBA & TAS  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Address & Telephone
+                          <br>
+                          Answering Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>319.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal Deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+
+<!--              VBP & TAS  -->
+              <div class="col-sm popular">
+                  <div class="container-fluid pop">
+                      <div class="mostPopular">
+                          <p>MOST POPULAR</p>
+                      </div>
+                  </div>
+
+                  <div class="planName">
+                      <p>
+                          Virtual Business Plus &
+                          <br>
+                          Telephone Answering
+                          <br>
+                          Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>349.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal Deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+
+<!--              VBP & Website + Email Hosting  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business Plus &
+                          <br>
+                          Website + Email Hosting
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>349.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal Deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+
+<!--              VBP & Legal Document Pack  -->
+              <div class="col-sm tableBorderRight">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business Plus &
+                          <br>
+                          Legal Document Pack
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>349.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal Deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+          </div>
+
+<!--          Row 2  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Registered Office Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 3  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>
+                      Option to Forward, Scan, or Collect
+                      <br>
+                      'Statutory' Mail
+                  </p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 4  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>
+                      Option to Forward, Scan, or Collect
+                      <br>
+                      'Business' Mail
+                  </p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 5  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Mail Sorted Daily</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 6  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Free MYCO Apps</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 7  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Client Portal</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 8  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Directors Service Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 9  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Prestigious Business Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 10  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Parcels & Packages Signed For </p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 11  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Meeting Room Access</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 12  -->
+          <div class="row tableBorderBottom">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Access to Business Lounge</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row Space  -->
+
+<!--          Row 13  -->
+          <div class="row rowBreak table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Telephone Answering Service</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 14  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Choice of Telephone Number</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 15  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Unlimited Inbound Calls</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 16  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Unlimited Messages</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 17  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>One Hour Setup</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 18  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Smartphone Messages</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 19  -->
+          <div class="row tableBorderBottom table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Messages Forwarded via Email</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row Space  -->
+
+<!--          Row 20  -->
+          <div class="row rowBreak">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>1 Year Free Website Hosting</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 21  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>5 Business Email Addresses</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 22  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Free .co.uk Domain Name</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 23  -->
+          <div class="row tableBorderBottom table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Control Panel Access</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row Space  -->
+
+<!--          Row 24  -->
+          <div class="row rowBreak">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Share Certificate</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 25  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Bound Set of Documents</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 26  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Solicitor Certified</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 27  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Apostille Certificate</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 28  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-md-3 rowTitle tableBorder tableBorderBottom">
+                  <p>Worldwide Shipping</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 29  Footer  -->
+          <div class="row">
+              <!--              Blank Column  -->
+              <div class="col-md-3">
+                  <!--                  Blank  -->
+              </div>
+              <!--              VBA & TAS  -->
+              <div class="col-sm tableBorder tableBorderBottom">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Address & Telephone
+                          <br>
+                          Answering Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>319.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal Deposit</p>
+                  </div>
+                  <div class="planButton bottomBtnSpace">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+
+              <!--              VBP & TAS  -->
+              <div class="col-sm popular tableBorder tableBorderBottom">
+                  <div class="container-fluid pop">
+                      <div class="mostPopular">
+                          <p>MOST POPULAR</p>
+                      </div>
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business Plus &
+                          <br>
+                          Telephone Answering
+                          <br>
+                          Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>349.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal Deposit</p>
+                  </div>
+                  <div class="planButton bottomBtnSpace">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+
+              <!--              VBP & Website + Email Hosting  -->
+              <div class="col-sm tableBorder tableBorderBottom">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business Plus &
+                          <br>
+                          Website + Email Hosting
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>349.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal Deposit</p>
+                  </div>
+                  <div class="planButton bottomBtnSpace">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+
+              <!--              VBP & Legal Document Pack  -->
+              <div class="col-sm tableBorderRight tableBorderBottom">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business Plus &
+                          <br>
+                          Legal Document Pack
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>349.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal Deposit</p>
+                  </div>
+                  <div class="planButton bottomBtnSpace">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+
+
+
+<!--  Third Table  -->
+  <section class="privacyTable" id="thirdTable" style="display: none">
+    <div class="container">
+        <div class="companyFormationText">
+            <p>
+                We can help you register your company in the UK no matter where you live in the world. You can secure your company name from only £12.99! With our simple limited
+                'Company Formation Only' package. Or why not protect your home address from the Companies House register and include a Virtual Business Address service, by
+                choosing from our 'Company' and 'Non-Resident' packages. If you are not confident in forming a company on your own, contact our team, and we will be able to help.
+            </p>
+        </div>
+        <button class="CFSubTab activeSubTab" id="defaultView">Company Formation Only</button>
+        <button class="CFSubTab">Company Package</button>
+        <button class="CFSubTab">Non-Resident Package</button>
+    </div>
+  </section>
+
+
+
+
+<!--  Fourth Table  -->
+  <section class="privacyTable" id="fourthTable" style="display: none">
+      <div class="container">
+          <div class="callAnsweringText">
+              <p>
+                  Our cost-effective Telephone Answering Service is ideal for busy start-ups, SMEs, entrepreneurs, and freelancers who don’t have time to answer the phone. Callers will be
+                  more confident dialling a number with a local area code, and MYCO Works can provide your business with a local presence to potential customers. Our UK-based
+                  receptionists will help you stay connected to your clients, grow your business, and guarantee you never miss a call or opportunity.
+              </p>
+          </div>
+      </div>
+      <div class="container table1">
+          <!--          Row 1 - Header Row  -->
+          <div class="row">
+              <!--              Blank Column  -->
+              <div class="col-lg-6">
+                  <!--                  Blank  -->
+              </div>
+              <!--              ROA  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Telephone Answering
+                          <br>
+                          Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>199.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="planButton TopBtnSpace">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+
+              <!--              ROA + DSA  -->
+              <div class="col-sm">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Address & Telephone
+                          <br>
+                          Answering Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>319.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+
+              <!--              Virtual Business Plus  -->
+              <div class="col-sm popular tableBorderRight">
+                  <div class="container-fluid pop">
+                      <div class="mostPopular">
+                          <p>MOST POPULAR</p>
+                      </div>
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business Plus &
+                          <br>
+                          Telephone Answering
+                          <br>
+                          Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>199.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Learn More</button>
+                  </div>
+              </div>
+          </div>
+
+<!--          Row 2  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Telephone Answering Service</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 3  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Choice of Telephone Number</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 4  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Unlimited Inbound Calls</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 5  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Unlimited Messages</p>
+              </div>
+<!--              Table Cells-->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 6  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>One Hour Setup</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 7  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Smartphone Messages</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 8  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Messages Forwarded Via Email</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 9  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Registered Office Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 10  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Option to Forward, Scan, or Collect 'Statutory' Mail</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 11  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Option to Forward, Scan, or Collect 'Business' Mail</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+    <!--          Row 12  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Mail Sorted Daily</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 13  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Free MYCO Apps</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 14  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Client Portal</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 15  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Directors Service Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 16  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Prestigious Business Address</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+          <!--          Row 17  -->
+          <div class="row">
+              <!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Parcels & Packages Signed For</p>
+              </div>
+              <!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 18  -->
+          <div class="row table-light">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Meeting Room Access</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 19  -->
+          <div class="row">
+<!--              Column Title  -->
+              <div class="col-lg-6 rowTitle tableBorder tableBorderBottom">
+                  <p>Access to Business Lounge</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no popular tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 20 - Footer  -->
+          <div class="row">
+<!--              Blank Column  -->
+              <div class="col-lg-6">
+<!--                  Blank  -->
+              </div>
+<!--              ROA  -->
+              <div class="col-sm tableBorderBottom">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Telephone Answering
+                          <br>
+                          Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>199.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="planButton bottomBtnSpace">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+
+<!--              ROA + DSA  -->
+              <div class="col-sm tableBorderBottom">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business
+                          <br>
+                          Address & Telephone
+                          <br>
+                          Answering Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>319.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+
+<!--              Virtual Business Plus  -->
+              <div class="col-sm popular tableBorderBottom tableBorderRight">
+                  <div class="mostSpace">
+
+                  </div>
+                  <div class="planName">
+                      <p>
+                          Virtual Business Plus &
+                          <br>
+                          Telephone Answering
+                          <br>
+                          Service
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>349.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planDuration">
+                      <p>Per Year</p>
+                  </div>
+                  <div class="postalDeposit">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="buyNowBtn" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
 
 
   <footer>

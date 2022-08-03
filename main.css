@@ -155,6 +155,14 @@ body {
   justify-content: flex-end;
 }
 
+.cart {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  margin-right: 0.6rem;
+}
+
 .client {
   font-size: 14px;
   background-color: transparent;
@@ -384,6 +392,7 @@ section.container-fluid {
   left: 0;
   transition-property: right, left;
   transition-duration: 5s;
+  transition-timing-function: linear;
   background-color: #EE851F;
 }
 
@@ -823,18 +832,158 @@ section.container-fluid {
   padding: 0 0 10px;
 }
 
+.virtualOfficePackages {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  line-height: 30px;
+}
+
+.VOPTabs {
+  display: flex;
+}
+
+.VOPackages {
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid #DEDEDE;
+  padding: 10px 25px;
+  background: #FFFFFF;
+  margin-right: 1rem;
+}
+.VOPackages:hover {
+  border: 1px solid #EE851F;
+  color: #EE851F;
+}
+
+.currentlyActive {
+  background: #EE851F;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+.currentlyActive:hover {
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.tabsLine {
+  width: 45%;
+  height: 1px;
+  background-color: #DEDEDE;
+  display: flex;
+  align-self: center;
+}
+
+.BASubTab {
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid #DEDEDE;
+  padding: 10px 25px;
+  background: #FFFFFF;
+  margin-right: 1rem;
+}
+.BASubTab:hover {
+  border: 1px solid #EE851F;
+  color: #EE851F;
+}
+
+.BASubTab .activeSubTab {
+  background: #EE851F;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+.BASubTab .activeSubTab:hover {
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.CFSubTab {
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid #DEDEDE;
+  padding: 10px 25px;
+  background: #FFFFFF;
+  margin-right: 1rem;
+}
+.CFSubTab:hover {
+  border: 1px solid #EE851F;
+  color: #EE851F;
+}
+
+.CFSubTab .activeSubTab {
+  background: #EE851F;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+.CFSubTab .activeSubTab:hover {
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.privacyText {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  line-height: 200%;
+}
+
+.businessAddressText {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  line-height: 200%;
+}
+
+.companyFormationText {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  line-height: 200%;
+}
+
+.callAnsweringText {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  line-height: 200%;
+}
+
 .table1 {
   margin: 2rem auto;
   text-align: center;
 }
 
+.subTable {
+  margin: 2rem auto;
+  text-align: center;
+}
+
 .col-lg-4 {
-  border: 1px solid #E5E5E5;
   text-align: left;
 }
 
+.col-md-3 {
+  text-align: left;
+}
+
+.tableBorder {
+  border-top: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+}
+
+.tableBorderBottom {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.tableBorderRight {
+  border-right: 1px solid #E5E5E5;
+}
+
 .col-sm {
-  border: 1px solid #E5E5E5;
+  border-top: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
   width: 100%;
   height: auto;
   display: table-cell;
@@ -845,13 +994,13 @@ section.container-fluid {
 }
 
 .mostPopular {
-  position: relative;
   background: #EE851F;
+  border-radius: 50px;
   color: #FFFFFF;
+  font-size: 0.8rem;
 }
 
 .pop {
-  background: #EE851F;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -863,23 +1012,35 @@ section.container-fluid {
 }
 
 .planName {
-  font-size: 1.125rem;
+  font-size: 1.1rem;
+  height: 5.063rem;
+  font-weight: 500;
 }
 
 .planPrice {
+  width: 100%;
+  height: 3.5rem;
   color: #EE851F;
   font-size: 2.875rem;
   font-weight: 600;
 }
 
-.sm {
+.price {
+  display: inline-flex;
+  height: 3.5rem;
+}
+
+.planPrice small {
   color: #EE851F;
-  font-size: 1rem;
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
 }
 
 .vat {
   color: #BDBDBD;
   font-size: 0.75rem;
+  display: flex;
+  align-items: flex-end;
 }
 
 .planDuration {
@@ -898,18 +1059,74 @@ section.container-fluid {
   height: auto;
 }
 
-.planButton button {
+.tableBtn {
   background: #EE851F;
   color: #FFFFFF;
   border-radius: 50px;
   border: none;
   outline: none;
-  padding: 6px 15px;
+  padding: 6px 20px;
   margin-bottom: 1rem;
+  box-shadow: 0 4px 10px 2px rgba(238, 133, 31, 0.2);
+}
+.tableBtn:hover {
+  background: #20303c;
 }
 
 .table-light {
   background: #FAFAFA;
+}
+
+.TopBtnSpace {
+  margin-top: 3rem;
+}
+
+.bottomBtnSpace {
+  margin-top: 3.4rem;
+}
+
+.rowTitle {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.yes-no {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yes {
+  border-radius: 50%;
+  background-color: #F7E1CC;
+  color: #EE851F;
+  padding: 3px;
+  font-size: 1.25rem;
+}
+
+.no {
+  font-size: 1.75rem;
+  color: #c4c4c4;
+}
+
+.buyNowBtn {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #20303c;
+  color: #FFFFFF;
+  padding: 10px 40px;
+  margin-bottom: 1rem;
+}
+.buyNowBtn:hover {
+  transition: all 0.2s ease-in-out;
+  background: #EE851F;
+}
+
+.rowBreak {
+  margin-top: 1rem !important;
+  border-top: 1px solid #E5E5E5;
 }
 
 .footerLogos {
