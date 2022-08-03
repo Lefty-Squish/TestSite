@@ -995,26 +995,25 @@ section.container-fluid {
 
 .mostPopular {
   background: #EE851F;
-  border-radius: 50px;
   color: #FFFFFF;
   font-size: 0.8rem;
-}
-
-.pop {
-  margin: 0;
-  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
+  height: 20px;
 }
 
 .popular {
   background: rgba(238, 133, 31, 0.06);
+  position: relative;
 }
 
 .planName {
   font-size: 1.1rem;
   height: 5.063rem;
   font-weight: 500;
+  margin-top: 2rem;
 }
 
 .planPrice {
@@ -1127,6 +1126,10 @@ section.container-fluid {
 .rowBreak {
   margin-top: 1rem !important;
   border-top: 1px solid #E5E5E5;
+}
+
+.durationSpace {
+  margin-top: 1.5rem;
 }
 
 .footerLogos {

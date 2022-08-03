@@ -593,9 +593,6 @@
               </div>
 <!--              ROA  -->
               <div class="col-sm">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Registered Office
@@ -619,9 +616,6 @@
 
 <!--              ROA + DSA  -->
               <div class="col-sm">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Registered Office &
@@ -883,9 +877,6 @@
               </div>
 <!--              ROA  -->
               <div class="col-sm tableBorderBottom">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Registered Office
@@ -909,9 +900,6 @@
 
 <!--              ROA + DSA  -->
               <div class="col-sm tableBorderBottom">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Registered Office &
@@ -937,9 +925,6 @@
 
 <!--              Virtual Business Plus  -->
               <div class="col-sm popular tableBorderBottom tableBorderRight">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business
@@ -989,9 +974,6 @@
               </div>
 <!--              ROA  -->
               <div class="col-sm">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Registered Office
@@ -1015,9 +997,6 @@
 
 <!--              ROA + DSA  -->
               <div class="col-sm">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business
@@ -1280,9 +1259,6 @@
               </div>
               <!--              ROA  -->
               <div class="col-sm tableBorderBottom">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Registered Office
@@ -1306,9 +1282,6 @@
 
               <!--              ROA + DSA  -->
               <div class="col-sm tableBorderBottom">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business
@@ -1335,9 +1308,6 @@
 
               <!--              Virtual Business Plus  -->
               <div class="col-sm popular tableBorderBottom tableBorderRight">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business
@@ -1375,9 +1345,6 @@
               </div>
 <!--              VBA & TAS  -->
               <div class="col-sm">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business
@@ -1440,9 +1407,6 @@
 
 <!--              VBP & Website + Email Hosting  -->
               <div class="col-sm">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business Plus &
@@ -1469,9 +1433,6 @@
 
 <!--              VBP & Legal Document Pack  -->
               <div class="col-sm tableBorderRight">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business Plus &
@@ -2086,9 +2047,6 @@
               </div>
               <!--              VBA & TAS  -->
               <div class="col-sm tableBorder tableBorderBottom">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business
@@ -2150,9 +2108,6 @@
 
               <!--              VBP & Website + Email Hosting  -->
               <div class="col-sm tableBorder tableBorderBottom">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business Plus &
@@ -2179,9 +2134,6 @@
 
               <!--              VBP & Legal Document Pack  -->
               <div class="col-sm tableBorderRight tableBorderBottom">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business Plus &
@@ -2215,18 +2167,365 @@
 
 <!--  Third Table  -->
   <section class="privacyTable" id="thirdTable" style="display: none">
-    <div class="container">
-        <div class="companyFormationText">
-            <p>
-                We can help you register your company in the UK no matter where you live in the world. You can secure your company name from only £12.99! With our simple limited
-                'Company Formation Only' package. Or why not protect your home address from the Companies House register and include a Virtual Business Address service, by
-                choosing from our 'Company' and 'Non-Resident' packages. If you are not confident in forming a company on your own, contact our team, and we will be able to help.
-            </p>
-        </div>
-        <button class="CFSubTab activeSubTab" id="defaultView">Company Formation Only</button>
-        <button class="CFSubTab">Company Package</button>
-        <button class="CFSubTab">Non-Resident Package</button>
-    </div>
+      <div class="container">
+          <div class="companyFormationText">
+              <p>
+                  We can help you register your company in the UK no matter where you live in the world. You can secure your company name from only £12.99! With our simple limited
+                  'Company Formation Only' package. Or why not protect your home address from the Companies House register and include a Virtual Business Address service, by
+                  choosing from our 'Company' and 'Non-Resident' packages. If you are not confident in forming a company on your own, contact our team, and we will be able to help.
+              </p>
+          </div>
+          <button class="CFSubTab activeSubTab">Company Formation Only</button>
+          <button class="CFSubTab" id="defaultView">Company Package</button>
+          <button class="CFSubTab">Non-Resident Package</button>
+      </div>
+
+<!--      Company Formation Only Table  -->
+      <div class="container subTable" id="CFTable1" style="display: none">
+<!--          Row 1 Header Row  -->
+          <div class="row">
+<!--              Blank Column  -->
+              <div class="col-lg-6">
+<!--                  Blank  -->
+              </div>
+<!--              Company Formation Only  -->
+              <div class="col-sm-4 tableBorder tableBorderRight">
+                  <div class="planName">
+                      <p>
+                          Company Formation Only
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>12.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn TopBtnSpace" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+
+<!--          Row 2  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Company Formation</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 3  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Companies House Filing Fee</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 4  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Digital Certificate of Incorporation</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 5  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Digital Memorandum & Articles of Association</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 6  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle  tableBorder">
+                  <p>Digital Share Certificate(s)</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+
+<!--          Row 7  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Registered Office Address</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 8  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Directors Service Address</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row  9  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Prestigious Business Address</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+
+<!--          Row 10  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Telephone Answering Service</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 11  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Printed Certificate of Incorporation</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 12  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Printed Memorandum & Articles of Association</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 13  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Printed Share Certificates</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 14  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder">
+                  <p>Certificate of Good Standing</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 15  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-lg-6 rowTitle tableBorder tableBorderBottom">
+                  <p>Apostilled Documents</p>
+              </div>
+<!--              Table Cell  -->
+              <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <span class="material-icons no">horizontal_rule</span>
+              </div>
+          </div>
+
+<!--          Row 16 Footer  -->
+          <div class="row">
+<!--              Blank Column  -->
+              <div class="col-lg-6">
+<!--                  Blank  -->
+              </div>
+<!--              Company Formation Only  -->
+              <div class="col-sm-4 tableBorder tableBorderBottom tableBorderRight">
+                  <div class="planName">
+                      <p>
+                          Company Formation Only
+                      </p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>12.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planButton">
+                      <button class="buyNowBtn bottomBtnSpace" name="Buy Now">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+<!--      Company Packages Table  -->
+      <div class="container subTable" id="CFTable2" style="display: block">
+<!--          Row 1 Header Row  -->
+          <div class="row">
+<!--              Blank Column  -->
+              <div class="col-md-3">
+<!--                  Blank  -->
+              </div>
+<!--              Starter  -->
+              <div class="col-sm">
+                  <div class="planName">
+                      <p>
+                          Starter
+                      </p>
+                  </div>
+                  <div class="ready">
+                      <p><small>Ready to Trade Company</small></p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>49.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planButton TopBtnSpace">
+                      <button class="tableBtn" name="Learn More">Buy Now</button>
+                  </div>
+              </div>
+
+<!--              Printed  -->
+              <div class="col-sm">
+                  <div class="planName">
+                      <p>
+                          Printed
+                      </p>
+                  </div>
+                  <div class="ready">
+                      <p><small>Ready to Trade Company</small></p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>59.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="planButton TopBtnSpace">
+                      <button class="tableBtn" name="Learn More">Buy Now</button>
+                  </div>
+              </div>
+
+<!--              Professional  -->
+              <div class="col-sm">
+                  <div class="planName">
+                      <p>
+                          Starter
+                      </p>
+                  </div>
+                  <div class="ready">
+                      <p><small>Ready for Business</small></p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>49.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="postalDeposit durationSpace">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Buy Now</button>
+                  </div>
+              </div>
+
+<!--              All-Inclusive  -->
+              <div class="col-sm popular tableBorderRight">
+                  <div class="mostPopular">
+                      <p>MOST POPULAR</p>
+                  </div>
+                  <div class="planName">
+                      <p>
+                          All-Inclusive
+                      </p>
+                  </div>
+                  <div class="ready">
+                      <p><small>Ready for Business</small></p>
+                  </div>
+                  <div class="planPrice">
+                      <div class="price">
+                          <p><small>£</small>199.<small>99</small></p>
+                          <span class="vat">+VAT</span>
+                      </div>
+                  </div>
+                  <div class="postalDeposit durationSpace">
+                      <p>Plus £20 Postal deposit</p>
+                  </div>
+                  <div class="planButton">
+                      <button class="tableBtn" name="Learn More">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+
+<!--          Row 2  -->
+          <div class="row">
+<!--              Column Title-->
+              <div class="col-md-3 rowTitle tableBorder">
+                  <p>Company Formation</p>
+              </div>
+<!--              Table Cells  -->
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no">
+                  <span class="material-icons yes">check</span>
+              </div>
+              <div class="col-sm yes-no tableBorderRight">
+                  <span class="material-icons yes">check</span>
+              </div>
+          </div>
+      </div>
   </section>
 
 
@@ -2252,9 +2551,6 @@
               </div>
               <!--              ROA  -->
               <div class="col-sm">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Telephone Answering
@@ -2278,9 +2574,6 @@
 
               <!--              ROA + DSA  -->
               <div class="col-sm">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business
@@ -2673,9 +2966,6 @@
               </div>
 <!--              ROA  -->
               <div class="col-sm tableBorderBottom">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Telephone Answering
@@ -2699,9 +2989,6 @@
 
 <!--              ROA + DSA  -->
               <div class="col-sm tableBorderBottom">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business
@@ -2730,9 +3017,6 @@
 
 <!--              Virtual Business Plus  -->
               <div class="col-sm popular tableBorderBottom tableBorderRight">
-                  <div class="mostSpace">
-
-                  </div>
                   <div class="planName">
                       <p>
                           Virtual Business Plus &
