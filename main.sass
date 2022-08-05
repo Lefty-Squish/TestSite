@@ -65,6 +65,12 @@ $tableBorder: 1px solid #E5E5E5
     border: 1px solid $primaryOrange
     color: $primaryOrange
 
+@mixin tableLine
+  height: 1px
+  background-color: #DEDEDE
+  display: flex
+  align-self: center
+
 
 root
   --blue: #007bff
@@ -850,6 +856,12 @@ section.container-fluid
 .VOPTabs
   display: flex
 
+.BATabs
+  display: flex
+
+.CFTabs
+  display: flex
+
 .VOPackages
   @include tableButton
 
@@ -865,24 +877,56 @@ section.container-fluid
 
 .tabsLine
   width: 45%
-  height: 1px
-  background-color: #DEDEDE
-  display: flex
-  align-self: center
+  @include tableLine
 
+.BALine
+  width: 65%
+  @include tableLine
 
+.CFLine
+  width: 45%
+  @include  tableLine
 
 .BASubTab
-  @include tableButton
+  border-radius: 50px
+  outline: none
+  border: 1px solid #DEDEDE
+  padding: 10px 25px
+  background: #FFFFFF
+  margin-right: 1rem
+  &:hover
+    border: 1px solid $primaryOrange
+    color: $primaryOrange
 
-.BASubTab .activeSubTab
-  @include currentlyActive
+.activeBASubTab
+  background-color: $primaryOrange
+  color: #FFFFFF
+  border: none
+  outline: none
+  &:hover
+    color: #FFFFFF
 
 .CFSubTab
-  @include tableButton
+  border-radius: 50px
+  outline: none
+  border: 1px solid #DEDEDE
+  padding: 10px 25px
+  background: #FFFFFF
+  margin-right: 1rem
+  &:hover
+    border: 1px solid $primaryOrange
+    color: $primaryOrange
 
-.CFSubTab .activeSubTab
-  @include currentlyActive
+
+.activeCFSubTab
+  background-color: $primaryOrange
+  color: #FFFFFF
+  border: none
+  outline: none
+  &:hover
+    color: #FFFFFF
+
+
 
 .privacyText
   @include tableText
@@ -902,6 +946,10 @@ section.container-fluid
   text-align: center
 
 .subTable
+  margin: 2rem auto
+  text-align: center
+
+.CFSubTable
   margin: 2rem auto
   text-align: center
 
@@ -1049,6 +1097,79 @@ section.container-fluid
   margin-top: 1.5rem
 
 
+//Unsure Which Service you need
+.unsureBackground
+  background-image: url("Images/unsureBackground.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  background-color: $primaryBlue 95%
+  height: 100%
+
+.unsureContainer
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+.Unsure
+  color: #FFFFFF
+  text-align: center
+  margin-top: 4rem
+  h1
+    margin-bottom: 2rem
+
+.unsureButton
+  margin-bottom: 3rem
+
+//FAQs
+.FAQBanner
+  background-image: url("Images/FAQ-BG.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  h3
+    text-align: center
+
+//Testimonials
+.testimonialBanner
+  background-color: #F3F3F3
+
+
+//Footer Contact Us
+.contactBanner
+  background: $primaryBlue
+  color: #FFFFFF
+
+.contactFooter
+  display: flex
+  justify-content: center
+  align-items: center
+  align-content: space-around
+  flex-direction: column
+  margin: 4rem 0
+  line-height: 2rem
+  .contact
+    margin-top: 4rem
+    font-size: 3.75rem
+  h5
+    font-size: 1.5rem
+    margin-top: 1.5rem
+  h3
+    margin: 1.5rem 0 2rem 0
+    font-size: 3.125rem
+  p
+    font-size: 1.5rem
+
+
+
+.contactPhone
+  display: inline-flex
+  margin-right: 1.5rem
+
+.contactGroup
+  display: inline-flex
+  margin-left: 1rem
 
 //Footer Logos
 .footerLogos
@@ -1110,7 +1231,6 @@ section.container-fluid
     background-color: #bf6a17
     box-shadow: 0 10px 21px rgba(238, 133, 31, 0.2)
     transform: translateY(4px)
-
 
 
 //Footer Links

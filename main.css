@@ -843,6 +843,14 @@ section.container-fluid {
   display: flex;
 }
 
+.BATabs {
+  display: flex;
+}
+
+.CFTabs {
+  display: flex;
+}
+
 .VOPackages {
   border-radius: 50px;
   outline: none;
@@ -876,6 +884,22 @@ section.container-fluid {
   align-self: center;
 }
 
+.BALine {
+  width: 65%;
+  height: 1px;
+  background-color: #DEDEDE;
+  display: flex;
+  align-self: center;
+}
+
+.CFLine {
+  width: 45%;
+  height: 1px;
+  background-color: #DEDEDE;
+  display: flex;
+  align-self: center;
+}
+
 .BASubTab {
   border-radius: 50px;
   outline: none;
@@ -889,16 +913,14 @@ section.container-fluid {
   color: #EE851F;
 }
 
-.BASubTab .activeSubTab {
-  background: #EE851F;
+.activeBASubTab {
+  background-color: #EE851F;
   color: #FFFFFF;
   border: none;
   outline: none;
 }
-.BASubTab .activeSubTab:hover {
+.activeBASubTab:hover {
   color: #FFFFFF;
-  border: none;
-  outline: none;
 }
 
 .CFSubTab {
@@ -914,16 +936,14 @@ section.container-fluid {
   color: #EE851F;
 }
 
-.CFSubTab .activeSubTab {
-  background: #EE851F;
+.activeCFSubTab {
+  background-color: #EE851F;
   color: #FFFFFF;
   border: none;
   outline: none;
 }
-.CFSubTab .activeSubTab:hover {
+.activeCFSubTab:hover {
   color: #FFFFFF;
-  border: none;
-  outline: none;
 }
 
 .privacyText {
@@ -956,6 +976,11 @@ section.container-fluid {
 }
 
 .subTable {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.CFSubTable {
   margin: 2rem auto;
   text-align: center;
 }
@@ -1130,6 +1155,89 @@ section.container-fluid {
 
 .durationSpace {
   margin-top: 1.5rem;
+}
+
+.unsureBackground {
+  background-image: url("Images/unsureBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #20303c 95%;
+  height: 100%;
+}
+
+.unsureContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Unsure {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 4rem;
+}
+.Unsure h1 {
+  margin-bottom: 2rem;
+}
+
+.unsureButton {
+  margin-bottom: 3rem;
+}
+
+.FAQBanner {
+  background-image: url("Images/FAQ-BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.FAQBanner h3 {
+  text-align: center;
+}
+
+.testimonialBanner {
+  background-color: #F3F3F3;
+}
+
+.contactBanner {
+  background: #20303c;
+  color: #FFFFFF;
+}
+
+.contactFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  flex-direction: column;
+  margin: 4rem 0;
+  line-height: 2rem;
+}
+.contactFooter .contact {
+  margin-top: 4rem;
+  font-size: 3.75rem;
+}
+.contactFooter h5 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+.contactFooter h3 {
+  margin: 1.5rem 0 2rem 0;
+  font-size: 3.125rem;
+}
+.contactFooter p {
+  font-size: 1.5rem;
+}
+
+.contactPhone {
+  display: inline-flex;
+  margin-right: 1.5rem;
+}
+
+.contactGroup {
+  display: inline-flex;
+  margin-left: 1rem;
 }
 
 .footerLogos {

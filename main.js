@@ -107,14 +107,29 @@ function openSubTabs(event, subTabName) {
 
     BASubTab = document.getElementsByClassName("BASubTab");
     for (n = 0; n < BASubTab.length; n++) {
-        BASubTab[n].className = BASubTab[n].className.replace(" activeSubTab", "");
+        BASubTab[n].className = BASubTab[n].className.replace(" activeBASubTab", "");
     }
 
     document.getElementById(subTabName).style.display = "block";
-    event.currentTarget.className += " activeSubTab";
+    event.currentTarget.className += " activeBASubTab";
 }
 
+//For Company Formation Sub Tabs
+function openCFSubTabs(event, CFName) {
+    let o, CFSubTable, CFSubTab;
+    CFSubTable = document.getElementsByClassName("CFSubTable");
+    for (o = 0; o < CFSubTable.length; o++) {
+        CFSubTable[o].style.display = "none";
+    }
 
+    CFSubTab = document.getElementsByClassName("CFSubTab");
+    for (o = 0; o < CFSubTab.length; o++) {
+        CFSubTab[o].className = CFSubTab[o].className.replace(" activeCFSubTab", "");
+    }
+
+    document.getElementById(CFName).style.display = "block";
+    event.currentTarget.className += " activeCFSubTab";
+}
 
 
 
