@@ -101,9 +101,10 @@ root
   --breakpoint-xl: 1200px
   --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
   --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace
-
   --mainBlue: $primaryBlue
 
+html
+  overflow-x: hidden!important
 
 
 //Box Sizing rules
@@ -164,7 +165,7 @@ body
   text-rendering: optimizeSpeed
   background-color: #FFF
   color: $primaryBlue
-  font-family: Inter sans-serif
+  font-family: Inter, sans-serif
 
 
 .row
@@ -781,7 +782,7 @@ section.container-fluid
 .aboutCFAndRM h3
   margin-bottom: 40px
 
-.cfImage img
+.CFImage
   margin-left: 20px
   border-radius: 22px
   box-shadow: 0 40px 55px -20px #111
@@ -836,7 +837,7 @@ section.container-fluid
 .meetingLinks
   @include tabLinks
 
-.active
+.sub-active
   background: none
   color: $primaryBlue
   border-bottom: 2px solid $primaryOrange
@@ -976,9 +977,6 @@ section.container-fluid
   height: auto
   display: table-cell
 
-.mostSpace
-  height: 40px
-
 .mostPopular
   background: $primaryOrange
   color: #FFFFFF
@@ -1051,7 +1049,7 @@ section.container-fluid
   background: #FAFAFA
 
 .TopBtnSpace
-  margin-top: 3rem
+  margin-top: 3.3rem
 
 .bottomBtnSpace
   margin-top: 3.4rem
@@ -1059,7 +1057,13 @@ section.container-fluid
 .rowTitle
   display: flex
   align-items: center
-  padding-top: 8px
+  align-content: center
+  padding: 10px 30px!important
+  color: #666666
+  font-size: 1.1rem
+  line-height: 180.19%
+  p
+    margin-bottom: 0!important
 
 .yes-no
   display: flex
@@ -1084,7 +1088,7 @@ section.container-fluid
   background: $primaryBlue
   color: #FFFFFF
   padding: 10px 40px
-  margin-bottom: 1rem
+  margin-bottom: 2rem
   &:hover
     transition: all 0.2s ease-in-out
     background: $primaryOrange
@@ -1124,12 +1128,68 @@ section.container-fluid
 
 //FAQs
 .FAQBanner
-  background-image: url("Images/FAQ-BG.png")
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: center
+  background-size: auto
+  background: url("Images/FAQ-BG.png") no-repeat
+  margin: 2rem 0
+  width: 100%
   h3
     text-align: center
+    margin-bottom: 4rem
+    font-weight: 700
+
+.card
+  margin-bottom: 1rem
+  border: 1px solid lightgray
+  background-color: transparent !important
+  word-wrap: break-word
+  padding: 0 !important
+
+.accordion
+  background-color: $primaryBlue
+  color: #FFFFFF
+  cursor: pointer
+  padding: 10px 60px !important
+  width: 100%
+  border: none
+  text-align: left
+  outline: none
+  font-size: 1rem
+  font-weight: 500
+  transition: 0.4s
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+
+.faq-active, .accordion:hover
+  background-color: #1c2b36
+
+
+.panel
+  padding: 0
+  max-height: 0
+  overflow: hidden
+  transition: style 0.2s ease-out
+  background-color: #f1f1f1
+
+.panelText
+  display: flex
+  justify-content: center
+  align-items: center
+  justify-self: center
+  align-self: center
+
+.accordion:after
+  content: '\002B'
+  color: $primaryOrange
+  font-weight: bold
+  float: right
+  margin-left: 60px
+  font-size: 1.5rem
+
+.faq-active:after
+  content: "\2212"
+
 
 //Testimonials
 .testimonialBanner
@@ -1331,9 +1391,6 @@ section.container-fluid
 
 
 
-@media only screen and (min-width: 1400px)
-.container
-  max-width: 1320px
 
 
 

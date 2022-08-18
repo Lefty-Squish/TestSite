@@ -9,15 +9,15 @@
     <link href="./main.css" rel="stylesheet"/>
     <link href="main.sass" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script type="application/javascript" src="main.js"></script>
     <script src=" https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="main.js"></script>
-  <script>document.getElementById("defaultView").click();</script>
 <!--  Top Banner  -->
   <div class="container-fluid" id="topBanner">
       <div class="container" id="topHeader">
@@ -250,7 +250,7 @@
                   <div class="aboutBAS">
                       <h3>Business Address Services</h3>
                       <div class="tab">
-                          <button class="BASLinks active" onclick="openSolution(event, 'ROA')" id="defaultView">Registered Office Address</button>
+                          <button class="BASLinks sub-active" onclick="openSolution(event, 'ROA')" id="defaultView">Registered Office Address</button>
                           <button class="BASLinks" onclick="openSolution(event, 'VBA')">Virtual Business Address</button>
                           <button class="BASLinks" onclick="openSolution(event, 'VBP')">Virtual Business Plus</button>
                       </div>
@@ -335,7 +335,7 @@
                       <h3>Telephone Answering Service</h3>
                   </div>
                   <div class="tab">
-                      <button class="TASLinks active" onclick="openTab(event, 'TAS')" id="defaultView">Telephone Answering Service</button>
+                      <button class="TASLinks sub-active" onclick="openTab(event, 'TAS')" id="defaultView">Telephone Answering Service</button>
                       <button class="TASLinks" onclick="openTab(event, 'whoItsFor')">Who It's For</button>
                       <button class="TASLinks" onclick="openTab(event, 'keyFeatures')">Key Features</button>
                       <button class="TASLinks" onclick="openTab(event, 'howItWorks')">How It Works</button>
@@ -434,7 +434,7 @@
                   <div class="aboutCFAndRM">
                       <h3>Company Formation & Ready Made Companies</h3>
                       <div class="tab">
-                          <button class="CFLinks active" onclick="openCF(event, 'companyFormation')" id="defaultView">Company Formation</button>
+                          <button class="CFLinks sub-active" onclick="openCF(event, 'companyFormation')" id="defaultView">Company Formation</button>
                           <button class="CFLinks" onclick="openCF(event, 'readyMade')">Ready Made Companies</button>
                       </div>
 <!--                      Company Formation  -->
@@ -472,7 +472,7 @@
 <!--              Right-Hand Side  -->
               <div class="col-5">
                   <div class="CFImg">
-                      <img src="Images/CF-img.jpg" alt="Company Formation">
+                      <img src="Images/CF-img.jpg" alt="Company Formation" class="CFImage">
                   </div>
               </div>
           </div>
@@ -500,7 +500,7 @@
                    </div>
 
                    <div class="tab">
-                       <button class="meetingLinks active" onclick="openMeeting(event, 'ourMeetingRooms')" id="defaultView">Our Meeting Rooms</button>
+                       <button class="meetingLinks sub-active" onclick="openMeeting(event, 'ourMeetingRooms')" id="defaultView">Our Meeting Rooms</button>
                        <button class="meetingLinks" onclick="openMeeting(event, 'KFAndPricing')">Key Features And Pricing</button>
                        <button class="meetingLinks" onclick="openMeeting(event, 'howToBook')">How To Book</button>
                    </div>
@@ -4017,24 +4017,154 @@
                       packages best suits your business requirements.
                   </p>
               </div>
-              <divS>
+              <div>
                   <button class="learnMoreButton unsureButton" name="Learn More">Learn More</button>
-              </divS>
+              </div>
           </div>
       </div>
   </section>
 
 
-<!--      FAQs-->
+<!--      FAQs  -->
   <section>
-
-      <div class="container-fluid FAQBanner">
+      <div class="container-fluid FAQBanner py-md-5 py-0 my-5">
           <div class="container">
               <div class="row">
                   <h3>Frequently Asked Questions</h3>
               </div>
-              <div class="FAQs">
+              <div class="row">
+<!--                  FAQ 1  -->
+                  <div class="card">
+                      <button class="accordion">Where are your office locations?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              MYCO Works has four prestigious Central London addresses in the West End, City and the Strand. We also have further locations in the heart of Edinburgh city centre
+                              and Ipswich town centre and are aiming to soon open offices in Manchester, Cambridge and Gibraltar.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 2  -->
+                  <div class="card">
+                      <button class="accordion">What will my new company address be?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              You will be able to choose a suitable location for your business from our virtual office addresses listed here. You will be able to select the location you
+                              want for your business during the check-out process.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 3  -->
+                  <div class="card">
+                      <button class="accordion">When was MYCO Works formed?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              MYCO Works, a division of Registered Office (UK) Ltd was formed in late 2014 and has since grown to become the one of the UK’s most trusted Virtual
+                              Office service providers with thousands of clients globally.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 4  -->
+                  <div class="card">
+                      <button class="accordion">Your prices are very competitive, but are there any hidden costs?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              We charge £0.20p (+ postal charges) per item of business mail forwarded to you. Upon signing up to any of our Virtual Business packages, we ask for a
+                              £20.00 postal deposit to cover the cost of postage.
+                              <br>
+                              Our listed prices exclude VAT. The UK's standard VAT 'Value Added Tax' rate is 20% and will apply to our services.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 5  -->
+                  <div class="card">
+                      <button class="accordion">What services do you provide?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              We are a business-to-business service provider specialising in affordable and flexible products, including Registered Office Address, Director Service
+                              Address, Virtual Business Address, Company Formations, Ready Made Companies, Telephone Answering services and Meeting Room hire.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 6  -->
+                  <div class="card">
+                      <button class="accordion">How much do your services cost?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              We offer a range of affordable, fully-inclusive and flexible packages with no hidden fees. Click here to view our packages and associated costs. We also
+                              like to help new clients by offering 10% of all new orders. Simply apply for your discount at the top of the page.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 7  -->
+                  <div class="card">
+                      <button class="accordion">Do I need to provide ID?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              Yes, to comply with Anti-Money Laundering (AML) regulations and ‘Know Your Customer’ (KYC) requirements you are required to supply proof of your ID
+                              (passport, driving licence photocard, government-issued ID card, HM Forces ID card, valid Student card, employment ID card, disabled driver blue badge)
+                              and proof of address (utility bill, bank statement, mortgage statement, HMRC Notice of Coding) within seven days. You will be shown where to upload
+                              your ID once your order is complete.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 8  -->
+                  <div class="card">
+                      <button class="accordion">Which payment methods do you accept?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              We accept payment from most credit and debit cards, including Visa, Mastercard and American Express. We cannot accept cheques or cash.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 9  -->
+                  <div class="card">
+                      <button class="accordion">What are your office opening hours?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              Our offices are open from 9am – 5.30pm Monday to Friday (excluding UK public holidays). We are available by phone, live chat or email during these hours.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 10  -->
+                  <div class="card">
+                      <button class="accordion">Can I cancel any time?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              No, if you are not completely satisfied with our services for any reason, you can cancel (in writing) this agreement within 14 days from the date of order, if
+                              our address has not been used for any reason. If you do not cancel within 14 days, the service will continue to operate until such time the service expires.
+                          </p>
+                      </div>
+                  </div>
+<!--                  FAQ 11  -->
+                  <div class="card">
+                      <button class="accordion">How do I join your Partner Program?</button>
+                      <div class="panel">
+                          <p class="panelText">
+                              We work with many partners who promote our services as their own to generate extra income for their business. Simply complete our contact form to
+                              register your interest, and we will be in touch.
+                          </p>
+                      </div>
+                  </div>
 
+
+                  <script>
+                      const acc = document.getElementsByClassName("accordion");
+                      let i;
+
+                      for (i = 0; i < acc.length; i++) {
+                          acc[i].addEventListener("click", function() {
+                              this.classList.toggle("faq-active");
+                              const panel = this.nextElementSibling;
+                              if (panel.style.maxHeight) {
+                                  panel.style.maxHeight = null;
+                                  panel.style.padding = null;
+                              } else {
+                                  panel.style.maxHeight = panel.scrollHeight + "140px";
+                                  panel.style.padding = panel.style.padding + "50px";
+                              }
+                          });
+                      }
+                  </script>
               </div>
           </div>
       </div>
@@ -4223,6 +4353,10 @@
       </div>
   </footer>
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<script>document.getElementById("defaultView").event();</script>
   </body>
 </html>
 

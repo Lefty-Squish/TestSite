@@ -1,3 +1,4 @@
+@charset "UTF-8";
 root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -28,6 +29,10 @@ root {
   --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   --mainBlue: $primaryBlue;
+}
+
+html {
+  overflow-x: hidden !important;
 }
 
 *,
@@ -69,7 +74,7 @@ body {
   text-rendering: optimizeSpeed;
   background-color: #FFF;
   color: #20303c;
-  font-family: Inter sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .row {
@@ -663,7 +668,7 @@ section.container-fluid {
   margin-bottom: 40px;
 }
 
-.cfImage img {
+.CFImage {
   margin-left: 20px;
   border-radius: 22px;
   box-shadow: 0 40px 55px -20px #111;
@@ -822,7 +827,7 @@ section.container-fluid {
   border-bottom: 2px solid #EE851F;
 }
 
-.active {
+.sub-active {
   background: none;
   color: #20303c;
   border-bottom: 2px solid #EE851F;
@@ -1014,10 +1019,6 @@ section.container-fluid {
   display: table-cell;
 }
 
-.mostSpace {
-  height: 40px;
-}
-
 .mostPopular {
   background: #EE851F;
   color: #FFFFFF;
@@ -1102,7 +1103,7 @@ section.container-fluid {
 }
 
 .TopBtnSpace {
-  margin-top: 3rem;
+  margin-top: 3.3rem;
 }
 
 .bottomBtnSpace {
@@ -1112,7 +1113,14 @@ section.container-fluid {
 .rowTitle {
   display: flex;
   align-items: center;
-  padding-top: 8px;
+  align-content: center;
+  padding: 10px 30px !important;
+  color: #666666;
+  font-size: 1.1rem;
+  line-height: 180.19%;
+}
+.rowTitle p {
+  margin-bottom: 0 !important;
 }
 
 .yes-no {
@@ -1141,7 +1149,7 @@ section.container-fluid {
   background: #20303c;
   color: #FFFFFF;
   padding: 10px 40px;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .buyNowBtn:hover {
   transition: all 0.2s ease-in-out;
@@ -1187,13 +1195,73 @@ section.container-fluid {
 }
 
 .FAQBanner {
-  background-image: url("Images/FAQ-BG.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: auto;
+  background: url("Images/FAQ-BG.png") no-repeat;
+  margin: 2rem 0;
+  width: 100%;
 }
 .FAQBanner h3 {
   text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+
+.card {
+  margin-bottom: 1rem;
+  border: 1px solid lightgray;
+  background-color: transparent !important;
+  word-wrap: break-word;
+  padding: 0 !important;
+}
+
+.accordion {
+  background-color: #20303c;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 10px 60px !important;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-active, .accordion:hover {
+  background-color: #1c2b36;
+}
+
+.panel {
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: style 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.panelText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.accordion:after {
+  content: "+";
+  color: #EE851F;
+  font-weight: bold;
+  float: right;
+  margin-left: 60px;
+  font-size: 1.5rem;
+}
+
+.faq-active:after {
+  content: "−";
 }
 
 .testimonialBanner {
@@ -1406,10 +1474,6 @@ section.container-fluid {
   margin: 0.8rem 1rem;
   border-left: 1px solid #6A6A6A;
   height: 1.5rem;
-}
-
-.container {
-  max-width: 1320px;
 }
 
 /*# sourceMappingURL=main.css.map */

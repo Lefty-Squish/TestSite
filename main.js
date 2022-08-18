@@ -2,8 +2,6 @@ let username = "Lefty";
 
 console.log(`${username}`);
 
-
-
 //Tabs for Business Address Services
 
 function openSolution(event, solutionName) {
@@ -15,82 +13,82 @@ function openSolution(event, solutionName) {
 
     BASLinks = document.getElementsByClassName("BASLinks");
     for (i = 0; i < BASLinks.length; i++) {
-        BASLinks[i].className = BASLinks[i].className.replace(" active", "");
+        BASLinks[i].className = BASLinks[i].className.replace(" sub-active", "");
     }
 
     document.getElementById(solutionName).style.display = "block";
-    event.currentTarget.className += " active";
+    event.currentTarget.className += " sub-active";
 }
 
 
 //Tabs for Telephone Answering Service
 
 function openTab(event, tabName) {
-    let j, TASContent, TASLinks;
+    let i, TASContent, TASLinks;
     TASContent = document.getElementsByClassName("TASContent");
-    for (j = 0; j < TASContent.length; j++) {
-        TASContent[j].style.display = "none";
+    for (i = 0; i < TASContent.length; i++) {
+        TASContent[i].style.display = "none";
     }
 
     TASLinks = document.getElementsByClassName("TASLinks");
-    for (j = 0; j < TASLinks.length; j++) {
-        TASLinks[j].className = TASLinks[j].className.replace(" active", "");
+    for (i = 0; i < TASLinks.length; i++) {
+        TASLinks[i].className = TASLinks[i].className.replace(" sub-active", "");
     }
 
     document.getElementById(tabName).style.display = "block";
-    event.currentTarget.className += " active";
+    event.currentTarget.className += " sub-active";
 }
 
 
 //Tabs for Company Formation & Ready Made Companies
 
 function openCF(event, CFName) {
-    let k, CFContent, CFLinks;
+    let i, CFContent, CFLinks;
     CFContent = document.getElementsByClassName("CFContent");
-    for (k = 0; k < CFContent.length; k++) {
-        CFContent[k].style.display = "none";
+    for (i = 0; i < CFContent.length; i++) {
+        CFContent[i].style.display = "none";
     }
 
     CFLinks = document.getElementsByClassName("CFLinks");
-    for (k = 0; k < CFLinks.length; k++) {
-        CFLinks[k].className = CFLinks[k].className.replace(" active", "");
+    for (i = 0; i < CFLinks.length; i++) {
+        CFLinks[i].className = CFLinks[i].className.replace(" sub-active", "");
     }
 
     document.getElementById(CFName).style.display = "block";
-    event.currentTarget.className += " active";
+    event.currentTarget.className += " sub-active";
 }
 
 
 //Tabs for Meeting Rooms
 
 function openMeeting(event, meetingName) {
-    let l, meetingContent, meetingLinks;
+    let i, meetingContent, meetingLinks;
     meetingContent = document.getElementsByClassName("meetingContent");
-    for (l = 0; l < meetingContent.length; l++) {
-        meetingContent[l].style.display = "none";
+    for (i = 0; i < meetingContent.length; i++) {
+        meetingContent[i].style.display = "none";
     }
 
     meetingLinks = document.getElementsByClassName("meetingLinks");
-    for (l = 0; l < meetingLinks.length; l++) {
-        meetingLinks[l].className = meetingLinks[l].className.replace(" active", "");
+    for (i = 0; i < meetingLinks.length; i++) {
+        meetingLinks[i].className = meetingLinks[i].className.replace(" sub-active", "");
     }
 
     document.getElementById(meetingName).style.display = "block";
-    event.currentTarget.className += " active";
+    event.currentTarget.className += " sub-active";
 }
 
 
 //Tabs for Virtual Office Packages
 function openTables(event, packageName) {
-    let m, privacyTable, VOPackages;
+    let i, privacyTable, VOPackages;
     privacyTable = document.getElementsByClassName("privacyTable");
-    for (m = 0; m < privacyTable.length; m++) {
-        privacyTable[m].style.display = "none";
+    for (i = 0; i < privacyTable.length; i++) {
+        privacyTable[i].style.display = "none";
     }
 
     VOPackages = document.getElementsByClassName("VOPackages");
-    for (m = 0; m < VOPackages.length; m++) {
-        VOPackages[m].className = VOPackages[m].className.replace(" currentlyActive", "");
+    for (i = 0; i < VOPackages.length; i++) {
+        VOPackages[i].className = VOPackages[i].className.replace(" currentlyActive", "");
     }
 
     document.getElementById(packageName).style.display = "block";
@@ -99,15 +97,15 @@ function openTables(event, packageName) {
 
 //For Business Address Sub Tabs
 function openSubTabs(event, subTabName) {
-    let n, subTable, BASubTab;
+    let i, subTable, BASubTab;
     subTable = document.getElementsByClassName("subTable");
-    for (n = 0; n < subTable.length; n++) {
-        subTable[n].style.display = "none";
+    for (i = 0; i < subTable.length; i++) {
+        subTable[i].style.display = "none";
     }
 
     BASubTab = document.getElementsByClassName("BASubTab");
-    for (n = 0; n < BASubTab.length; n++) {
-        BASubTab[n].className = BASubTab[n].className.replace(" activeBASubTab", "");
+    for (i = 0; i < BASubTab.length; i++) {
+        BASubTab[i].className = BASubTab[i].className.replace(" activeBASubTab", "");
     }
 
     document.getElementById(subTabName).style.display = "block";
@@ -116,15 +114,15 @@ function openSubTabs(event, subTabName) {
 
 //For Company Formation Sub Tabs
 function openCFSubTabs(event, CFName) {
-    let o, CFSubTable, CFSubTab;
+    let i, CFSubTable, CFSubTab;
     CFSubTable = document.getElementsByClassName("CFSubTable");
-    for (o = 0; o < CFSubTable.length; o++) {
-        CFSubTable[o].style.display = "none";
+    for (i = 0; i < CFSubTable.length; i++) {
+        CFSubTable[i].style.display = "none";
     }
 
     CFSubTab = document.getElementsByClassName("CFSubTab");
-    for (o = 0; o < CFSubTab.length; o++) {
-        CFSubTab[o].className = CFSubTab[o].className.replace(" activeCFSubTab", "");
+    for (i = 0; i < CFSubTab.length; i++) {
+        CFSubTab[i].className = CFSubTab[i].className.replace(" activeCFSubTab", "");
     }
 
     document.getElementById(CFName).style.display = "block";
