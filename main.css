@@ -1193,6 +1193,9 @@ section.container-fluid {
 .unsureButton {
   margin-bottom: 3rem;
 }
+.unsureButton:hover {
+  border: 1px solid white;
+}
 
 .FAQBanner {
   background-size: auto;
