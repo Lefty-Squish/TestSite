@@ -129,18 +129,47 @@ function openCFSubTabs(event, CFName) {
     event.currentTarget.className += " activeCFSubTab";
 }
 
+//Our Apps
+function openApp(event, appName) {
+    let i, appContent, ourApps;
+    appContent = document.getElementsByClassName("appContent");
+    for (i = 0; i < appContent.length; i++) {
+        appContent[i].style.display = "none";
+    }
+
+    ourApps = document.getElementsByClassName("ourApps");
+    for (i = 0; i < ourApps.length; i++) {
+        ourApps[i].className = ourApps[i].className.replace(" activeAppTab", "");
+    }
+
+    document.getElementById(appName).style.display = "block";
+    event.currentTarget.className += " activeAppTab";
+}
 
 
+//Our Locations
+function openLocation(event, locationName) {
+    let i, officeLocation, locationBtn;
+    officeLocation = document.getElementsByClassName("officeLocation");
+    for (i = 0; i < officeLocation.length; i++) {
+        officeLocation[i].style.display = "none";
+    }
+
+    locationBtn = document.getElementsByClassName("locationBtn");
+    for (i = 0; i < locationBtn.length; i++) {
+        locationBtn[i].className = locationBtn[i].className.replace(" activeLocation", "");
+    }
+
+    document.getElementById(locationName).style.display = "block";
+    event.currentTarget.className += " activeLocation";
+}
 
 
-
-
-
-
-
-
-
-
+$('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 2
+});
 
 
 

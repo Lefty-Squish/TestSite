@@ -9,12 +9,20 @@
     <link href="./main.css" rel="stylesheet"/>
     <link href="main.sass" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script type="application/javascript" src="main.js"></script>
     <script src=" https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="script" href="https://code.jquery.com/jquery-1.7.js">
+    <script type="javascript" src="https://code.jquery.com/jquery-1.7.js"></script>
+    <script type="javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/053d8c5668.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -49,26 +57,43 @@
 
 
 <!--  Navigation  -->
-  <nav class="container">
-      <div class="navigation">
-          <div class="nav">
-              <ul>
-                  <li>Address Services</li>
-                  <li>Company Formations</li>
-                  <li>Pricing</li>
-                  <li>Other Services</li>
-                  <li>Locations</li>
-                  <li>FAQs</li>
-                  <li>About Us</li>
-                  <li>Blogs</li>
-                  <li>Partners</li>
-                  <li>Contact Us</li>
-              </ul>
+  <section class="navBanner">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <div class="navigation">
+                      <div class="nav">
+                          <ul class="navList">
+                              <li>
+                                  <a class="home">
+                                      <img src="Images/home-icon.svg" alt="home">
+                                  </a>
+                              </li>
+                              <li class="dropdown">
+                                  <button class="dropBtn">Address Services
+                                      <i class="fa-solid fa-chevron-down"></i>
+                                  </button>
+                                  <div class="dropdown-content">
+                                      <a href="#">Address Services</a>
+                                      <a href="#">Combined Services</a>
+                                  </div>
+                              </li>
+                              <li>Company Formations</li>
+                              <li>Pricing</li>
+                              <li>Other Services</li>
+                              <li>Locations</li>
+                              <li>FAQs</li>
+                              <li>About Us</li>
+                              <li>Blogs</li>
+                              <li>Partners</li>
+                              <li>Contact Us</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
           </div>
       </div>
-  </nav>
-
-
+  </section>
 
 <!--  First Box -->
   <section class="jumbotron">
@@ -4024,16 +4049,683 @@
       </div>
   </section>
 
-<!--  Our Apps  -->
-<section>
-    <div class="container-fluid ourAppsBanner">
+<!--  Our Locations  -->
+  <section>
+    <div class="container-fluid">
         <div class="container">
             <div class="row">
+                <div class="locationTitle" style="text-align: center">
+                    <h3>Our Locations</h3>
+                    <h6>Choose from our prestigious business addresses</h6>
+                </div>
+            </div>
+            <div class="locations">
+                <div class="locationsButtons">
+                    <button class="locationBtn activeLocation" onclick="openLocation(event, 'londonLocation')" id="defaultView">London</button>
+                    <button class="locationBtn" onclick="openLocation(event, 'edinburghLocation')">Edinburgh</button>
+                    <button class="locationBtn" onclick="openLocation(event, 'ipswichLocation')">Ipswich</button>
+                    <div class="locationLine"></div>
+                </div>
+            </div>
+<!--                London Locations  -->
+            <div id="londonLocation" class="officeLocation" style="display: block">
+                <div class="locationContent">
+                    <div class="numberOfLocations">
+                        <p>Showing <strong>4</strong> locations</p>
+                    </div>
+<!--                        London Location 1  -->
+                    <div class="locationCard london1">
+                        <div class="locationImg">
+                            <img src="Images/locationImg/lnd-1.png" alt="West End, W1">
+                        </div>
+                        <div class="locationCardInfo">
+                            <div class="locationInfo">
+                                <p class="locationName">West End, W1</p>
+                                <p class="locationAddress">
+                                    167-169 Great Portland Street
+                                    <br>
+                                    London
+                                </p>
+                            </div>
+                            <div class="tubeDistance">
+                                <img src="Images/locationImg/underground%201.png" alt="Underground Location">
+                                <p>Great Portland Street (4-minute walk)</p>
+                            </div>
+                            <div class="locationServices">
+                                <div class="meetingIcon">
+                                    <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                    <p class="roomsAvailable">4 Meeting Rooms</p>
+                                </div>
+                                <div class="otherServices">
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">mode_fan</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">chair</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">restaurant</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">local_cafe</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">wifi</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="locationText">
+                                <p>
+                                    Situated in the heart of London, the West End is a
+                                    popular location for commercial industries. Our
+                                    virtual office provides meeting space which is
+                                    highly sought after in this exclusive location.
+                                </p>
+                            </div>
+                            <div>
+                                <button class="locationLearnMore">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+<!--                        London Location 2  -->
+                    <div class="locationCard london2">
+                        <div class="locationImg">
+                            <img src="Images/locationImg/lnd-2.png" alt="West End, W1">
+                        </div>
+                        <div class="locationCardInfo">
+                            <div class="locationInfo">
+                                <p class="locationName">West End, W1</p>
+                                <p class="locationAddress">
+                                    85 Great Portland Street
+                                    <br>
+                                    London
+                                </p>
+                            </div>
+                            <div class="tubeDistance">
+                                <img src="Images/locationImg/underground%201.png" alt="Underground Location">
+                                <p>Oxford Circus (6-minute walk)</p>
+                            </div>
+                            <div class="locationServices">
+                                <div class="meetingIcon">
+                                    <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                    <p class="roomsAvailable">1 Meeting Room</p>
+                                </div>
+                                <div class="otherServices">
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">wifi</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="locationText">
+                                <p>
+                                    The West End is a fantastic choice for your
+                                    company address. This location has world-class
+                                    amenities and provides excellent transport links
+                                    around Central and Greater London.
+                                </p>
+                            </div>
+                            <div>
+                                <button class="locationLearnMore">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+<!--                        London Location 3  -->
+                    <div class="locationCard london3">
+                        <div class="locationImg">
+                            <img src="Images/locationImg/lnd-3.png" alt="Strand, WC2">
+                        </div>
+                        <div class="locationCardInfo">
+                            <div class="locationInfo">
+                                <p class="locationName">Strand, WC2</p>
+                                <p class="locationAddress">
+                                    7 Bell Yard
+                                    <br>
+                                    London
+                                </p>
+                            </div>
+                            <div class="tubeDistance">
+                                <img src="Images/locationImg/underground%201.png" alt="Underground Location">
+                                <p>Temple (6-minute walk)</p>
+                            </div>
+                            <div class="locationServices">
+                                <div class="meetingIcon">
+                                    <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                    <p class="roomsAvailable">1 Meeting Room</p>
+                                </div>
+                                <div class="otherServices">
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">local_cafe</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">wifi</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="locationText">
+                                <p>
+                                    Situated in the Strand, this location offers start-ups
+                                    a prestigious address as well as easy access to a
+                                    network of other businesses nearby.
+                                </p>
+                            </div>
+                            <div>
+                                <button class="locationLearnMore">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+<!--                        London Location 4  -->
+                    <div class="locationCard london4">
+                        <div class="locationImg">
+                            <img src="Images/locationImg/lnd-4.png" alt="City, EC1">
+                        </div>
+                        <div class="locationCardInfo">
+                            <div class="locationInfo">
+                                <p class="locationName">City, EC2</p>
+                                <p class="locationAddress">
+                                    63-66 Hatton Garden
+                                    <br>
+                                    London
+                                </p>
+                            </div>
+                            <div class="tubeDistance">
+                                <img src="Images/locationImg/underground%201.png" alt="Underground Location">
+                                <p>Chancery Lane (6-minute walk)</p>
+                            </div>
+                            <div class="locationText positionBottom">
+                                <p>
+                                    Our virtual office is in Central London, on Hatton
+                                    Garden in Holborn. Hatton Garden is also known as
+                                    London's diamond district due to a large number of
+                                    high-end jewellers based there.
+                                </p>
+                            </div>
+                            <div>
+                                <button class="locationLearnMore">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+<!--                        London Map  -->
+                    <div class="locationMap" id="londonMap">
+                    </div>
+                </div>
+            </div>
 
+<!--                Edinburgh Location  -->
+            <div id="edinburghLocation" class="officeLocation" style="display: none">
+                <div class="locationContent-Edi">
+                    <div class="numberOfLocations">
+                        <p>Showing <strong>1</strong> location</p>
+                    </div>
+                    <div class="locationCard ediCard">
+                        <div class="locationImg">
+                            <img src="Images/locationImg/ed-image.jpg" alt="Edinburgh, EH2">
+                        </div>
+                        <div class="locationCardInfo">
+                            <div class="locationInfo">
+                                <p class="locationName">Edinburgh, EH2</p>
+                                <p class="locationAddress">
+                                    5 South Charlotte Street
+                                    <br>
+                                    Edinburgh
+                                </p>
+                            </div>
+                            <div class="tubeDistance">
+                                <img src="Images/locationImg/train_black.png" alt="Train">
+                                <p>Edinburgh Waverley Station (13-Minute walk)</p>
+                            </div>
+                            <div class="tubeDistance">
+                                <img src="Images/locationImg/train_black.png" alt="Train">
+                                <p>Haymarket Station (13-Minute walk)</p>
+                            </div>
+                            <div class="locationServices">
+                                <div class="meetingIcon">
+                                    <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                    <p class="roomsAvailable">3 Meeting Rooms</p>
+                                </div>
+                                <div class="otherServices">
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">restaurant</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">local_cafe</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">wifi</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="locationText">
+                                This address is located on the east side of South
+                                Charlotte Street, close to Princes Street and
+                                Edinburgh’s west end. This highly desirable central
+                                location also benefits from numerous city-centre
+                                transport links.
+                            </div>
+                            <div>
+                                <button class="locationLearnMore ediLocation">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--                Ipswich Location  -->
+            <div id="ipswichLocation" class="officeLocation" style="display: none">
+                <div class="locationContent-Edi">
+                    <div class="numberOfLocations">
+                        <p>Showing <strong>1</strong> location</p>
+                    </div>
+                    <div class="locationCard ediCard">
+                        <div class="locationImg">
+                            <img src="Images/locationImg/ipswich-image.jpg" alt="Ipswich, IP1">
+                        </div>
+                        <div class="locationCardInfo">
+                            <div class="locationInfo">
+                                <p class="locationName">Ipswich, IP1</p>
+                                <p class="locationAddress">
+                                    50 Princes Street
+                                    <br>
+                                    Ipswich
+                                </p>
+                            </div>
+                            <div class="tubeDistance">
+                                <img src="Images/locationImg/train_black.png" alt="Train">
+                                <p>Ipswich Train Station (11-Minute walk)</p>
+                            </div>
+                            <div class="locationServices">
+                                <div class="meetingIcon">
+                                    <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                    <p class="roomsAvailable">3 Meeting Rooms</p>
+                                </div>
+                                <div class="otherServices">
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">mode_fan</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">chair</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">restaurant</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">local_cafe</span>
+                                    </p>
+                                    <p class="LIconsStyling">
+                                        <span class="material-symbols-outlined LIcons">wifi</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="locationText">
+                                Located in the heart of Ipswich’s prime commercial
+                                office area, directly opposite Willis Plc’s landmark
+                                black glass headquarters building. Public car parks,
+                                restaurants and bars, and Ipswich Waterfront are all
+                                within easy walking distance.
+                            </div>
+                            <div>
+                                <button class="locationLearnMore ediLocation">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+<!--  Why Our Clients Choose MYCO  -->
+  <section class="chooseMYCO">
+      <div class="container-fluid">
+          <div class="container">
+              <div class="row">
+                  <div class="whyMYCOTitle">
+                      <h3 style="text-align: center">Why do our clients choose MYCO Works?</h3>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                      <div class="whyBox">
+                          <div class="whyBoxInside">
+                              <img src="Images/WhyMYCO/free-company.svg" alt="Virtual Business Address">
+                              <h3>Virtual Business Address</h3>
+                              <p>
+                                  When purchasing a Virtual Business package, you
+                                  can use our address as your business address
+                                  wherever you need, such as on your website or
+                                  stationery.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                      <div class="whyBox">
+                          <div class="whyBoxInside">
+                              <img src="Images/WhyMYCO/support.svg" alt="Customer Support">
+                              <h3>Customer Support</h3>
+                              <p>
+                                  Receive unlimited support from our customer
+                                  service team. Our friendly staff are available
+                                  Monday to Friday, 9am - 5.30pm via phone, live
+                                  chat, email or in person, to help answer any
+                                  questions.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                      <div class="whyBox">
+                          <div class="whyBoxInside">
+                              <img src="Images/WhyMYCO/free-mail.svg" alt="Free Unlimited Scans & Email">
+                              <h3>Free Unlimited Scans & Email</h3>
+                              <p>
+                                  With all our Virtual Office Address packages, we
+                                  include a free unlimited 'Scans & Email' service for
+                                  all mail. Mail can also be forwarded or held for
+                                  collection.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                      <div class="whyBox">
+                          <div class="whyBoxInside">
+                              <img src="Images/WhyMYCO/meeting-rooms.svg" alt="Meeting Rooms">
+                              <h3>Meeting Rooms For Hire</h3>
+                              <p>
+                                  Need access to an affordable meeting room for a
+                                  brainstorming session, client pitch, collaboration
+                                  or get-together with your team? From only £12 an hour.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                      <div class="whyBox">
+                          <div class="whyBoxInside">
+                              <img src="Images/WhyMYCO/Account-Icon.svg" alt="Account Management">
+                              <h3>Account Management</h3>
+                              <p>
+                                  Our 'Office Support' tool is where you can manage
+                                  your account, view mail and telephone messages,
+                                  renew subscriptions and add additional services.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                      <div class="whyBox">
+                          <div class="whyBoxInside">
+                              <img src="Images/WhyMYCO/Tele-Icon.svg" alt="Telephone Answering">
+                              <h3>Telephone Answering</h3>
+                              <p>
+                                  Ideal for startups and SMEs, calls are answered in
+                                  your company name by our friendly and
+                                  professional staff. Messages are taken and sent
+                                  straight to you.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                      <div class="whyBox">
+                          <div class="whyBoxInside">
+                              <img src="Images/WhyMYCO/biz-address.svg" alt="Office Locations">
+                              <h3>Prestigious Office Locations</h3>
+                              <p>
+                                  Choice of six prestigious virtual office locations
+                                  around the UK - four in Central London in the West
+                                  End, City and the Strand, one in Central Edinburgh
+                                  and one in Ipswich town centre.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                      <div class="whyBox">
+                          <div class="whyBoxInside">
+                              <img src="Images/WhyMYCO/Monthly.svg" alt="Annual Service">
+                              <h3>Annual Service</h3>
+                              <p>
+                                  Our packages are available on an annual contract
+                                  only. We offer 10% off all orders for new clients.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-4">
+                      <div class="whyBox">
+                          <div class="whyBoxInside">
+                              <img src="Images/WhyMYCO/renewals.svg" alt="No Automatic Renewals">
+                              <h3>No Automatic Renewals</h3>
+                              <p>
+                                  We do not automatically renew your service with
+                                  us. We will contact you near the end of your
+                                  subscription to ask if you’re happy to renew.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+<!--  3 Easy Steps  -->
+  <section class="threeSteps">
+    <div class="container-fluid">
+        <div class="container getStarted">
+            <div class="row">
+                <div class="threeStepsTitle">
+                    <h3>Get started in 3 quick and easy steps</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="easySteps">
+                        <div class="col-4 steps">
+                                <img src="Images/Choose-icon.png" alt="Choose Your Service">
+                                <h4>Choose your service</h4>
+                                <p>
+                                    First, Sign up to an individual service or combined
+                                    package that meets your business requirements.
+                                </p>
+                        </div>
+                        <div class="col-4 steps">
+                            <img src="Images/Complete%20Order-icon.png" alt="Complete Order">
+                            <h4>Complete Order</h4>
+                            <p>
+                                Our order process is quick and easy with your
+                                account activated in minutes.
+                            </p>
+                        </div>
+                        <div class="col-4 steps">
+                            <img src="Images/Start%20Service-icon.png" alt="Start Using Your Service">
+                            <h4>Start using your service</h4>
+                            <p>
+                                Once activated, your account is ready. You will also
+                                receive and order conformation email.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<!--  Our Apps  -->
+  <section>
+    <div class="container-fluid ourAppsBanner">
+        <div class="container appContainer">
+            <div class="row">
+                <div class="appsTitle">
+                    <h4>Our Apps</h4>
+                </div>
+<!--                App Buttons  -->
+                <div class="appButtons">
+                    <button class="ourApps activeAppTab" onclick="openApp(event, 'MYCOApp')" id="defaultView">MYCO</button>
+                    <button class="ourApps" onclick="openApp(event, 'MYCOMailApp')">MYCO Mail</button>
+                    <button class="ourApps" onclick="openApp(event, 'MYCOMeetingApp')">MYCO Meeting</button>
+                    <button class="ourApps" onclick="openApp(event, 'clientManager')">Client Manager</button>
+                </div>
+<!--                MYCO App  -->
+                <div id="MYCOApp" class="appContent" style="display: block">
+                    <div class="row">
+                        <div class="col-12 col-xl-6">
+                            <div class="appText">
+                                <p>
+                                    New behaviours, trends and emerging technologies are changing the way we work.
+                                    People expect greater flexibility in their work environment, and as we become more
+                                    mobile and work on the go more than ever before, staying connected to your
+                                    business has never been more essential.
+                                </p>
+                            </div>
+                            <div class="appList">
+                                <h5 class="appListTitle">Key Features</h5>
+                                <ul class="appList">
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> View your scanned mail
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> Instantly receive your telephone messages
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> Choose your mailing preferences
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> Upload your ID
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> Enable push notifications for instant alerts
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6 appImgAndButtons">
+                            <div class="appStores">
+                                <a href="https://apps.apple.com/gb/app/myco/id1240742424" target="_blank">
+                                    <img src="./Images/Apps/App%20Store.png" alt="App Store">
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.london.home&amp;hl=en" target="_blank">
+                                    <img src="./Images/Apps/Google%20Play.png" alt="Google Play Store">
+                                </a>
+                            </div>
+                            <div class="appImg">
+                                <img src="Images/Apps/Group%2090.png" alt="MYCO App">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--                MYCO Mail App  -->
+                <div id="MYCOMailApp" class="appContent" style="display: none">
+                    <div class="row">
+                        <div class="col-12 col-xl-6">
+                            <div class="appText">
+                                <p>
+                                    Download our MYCO Mail app to be instantly notified once new mail has been
+                                    uploaded to your account. You will be able to access, view and manage mail from
+                                    all your accounts in one place.
+                                </p>
+                            </div>
+                            <div class="appList">
+                                <h5 class="appListTitle">Key Features</h5>
+                                <ul class="appList">
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> View your Official & Business scanned mail
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> Request original copies and print mail
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> Update your contact details and mailing address
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> Use face or fingerprint recognition to securely login
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6 appImgAndButtons">
+                            <div class="appStores">
+                                <a href="https://apps.apple.com/gb/app/myco/id1240742424" target="_blank">
+                                    <img src="./Images/Apps/App%20Store.png" alt="App Store">
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.london.home&amp;hl=en" target="_blank">
+                                    <img src="./Images/Apps/Google%20Play.png" alt="Google Play Store">
+                                </a>
+                            </div>
+                            <div class="appImg">
+                                <img src="Images/Apps/Group%2091.png" alt="MYCO Mail App">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--                MYCO Meeting App  -->
+                <div id="MYCOMeetingApp" class="appContent" style="display: none">
+                    <div class="row">
+                        <div class="col-12 col-xl-6">
+                            <div class="appText">
+                                <p>
+                                    We offer meeting rooms for a wide range of business needs; impress clients, hold a
+                                    brainstorming session with your team, or deliver a winning pitch in our serviced
+                                    meeting spaces. We offer meeting room space from 4 up to 12 people in Central
+                                    London (West End and the Strand), Edinburgh (South Charlotte Street) and Ipswich
+                                    (Princes Street). Our unbranded private meeting rooms are available to book by the
+                                    hour or day.
+                                    <br>
+                                    Book on the move with our app, and our dedicated team will be on hand to ensure
+                                    your meeting runs smoothly.
+                                </p>
+                            </div>
+                            <div class="appList">
+                                <h5 class="appListTitle">Key Features</h5>
+                                <ul class="appList">
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> From the app, you can search availability, reserve bookings, and quickly select spaces over multiple days
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> Once you’ve reserved your meeting room, our team will contact you to make payment to confirm your booking
+                                    </li>
+                                    <li>
+                                        <span class="material-symbols-outlined arrowRight">arrow_right</span> Use face or fingerprint recognition to securely login
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6 appImgAndButtons">
+                            <div class="appStores">
+                                <a href="https://apps.apple.com/gb/app/myco/id1240742424" target="_blank">
+                                    <img src="./Images/Apps/App%20Store.png" alt="App Store">
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.london.home&amp;hl=en" target="_blank">
+                                    <img src="./Images/Apps/Google%20Play.png" alt="Google Play Store">
+                                </a>
+                            </div>
+                            <div class="appImg">
+                                <img src="Images/Apps/Group92.png" alt="MYCO Mail App">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--                Client Manager  -->
+                <div id="clientManager" class="appContent" style="display: none">
+                    <div class="row">
+                        <div class="col-12 col-xl-6">
+                            <div class="appText">
+                                <p>
+                                    Coming soon! Our newly designed client management software will allow you to
+                                    manage your account, view telephone answering messages, booking meeting
+                                    space, pay invoices and more - all in one place.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <img src="Images/Apps/Group93.png" alt="Client Manager">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
 
 <!--  FAQs  -->
   <section>
@@ -4187,7 +4879,14 @@
       <div class="container-fluid testimonialBanner">
           <div class="container">
               <div class="row">
-
+                  <div class="multiple-items">
+                      <div>your content</div>
+                      <div>your content</div>
+                      <div>your content</div>
+                      <div>your content</div>
+                      <div>your content</div>
+                      <div>your content</div>
+                  </div>
               </div>
           </div>
       </div>
@@ -4224,7 +4923,7 @@
               <div class="row">
                   <div class="col-12">
                       <div class="footerInfo">
-                          <div class="col-8" id="greyLine">
+                          <div class="col-8 greyLine">
                               <div>
                                   <img src="Images/Sales.png" alt="Sales" class="footerIcons">
                                   <p>Sales</p>
@@ -4366,6 +5065,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="main.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 <script>document.getElementById("defaultView").event();</script>
   </body>
 </html>
