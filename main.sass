@@ -249,21 +249,23 @@ body
   justify-content: space-between
 
 
-
 #phone
-  height: 1.5rem
-  width: 1.5rem
+  height: 1rem
+  width: 1rem
   display: inline-flex
   justify-self: start
+  color: $primaryOrange
+  margin-right: 1rem
 
 
-#phoneNumber
+.phoneNumber
   color: #FFFFFF
   font-family: 'Lato', sans-serif
   font-style: normal
   font-size: 18px
   font-weight: 400
-  justify-self: start
+  justify-content: start
+  text-decoration: none
 
 
 #offer
@@ -279,18 +281,45 @@ body
   color: $primaryOrange
   white-space: break-spaces
 
+.contactInfo
+  margin-top: 5px
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  flex-direction: row
+  ul
+    list-style-type: none
+  li
+    display: inline-flex
+    flex-direction: row
+    width: auto
+  i
+    color: #FFFFFF!important
+    margin-left: 10px
+    font-size: 20px
+    transition: 0.7s
 
-#socialMedia
-  height: 2rem
-  width: 8rem
-  display: inline-flex
+#linkedin:hover
+  color: #0072b1!important
 
+#facebook:hover
+  color: #4267B2!important
+
+#twitter:hover
+  color: #1DA1F2!important
+
+#instagram:hover
+  color: #C13584!important
+
+#youtube:hover
+  color: #FF0000!important
 
 //Logo and Client Login
 .clientLogin
   width: 100%
   display: flex
   margin: 10px
+
 
 #logo
   border-bottom: 1px solid #e8e8e8
@@ -300,12 +329,14 @@ body
   width: 100%
   justify-content: flex-end
 
+
 .cart
   display: flex
   height: 30px
   width: 30px
   align-self: center
   margin-right: 0.6rem
+
 
 .client
   font-size: 14px
@@ -323,6 +354,7 @@ body
   &:active
     background-color: $primaryOrange
     transform: translateY(4px)
+
 
 .enquire
   font-size: 14px
@@ -406,6 +438,32 @@ body
 .dropdown:hover .dropdown-content
   display: block
 
+//To Top Button
+#myBtn
+  display: none
+  position: fixed
+  bottom: 30px
+  right: 30px
+  z-index: 99
+  border: none
+  outline: none
+  background-color: $primaryOrange
+  cursor: pointer
+  border-radius: 4px
+  font-size: 18px
+  height: 50px
+  width: 50px
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s
+  i
+    font-size: 1.2em
+    line-height: 50px
+    color: #FFFFFF
+    font-weight: bolder
+
+
+#myBtn:hover
+  background-color: $primaryBlue
+
 
 //Main Page
 .jumbotron
@@ -437,7 +495,6 @@ section.jumbotron h1
 .addressImage
   position: relative
 
-
 #homeBanner-img
   width: 36rem
   height: 28rem
@@ -451,13 +508,11 @@ section.jumbotron h1
 .viewButtons
   display: inline-flex
 
-
 .trustPilot
   width: 19rem
   height: 12rem
   padding-top: 30px
   padding-left: 20px
-
 
 
 
@@ -488,8 +543,6 @@ section.jumbotron h1
     transform: translateY(4px)
 
 
-
-
 #ourLocations
   font-size: 14px
   line-height: 24px
@@ -513,16 +566,7 @@ section.jumbotron h1
     transform: translateY(4px)
 
 
-
-
-
-
-
-
-
 //Middle Banner
-
-
 section.container-fluid
   background: linear-gradient(90deg, $primaryBlue 50%, $primaryOrange 50%)
   color: #FFFFFF
@@ -626,8 +670,6 @@ section.container-fluid
 
 
 //Introducing MYCO Works
-
-
 .aboutUsWrapper
   margin: 3rem 0
   padding: 3rem 0
@@ -716,7 +758,6 @@ section.container-fluid
 
 
 //Limited Company Formation
-
 .limitedCompanyFormation
   background-image: url("https://mycoworks.co.uk/assets/img/home-banner-img1.png")
   background-size: contain
@@ -727,14 +768,11 @@ section.container-fluid
 .companyFormation h3
   margin-bottom: 30px
 
-
 .input_search
   display: flex
 
-
 .input_search h6
   font-weight: bolder
-
 
 #companyName
   width: 70%
@@ -745,7 +783,6 @@ section.container-fluid
   overflow: visible
   border-bottom-left-radius: 20px
   border-top-left-radius: 20px
-
 
 #searchCompanyFormation
   background: $primaryOrange
@@ -769,7 +806,6 @@ section.container-fluid
   color: $primaryOrange
   cursor: pointer
 
-
 //Right-hand Side
 .companyFormationLearnMore
   display: grid
@@ -780,15 +816,21 @@ section.container-fluid
   width: 100%
   font-weight: 600
 
-
 .cfText
   color: #212529
   align-self: center
   font-weight: bolder
 
+.cfImage img
+  display: block
+  object-fit: contain
+  max-width: 100%
+  position: relative
+  bottom: -22px
 
 .learnMoreButton
   @include learnMoreButtons
+
 
 
 //Business Address Services, Telephone Answering Service, Company Formation, and Meeting Rooms

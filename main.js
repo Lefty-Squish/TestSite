@@ -3,7 +3,6 @@ let username = "Lefty";
 console.log(`${username}`);
 
 //Tabs for Business Address Services
-
 function openSolution(event, solutionName) {
     let i, tabContent, BASLinks;
     tabContent = document.getElementsByClassName("tabContent");
@@ -20,9 +19,7 @@ function openSolution(event, solutionName) {
     event.currentTarget.className += " sub-active";
 }
 
-
 //Tabs for Telephone Answering Service
-
 function openTab(event, tabName) {
     let i, TASContent, TASLinks;
     TASContent = document.getElementsByClassName("TASContent");
@@ -39,9 +36,7 @@ function openTab(event, tabName) {
     event.currentTarget.className += " sub-active";
 }
 
-
 //Tabs for Company Formation & Ready Made Companies
-
 function openCF(event, CFName) {
     let i, CFContent, CFLinks;
     CFContent = document.getElementsByClassName("CFContent");
@@ -58,9 +53,7 @@ function openCF(event, CFName) {
     event.currentTarget.className += " sub-active";
 }
 
-
 //Tabs for Meeting Rooms
-
 function openMeeting(event, meetingName) {
     let i, meetingContent, meetingLinks;
     meetingContent = document.getElementsByClassName("meetingContent");
@@ -76,7 +69,6 @@ function openMeeting(event, meetingName) {
     document.getElementById(meetingName).style.display = "block";
     event.currentTarget.className += " sub-active";
 }
-
 
 //Tabs for Virtual Office Packages
 function openTables(event, packageName) {
@@ -146,7 +138,6 @@ function openApp(event, appName) {
     event.currentTarget.className += " activeAppTab";
 }
 
-
 //Our Locations
 function openLocation(event, locationName) {
     let i, officeLocation, locationBtn;
@@ -164,11 +155,57 @@ function openLocation(event, locationName) {
     event.currentTarget.className += " activeLocation";
 }
 
+//Navigation Drop Down
+//Address Drop Down
+const dropDown4 = () => {
+    const DropDownBtn4 = document.querySelector('#addressDropDownBtn');
+    const DropDown4 = document.querySelector('#addressDropDown');
+    const DropDownArrow4 = document.querySelector('#addressDropDownArrow');
+
+    DropDownBtn4.addEventListener('mouseover', () => {
+
+        if (DropDown4.classList.contains("hideDropDown")){
+
+            DropDown4.classList.remove('hideDropDown');
+            DropDown4.classList.add('showDropDown1');
+
+            DropDownArrow4.style.transform = "rotate(180deg)";
 
 
+        }
 
+        else{
+            DropDown4.classList.add('hideDropDown');
+            DropDown4.classList.remove('showDropDown1');
 
+            DropDownArrow4.style.transform = "rotate(0deg)";
+        }
+    });
 
+    DropDownBtn4.addEventListener('mouseout',() => {
+
+        DropDown4.classList.add('hideDropDown');
+        DropDown4.classList.remove('showDropDown1');
+        DropDownArrow4.style.transform = "rotate(0deg)";
+
+    });
+
+    DropDownBtn4.addEventListener('click',() => {
+
+        if(DropDown4.classList.contains("hideDropDown")){
+            DropDown4.classList.remove('hideDropDown');
+            DropDown4.classList.add('showDropDown1');
+            DropDownArrow4.style.transform = "rotate(180deg)";
+        }
+        else{
+            DropDown4.classList.add('hideDropDown');
+            DropDown4.classList.remove('showDropDown1');
+            DropDownArrow4.style.transform = "rotate(0deg)";
+        }
+    });
+}
+
+dropDown4();
 
 
 
