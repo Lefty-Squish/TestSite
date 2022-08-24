@@ -4879,13 +4879,192 @@
       <div class="container-fluid testimonialBanner">
           <div class="container">
               <div class="row">
-                  <div class="multiple-items">
-                      <div>your content</div>
-                      <div>your content</div>
-                      <div>your content</div>
-                      <div>your content</div>
-                      <div>your content</div>
-                      <div>your content</div>
+                  <div class="col-12">
+                      <div class="testimonialHeading">
+                          <h3>Our clients rate us as excellent</h3>
+                      </div>
+                      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-keyboard="true" data-bs-delay="100000">
+                          <div class="carousel-inner w-100 col-12" role="listbox">
+                              <div class="testimonialCarousel">
+                                  <div class="carousel-item active">
+                                      <div class="carousel-caption">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-12 col-sm-6 col-lg-6 col-cl-6">
+                                                  <div class="testimonialBox">
+                                                      <div class="testimonialImg">
+                                                          <img src="Images/Testimonial/testimonial-01.png" alt="Testimonial 1">
+                                                      </div>
+                                                      <div class="testimonialText">
+                                                          <h5>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                          </h5>
+                                                          <p>
+                                                              "Simple, affordable and quick. I would personally recommend this service."
+                                                          </p>
+                                                          <h6>
+                                                                      <span>
+                                                                          <i class="fa fa-minus"></i>
+                                                                      </span>
+                                                              Jitesh Watwani | United Kingdom
+                                                          </h6>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-12 col-sm-12 col-sm-6 col-lg-6 col-cl-6">
+                                                  <div class="testimonialBox">
+                                                      <div class="testimonialImg">
+                                                          <img src="Images/Testimonial/testimonial-02.png" alt="Testimonial 2">
+                                                      </div>
+                                                      <div class="testimonialText">
+                                                          <h5>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                          </h5>
+                                                          <p>
+                                                              "Excellent service! Everyone I spoke with at The Registered Office was
+                                                              incredibly helpful, and it made choosing their services easy.
+                                                              They've been reliable, timely in communication, and overall,
+                                                              everything I could hope for."
+                                                          </p>
+                                                          <h6>
+                                                              <span>
+                                                                  <i class="fa fa-minus"></i>
+                                                              </span>
+                                                              Meredith Greta | United Kingdom
+                                                          </h6>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="carousel-caption">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-12 col-sm-6 col-lg-6 col-cl-6">
+                                                  <div class="testimonialBox">
+                                                      <div class="testimonialImg">
+                                                          <img src="Images/Testimonial/testimonial-03.png" alt="Testimonial 3">
+                                                      </div>
+                                                      <div class="testimonialText">
+                                                          <h5>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                          </h5>
+                                                          <p>
+                                                              "Great service and great customer service. Responsive and supportive helpdesk."
+                                                          </p>
+                                                          <h6>
+                                                              <span>
+                                                                  <i class="fa fa-minus"></i>
+                                                              </span>
+                                                              Jo Adams  | United Kingdom
+                                                          </h6>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-12 col-sm-12 col-sm-6 col-lg-6 col-cl-6">
+                                                  <div class="testimonialBox">
+                                                      <div class="testimonialImg">
+                                                          <img src="Images/Testimonial/testimonial-04.png" alt="Testimonial 4">
+                                                      </div>
+                                                      <div class="testimonialText">
+                                                          <h5>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                          </h5>
+                                                          <p>
+                                                              "Best service ever. I applied for my company on Saturday and on
+                                                              Tuesday it's done. Their service is cost-effective and super-fast."
+                                                          </p>
+                                                          <h6>
+                                                              <span>
+                                                                  <i class="fa fa-minus"></i>
+                                                              </span>
+                                                              Varinder Vaish | India
+                                                          </h6>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                      <div class="carousel-caption">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-12 col-sm-6 col-lg-6 col-cl-6">
+                                                  <div class="testimonialBox">
+                                                      <div class="testimonialImg">
+                                                          <img src="Images/Testimonial/testimonial-05.png" alt="Testimonial 5">
+                                                      </div>
+                                                      <div class="testimonialText">
+                                                          <h5>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                          </h5>
+                                                          <p>
+                                                              "I really like this business. I have not dealt with them before, but I
+                                                              chose them due to the ease of using their website and their personal
+                                                              touch. Since I placed my order with them, the entire team has been
+                                                              faultless and respond so quickly to any questions and queries."
+                                                          </p>
+                                                          <h6>
+                                                              <span>
+                                                                  <i class="fa fa-minus"></i>
+                                                              </span>
+                                                              Chris Burfield  | United Kingdom
+                                                          </h6>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                              <div class="col-12 col-sm-12 col-sm-6 col-lg-6 col-cl-6">
+                                                  <div class="testimonialBox">
+                                                      <div class="testimonialImg">
+                                                          <img src="Images/Testimonial/testimonial-06.png" alt="Testimonial 6">
+                                                      </div>
+                                                      <div class="testimonialText">
+                                                          <h5>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                              <i class="fa fa-star"></i>
+                                                          </h5>
+                                                          <p>
+                                                              "Quick and supportive customer service, really great to have such
+                                                              service from them."
+                                                          </p>
+                                                          <h6>
+                                                              <span>
+                                                                  <i class="fa fa-minus"></i>
+                                                              </span>
+                                                              Fahad Ansari | Pakistan
+                                                          </h6>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
                   </div>
               </div>
           </div>

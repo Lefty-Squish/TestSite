@@ -165,11 +165,6 @@ function openLocation(event, locationName) {
 }
 
 
-$('.multiple-items').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 2
-});
 
 
 
