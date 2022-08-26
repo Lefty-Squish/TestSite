@@ -48,13 +48,13 @@ $tableBorder: 1px solid #E5E5E5
 
 @mixin learnMoreButtons
   display: flex
-  width: 150px
+  width: 130px
   background: $primaryOrange
   color: #FFFFFF
   border-radius: 50px
   text-align: center
   text-decoration: none
-  padding: 14px 30px
+  padding: 14px 20px
   outline: none
   border: none
   margin-top: 30px
@@ -113,7 +113,7 @@ $tableBorder: 1px solid #E5E5E5
   border-radius: 50px
   outline: none
   border: 1px solid #DEDEDE
-  padding: 10px 25px
+  padding: 10px 20px
   background: #FFFFFF
   margin-right: 1rem
   &:hover
@@ -170,6 +170,13 @@ html
 .m-0
   margin: 0!important
 
+.pl-1
+  padding-left: 15px!important
+
+.pr-1
+  padding-right: 15px!important
+
+
 //Box Sizing rules
 *,
 *::before,
@@ -213,12 +220,13 @@ body
   text-rendering: optimizeSpeed
   background-color: #FFF
   color: $primaryBlue
-  font-family: "Inter", sans-serif
+  font-family: "Inter", sans-serif!important
 
 
 .row
   display: flex
-
+  margin-right: -15px!important
+  margin-left: -15px!important
 
 .text-orange
   color: $primaryOrange
@@ -242,7 +250,6 @@ body
 
 #topHeader
   padding: 10px
-
 
 .headerWrap
   display: flex
@@ -281,6 +288,7 @@ body
   color: $primaryOrange
   white-space: break-spaces
 
+
 .contactInfo
   margin-top: 5px
   display: flex
@@ -298,6 +306,7 @@ body
     margin-left: 10px
     font-size: 20px
     transition: 0.7s
+
 
 #linkedin:hover
   color: #0072b1!important
@@ -378,11 +387,12 @@ body
 .navBanner
   padding: 20px 0 0
 
-.navigation
+.nav_menu
   text-align: right
   float: right
 
-.nav
+
+.navbar
   display: flex
   justify-content: flex-end
   width: 100%
@@ -390,53 +400,53 @@ body
   font-weight: 500
   font-size: 1rem
 
+
 .home
   display: inline-flex
 
-.navList
+#nav-lists
   list-style-type: none
   display: flex
   li
     margin-left: 1rem
+
 
 .dropBtn
   background-color: transparent
   font-size: 1rem
   border: none
 
-.dropdown-content a
-  font-size: 1rem
-  text-align: center
-  padding: 14px 16px
-  text-decoration: none
 
-.dropdown
-  position: relative
-  display: inline-block
-  margin-left: 10px
+.hideDropDown
+  display: none!important
+
+.showDropDown1
+  display: block!important
+
+.mega-menu
+  top: 27px
+  background: #243440f5
+  box-shadow: 0 10px 28px -8px #243440
+  max-width: 100%
+  right: auto
+  left: 0
+  z-index: 999
+  border-radius: 0 0 15px 15px
+  display: flex
+  justify-content: space-evenly!important
+  border-top: 0 solid $primaryOrange
+  -webkit-animation: slideDown 1s
+  animation: slideDown 1s
 
 
-.dropdown-content
-  display: none
-  position: absolute
-  min-width: 160px
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
-  z-index: 1
-  background-color: $primaryBlue
+.bg-orange
+  background: $primaryOrange!important
 
-.dropdown-content a
-  color: white
-  padding: 12px 16px
-  text-decoration: none
-  display: block
-  &:hover
-    color: #FFFFFF
+.btn-orange
+  background: $primaryOrange!important
 
-.dropdown:hover .dropBtn
-  background-color: transparent
-
-.dropdown:hover .dropdown-content
-  display: block
+.text-orange
+  color: $primaryOrange!important
 
 //To Top Button
 #myBtn
@@ -474,12 +484,12 @@ body
 section.jumbotron h1
   color: $primaryBlue
   font-style: normal
-  font-weight: bolder
   font-size: 50px
-  line-height: 66px
-  width: 774px
-  display: flex
+  font-weight: 400
   margin: 0 0 30px
+  letter-spacing: -0.02em!important
+  text-align: left
+  line-height: 160%
 
 
 .frontPageText
@@ -517,8 +527,6 @@ section.jumbotron h1
 
 
 //Main Page Buttons
-
-
 #viewPricing
   font-size: 14px
   line-height: 24px
@@ -567,106 +575,107 @@ section.jumbotron h1
 
 
 //Middle Banner
-section.container-fluid
+#trustedByClients
   background: linear-gradient(90deg, $primaryBlue 50%, $primaryOrange 50%)
   color: #FFFFFF
-  padding: 0 15px
-  margin: 0 auto
-  width: 100%
-  height: 7rem
-
-
-.middleBanner
-  display: flex
-  align-items: center
-  justify-content: space-between
-  height: 7rem
-  background: linear-gradient(90deg, $primaryBlue 80%, $primaryOrange 20%)
-
-
-.middleBanner h3
-  font-weight: 600
-
-
-.middleBanner p
-  font-size: 0.85rem
-  align-items: center
 
 
 .trustedClients-col
+  background-color: $primaryBlue
   display: flex
   align-items: center
-  justify-content: center
-  background-color: $primaryBlue
+  .trustedClients-img
+    margin-right: 15px
+    img
+      height: 65px
+  .trustedClients-text
+    font-weight: 600
+    margin-bottom: 4px
+    h3
+      font-weight: 600
+      margin-top: 0
+    p
+      font-weight: 400!important
+      margin-bottom: 0
 
 
 .experience-col
+  background-color: $primaryBlue
   display: flex
   align-items: center
-  justify-content: center
-  background-color: $primaryBlue
+  justify-content: center!important
+  .experience-img
+    margin-right: 15px
+    img
+      height: 65px
+      vertical-align: middle
+      border-style: none
+  .experience-text
+    h3
+      font-weight: 600
+      margin-bottom: 4px
+    p
+      margin-bottom: 0
 
 
 .prestigiousOffices-col
-  position: relative
+  background-color: $primaryBlue
   display: flex
   align-items: center
-  justify-content: center
-  background-color: $primaryBlue
-  margin: 0
+  .prestigiousOffices-img
+    margin-right: 15px
+    img
+      height: 65px
+      vertical-align: middle
+      border-style: none
+  .prestigiousOffices-text
+    h3
+      font-weight: 600
+      margin-bottom: 4px
+    p
+      margin-bottom: 0
 
 
 .liveChat-col
   display: flex
   align-items: center
-  justify-content: center
-  margin: 0
+  padding-left: 3rem!important
+  .liveChat-btn
+    z-index: 100
+    position: absolute
+    left: -43px
+    top: 50%
+    transform: translateY(-50%)
+    background-color: rgba(255, 255, 255, 0.09)
+    padding: 8px
+    border-radius: 50%
+    .inner
+      transition: all 0.2s ease-in-out
+      background-color: #34434E
+      width: 60px
+      height: 60px
+      border-radius: 50%
+      display: flex
+      justify-content: center
+      align-items: center
+      position: relative
+      &:hover
+        background-color: $primaryOrange
+      .chatBubble
+        position: relative
+        height: 30px
+        opacity: 1
+  .liveChat-text
+     h3
+       font-weight: 600
+       margin-bottom: 4px
+     p
+        margin-bottom: 0
 
-.inner
-  border-radius: 50%
-  color: rgba(238, 134, 31, 0.5)
 
-.inner:hover
-  border-radius: 50%
-  left: 0
-  transition-property: right, left
-  transition-duration: 5s
-  transition-timing-function: linear
+.liveChat-col--4
+  position: relative
   background-color: $primaryOrange
-
-.liveChat-img
-  background: linear-gradient(90deg, $primaryBlue 50%, $primaryOrange 50%)
-  display: flex
-
-.liveChat-text
-  margin-left: 10px
-  background-color: $primaryOrange
-
-
-#clients
-  height: 5rem
-  display: inline-flex
-  padding: 7px 20px
-
-
-#over100Years
-  height: 5rem
-  display: inline-flex
-  padding: 7px 20px
-
-
-#offices
-  height: 5rem
-  display: inline-flex
-  padding: 7px 20px
-
-
-#chat
-  height: 7rem
-  display: inline-flex
-  padding: 7px
-
-
 
 
 //Introducing MYCO Works
@@ -753,10 +762,6 @@ section.container-fluid
 
 
 
-
-
-
-
 //Limited Company Formation
 .limitedCompanyFormation
   background-image: url("https://mycoworks.co.uk/assets/img/home-banner-img1.png")
@@ -764,15 +769,13 @@ section.container-fluid
   color: #FFFFFF
   padding: 80px 0
 
+
 //Left Side
 .companyFormation h3
   margin-bottom: 30px
 
 .input_search
   display: flex
-
-.input_search h6
-  font-weight: bolder
 
 #companyName
   width: 70%
@@ -783,6 +786,8 @@ section.container-fluid
   overflow: visible
   border-bottom-left-radius: 20px
   border-top-left-radius: 20px
+  font-size: 15px
+
 
 #searchCompanyFormation
   background: $primaryOrange
@@ -802,9 +807,11 @@ section.container-fluid
     box-shadow: 0 10px 21px rgba(238, 133, 31, 0.2)
     transform: translateY(4px)
 
+
 .text-orange:hover
   color: $primaryOrange
   cursor: pointer
+
 
 //Right-hand Side
 .companyFormationLearnMore
@@ -814,12 +821,16 @@ section.container-fluid
   border-radius: 12px
   padding: 20px 40px
   width: 100%
-  font-weight: 600
+
 
 .cfText
   color: #212529
   align-self: center
   font-weight: bolder
+  h2
+    margin-top: 2rem
+    font-weight: 700
+
 
 .cfImage img
   display: block
@@ -828,8 +839,11 @@ section.container-fluid
   position: relative
   bottom: -22px
 
+
 .learnMoreButton
   @include learnMoreButtons
+  font-weight: 400!important
+
 
 
 
@@ -841,15 +855,16 @@ section.container-fluid
   display: none
 
 .tabText p
-  display: flex
-  margin-bottom: 20px
-  line-height: 30px
-  color: #6A6A6A
+    display: flex
+    margin-bottom: 20px
+    line-height: 30px
+    color: #6A6A6A
 
 
 .businessAddressServices
   background: #FFFFFF
   padding: 80px 0
+
 
 .aboutBAS h3
   margin-bottom: 40px
@@ -858,9 +873,11 @@ section.container-fluid
   border-radius: 22px
   box-shadow: 0 40px 55px -20px #111
 
+
 .telephoneAnsweringService
   background: #F2F3F3
   padding: 80px 0
+
 
 .aboutTAS h3
   margin-bottom: 40px
@@ -869,6 +886,7 @@ section.container-fluid
   margin-right: 20px
   border-radius: 22px
   box-shadow: 0 40px 55px -20px #111
+
 
 .CFAndRM
   padding: 80px 0
@@ -881,9 +899,11 @@ section.container-fluid
   border-radius: 22px
   box-shadow: 0 40px 55px -20px #111
 
+
 .meetingRooms
   background: #F2F3F3
   padding: 80px
+
 
 .aboutMeetingRooms h3
   margin-bottom: 40px
@@ -892,6 +912,7 @@ section.container-fluid
   margin-right: 20px
   border-radius: 22px
   box-shadow: 0 40px 55px -20px #111
+
 
 .meetingButton
   @include locationButtons
@@ -919,12 +940,14 @@ section.container-fluid
   padding: 0 0 10px
 
 
+
 //Virtual Office Packages
 .virtualOfficePackages
   text-align: center
   margin-top: 4rem
   margin-bottom: 2rem
   line-height: 30px
+
 
 .VOPTabs
   display: flex
@@ -945,13 +968,16 @@ section.container-fluid
   width: 45%
   @include tableLine
 
+
 .BALine
   width: 65%
   @include tableLine
 
+
 .CFLine
   width: 45%
   @include  tableLine
+
 
 .BASubTab
   border-radius: 50px
@@ -964,6 +990,7 @@ section.container-fluid
     border: 1px solid $primaryOrange
     color: $primaryOrange
 
+
 .activeBASubTab
   background-color: $primaryOrange
   color: #FFFFFF
@@ -972,11 +999,12 @@ section.container-fluid
   &:hover
     color: #FFFFFF
 
+
 .CFSubTab
   border-radius: 50px
   outline: none
   border: 1px solid #DEDEDE
-  padding: 10px 25px
+  padding: 10px 20px
   background: #FFFFFF
   margin-right: 1rem
   &:hover
@@ -993,7 +1021,6 @@ section.container-fluid
     color: #FFFFFF
 
 
-
 .privacyText
   @include tableText
 
@@ -1006,18 +1033,20 @@ section.container-fluid
 .callAnsweringText
   @include tableText
 
-
 .table1
   margin: 2rem auto
   text-align: center
+
 
 .subTable
   margin: 2rem auto
   text-align: center
 
+
 .CFSubTable
   margin: 2rem auto
   text-align: center
+
 
 .col-lg-4
   text-align: left
@@ -1038,9 +1067,8 @@ section.container-fluid
 .col-sm
   border-top: $tableBorder
   border-left: $tableBorder
-  width: 100%
-  height: auto
   display: table-cell
+
 
 .mostPopular
   background: $primaryOrange
@@ -1052,9 +1080,11 @@ section.container-fluid
   width: 100%
   height: 20px
 
+
 .popular
   background: $orangeHighlight
   position: relative
+
 
 .planName
   font-size: 1.1rem
@@ -1062,12 +1092,14 @@ section.container-fluid
   font-weight: 500
   margin-top: 2rem
 
+
 .planPrice
   width: 100%
   height: 3.5rem
   color: $primaryOrange
   font-size: 2.875rem
   font-weight: 600
+
 
 .price
   display: inline-flex
@@ -1079,24 +1111,29 @@ section.container-fluid
   font-size: 1.4rem
   margin-right: 0.5rem
 
+
 .vat
   color: #BDBDBD
   font-size: 0.75rem
   display: flex
   align-items: flex-end
 
+
 .planDuration
   color: $primaryOrange
   font-size: 0.9rem
   margin-top: 0
 
+
 .postalDeposit
   color: #6c757d
   font-size: 0.9rem
 
+
 .planButton
   width: 100%
   height: auto
+
 
 .tableBtn
   background: $primaryOrange
@@ -1110,8 +1147,11 @@ section.container-fluid
   &:hover
     background: $primaryBlue
 
+
 .table-light
   background: #FAFAFA
+  color: #666666!important
+
 
 .TopBtnSpace
   margin-top: 3.3rem
@@ -1142,9 +1182,11 @@ section.container-fluid
   padding: 3px
   font-size: 1.25rem
 
+
 .no
   font-size: 1.75rem
   color: #c4c4c4
+
 
 .buyNowBtn
   border: none
@@ -1158,9 +1200,11 @@ section.container-fluid
     transition: all 0.2s ease-in-out
     background: $primaryOrange
 
+
 .rowBreak
   margin-top: 1rem !important
   border-top: $tableBorder
+
 
 .durationSpace
   margin-top: 1.5rem
@@ -1754,66 +1798,48 @@ section
 //Footer Links
 #footerLinks
   background: $primaryBlue
-  display: flex
   color: #FFFFFF
   border-bottom: 1px solid #6A6A6A
+  padding: 60px 0!important
 
 .MYCOFooter
-  display: flex
-  width: 100%
-  padding: 2rem 0
-  justify-content: space-between
-  align-content: space-between
-  justify-items: left
-  align-items: flex-start
+  padding: 0 15px!important
 
+.MYCOText p
+  font-size: 15px
+  margin: 30px 0 25px
 
-.MYCOText
-  width: 27%
-  font-size: small
+.footer1Services__block h2
+  margin-bottom: 56px
+  margin-top: 26px
+  font-size: 20px
 
-//Footer ul
-.links
-  display: flex
-  width: 100%
-  justify-content: space-around
-  text-align: left
-  font-size: small
-  padding: 1.05rem 2rem
+.footer1Services__block a
+  margin-bottom: 15px
+  display: block
+  text-decoration: none
+  color: #FFFFFF
+  font-size: 15px
 
+.footer_links_wrap
+  padding-left: 1.5rem!important
 
-
-.links h4
-  margin-bottom: 2rem
-  padding-right: 1rem
-
-.links ul
-  list-style-type: none
-  padding-left: 0
-  padding-right: 1rem
-
-.links li
-  margin-bottom: 1rem
-
-
-.contactUs
-  padding-top: 1.05rem
-
-.contactUs h4
-  margin-bottom: 2rem
-
-
-
-
+.contactInfo
+  justify-content: flex-start
+  font-size: 20px
+  i
+    padding-right: 20px
+    margin-left: 0!important
 
 .footerContact
   display: flex
+  text-decoration: none
+  color: #FFFFFF
+  i
+    color: $primaryOrange!important
+    margin-right: 1rem
 
-.fa-phone-alt::before
-  content: "\f879"
 
-.fa-envelope::before
-  content: "\f0e0"
 
 
 #copyrightTermsAndConditions

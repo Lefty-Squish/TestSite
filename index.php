@@ -26,7 +26,7 @@
   </head>
 
     <body>
-        <!--  Top Banner  -->
+<!--  Top Banner  -->
         <div class="container-fluid" id="topBanner">
           <div class="container" id="topHeader">
               <div class="headerWrap">
@@ -71,7 +71,7 @@
           </div>
         </div>
 
-        <!--  Header  -->
+<!--  Header  -->
         <header class="container-fluid" id="logo">
             <div class="container">
                 <div class="clientLogin">
@@ -87,17 +87,17 @@
         </header>
 
 
-        <!--  Navigation  -->
+<!--  Navigation  -->
         <section class="navBanner">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="navigation">
-                            <div class="nav">
-                                <ul class="navList">
+                        <div class="nav_menu">
+                            <div class="navbar px-0">
+                                <ul id="nav-lists">
 <!--                                    Home  -->
                                     <li>
-                                        <a class="home" href="http://test-site.test/#">
+                                        <a class="home pl-0" href="http://test-site.test/#">
                                             <img src="Images/home-icon.svg" alt="home">
                                         </a>
                                     </li>
@@ -110,10 +110,102 @@
                                             <div class="container-fluid">
                                                 <div class="row justify-content-center">
                                                     <div class="col-12 col-xl-9 pb-4">
-
+                                                        <div class="container-fluid d-flex flex-column h-100 justify-content-between p-0">
+                                                            <div class="row">
+                                                                <div class="col-12 col-md-12 col-xl-5 mega-menu-column px-4 py-5">
+                                                                    <div class="column-header">
+                                                                        <h5 class="mega-menu-column-title text-orange m-0 mb-3">Address Services</h5>
+                                                                        <p class="text-white m-0">
+                                                                            Make the perfect first impression with a prestigious virtual business address.
+                                                                        </p>
+                                                                    </div>
+                                                                    <ul class="p-0 mt-4 text-left">
+                                                                        <li class="d-block mb-2">
+                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/registered-office-address">
+                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
+                                                                                Registered Office Address
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="d-block mb-2">
+                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/director-service-address">
+                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
+                                                                                Directors Service Address
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="d-block mb-2">
+                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-address">
+                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
+                                                                                Virtual Business Address
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="d-block mb-2">
+                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-plus">
+                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
+                                                                                Virtual Business Plus
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-12 col-md-12 col-xl-7 mega-menu-column px-4 py-5">
+                                                                    <div class="column-header">
+                                                                        <h5 class="mega-menu-column-title text-orange m-0 mb-3">Combined Services</h5>
+                                                                        <p class="text-white m-0">
+                                                                            Save £49.99 when you upgrade to a combined virtual business package.
+                                                                        </p>
+                                                                    </div>
+                                                                    <ul class="p-0 mt-4 text-left">
+                                                                        <li class="d-block mb-2">
+                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-address-and-telephone-answering-service">
+                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
+                                                                                Virtual Business Address & Telephone Answering Service
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="d-block mb-2">
+                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-plus-and-telephone-answering-service">
+                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
+                                                                                Virtual Business Plus & Telephone Answering Service
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="d-block mb-2">
+                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-plus-and-website-and-email-hosting">
+                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
+                                                                                Virtual Business Plus & Website & Email Hosting
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="d-block mb-2">
+                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-plus-and-legal-document-pack">
+                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
+                                                                                Virtual Business Plus & Legal Document Pack
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row w-100 d-none d-xl-flex">
+                                                                <div class="col-12">
+                                                                    <div class="mega-menu-call-to-action bg-white d-flex justify-content-between align-content-center rounded p-3">
+                                                                        <p class="call-to-action-text m-0 align-self-center font-weight-bold">
+                                                                            Need help? Contact our support team by phone, live chat, or email
+                                                                        </p>
+                                                                        <a href="https://mycoworks.co.uk/contact-us">
+                                                                            <button class="btn btn-orange text-white">Contact Us</button>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="col-xl-3 bg-deep-blue py-5 d-none d-xl-block mega-menu-offer-sidebar-wrap">
-
+                                                        <div class="mega-menu-offer-sidebar px-3">
+                                                            <p class="text-center text-white font-weight-bold">Want 10% OFF your first order?</p>
+                                                            <p class="text-left text-white">
+                                                                Subscribe to our MYCO Works mailing list and receive a 10% discount code
+                                                                <a class="text-orange p-0" href="https://mycoworks.co.uk/terms-and-conditions" target="_blank">T&Cs apply</a>
+                                                            </p>
+                                                            <div class="mega-menu-offer-sidebar-thumbnail">
+                                                                <img class="w-100" src="Images/logo_add.png" alt="MYCO Works">
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -171,7 +263,7 @@
             </div>
         </section>
 
-        <!--  To Top Button  -->
+<!--  To Top Button  -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">
           <i class="fa-solid fa-angle-up"></i>
         </button>
@@ -195,25 +287,27 @@
         </script>
 
 
-        <!--  First Box -->
+<!--  First Box -->
         <section class="jumbotron">
           <div class="container">
               <div class="row">
                   <div class="col-7">
-                      <h1>
-                          A comprehensive range of
-                          <br>
-                          Virtual Office services
-                          <br>to help your business grow
-                      </h1>
-                      <p class="frontPageText">Create an instant presence and protect your privacy with our choice of prestigious business addresses.
-                          We'll forward your post and handle your calls! Get in touch with a member of our expert team for more information</p>
-                      <div class="viewButtons">
-                          <button type="button" name="See Pricing" id="viewPricing">View Pricing</button>
-                          <button type="button" name="Our Locations" id="ourLocations">Our Locations</button>
+                      <div>
+                          <h1>
+                              A comprehensive range of
+                              <br>
+                              Virtual Office services
+                              <br>
+                              to help your business grow
+                          </h1>
+                          <p class="frontPageText">Create an instant presence and protect your privacy with our choice of prestigious business addresses.
+                              We'll forward your post and handle your calls! Get in touch with a member of our expert team for more information.</p>
+                          <div class="viewButtons">
+                              <button type="button" name="See Pricing" id="viewPricing">View Pricing</button>
+                              <button type="button" name="Our Locations" id="ourLocations">Our Locations</button>
+                          </div>
                       </div>
                   </div>
-
                   <div class="col-5">
                       <div class="addressImage">
                           <img src="Images/home-banner-img.jpg" alt="A man and woman looking at a tablet" id="homeBanner-img"/>
@@ -229,60 +323,58 @@
         </section>
 
 
-        <!--  Banner -->
-        <section class="container-fluid">
+<!--  Banner -->
+        <div id="trustedByClients">
           <div class="container">
               <div class="row">
-                  <div class="middleBanner">
-                      <!--Trusted Clients-->
-                      <div class="trustedClients-col trustedClients-col--1 col-xl-2 col-md-3 col-12">
-                          <div class="trustedClients-img">
-                              <img src="Images/Trusted_Clients.svg" alt="Three stick figures" id="clients"/>
-                          </div>
-                          <div class="trustedClients-text">
-                              <h3>30K+</h3>
-                              <p>Global Clients</p>
+                  <!--Trusted Clients-->
+                  <div class="trustedClients-col trustedClients-col--1 col-xl-2 col-md-3 col-12 py-4">
+                      <div class="trustedClients-img">
+                          <img src="Images/Trusted_Clients.svg" alt="Three stick figures" id="clients"/>
+                      </div>
+                      <div class="trustedClients-text">
+                          <h3>30K+</h3>
+                          <p>Global Clients</p>
+                      </div>
+                  </div>
+                  <!--Combines Experience-->
+                  <div class="experience-col experience-col--2 col-xl-4 col-md-6 col-12 py-4">
+                      <div class="experience-img">
+                          <img src="Images/Years_of_Experience_icon.svg" alt="A calendar with a tick" id="over100Years">
+                      </div>
+                      <div class="experience-text">
+                          <h3>Over 100 Years</h3>
+                          <p>Combined Industry Experience</p>
+                      </div>
+                  </div>
+                  <!--Prestigious Offices-->
+                  <div class="prestigiousOffices-col prestigiousOffices-col--3 col-xl-3 col-md-3 col-12 py-4 pr-xl-5">
+                      <div class="prestigiousOffices-img">
+                          <img src="Images/Amazing_Offices_icon.svg" alt="Small building" id="offices">
+                      </div>
+                      <div class="prestigiousOffices-text">
+                          <h3>6</h3>
+                          <p>Prestigious Offices</p>
+                      </div>
+                  </div>
+                  <!--Live Chat-->
+                  <div class="liveChat-col liveChat-col--4 col-xl-3 col-12 py-4 pl-xl-5">
+                      <div class="liveChat-btn">
+                          <div class="inner">
+                            <img class="chatBubble" src="Images/Group.svg" alt="Speech Bubbles">
                           </div>
                       </div>
-                      <!--Combines Experience-->
-                      <div class="experience-col experience-col--2 col-xl-4 col-md-6 col-12">
-                          <div class="experience-img">
-                              <img src="Images/Years_of_Experience_icon.svg" alt="A calendar with a tick" id="over100Years">
-                          </div>
-                          <div class="experience-text">
-                              <h3>Over 100 Years</h3>
-                              <p>Combined Industry Experience</p>
-                          </div>
-                      </div>
-                      <!--Prestigious Offices-->
-                      <div class="prestigiousOffices-col prestigiousOffices-col--3 col-xl-3 col-md-3 col-12 pr-xl-5">
-                          <div class="prestigiousOffices-img">
-                              <img src="Images/Amazing_Offices_icon.svg" alt="Small building" id="offices">
-                          </div>
-                          <div class="prestigiousOffices-text">
-                              <h3>6</h3>
-                              <p>Prestigious Offices</p>
-                          </div>
-                      </div>
-                      <!--Live Chat-->
-                      <div class="liveChat-col liveChat-col--4 col-xl-3 col-12 pl-xl-5">
-                          <div class="liveChat-img">
-                              <div class="inner">
-                                <img src="Images/Live%20Chat.png" alt="Speech Bubbles" id="chat">
-                              </div>
-                          </div>
-                          <div class="liveChat-text">
-                              <h3>Live Chat</h3>
-                              <p>Chat with one of our friendly staff</p>
-                          </div>
+                      <div class="liveChat-text">
+                          <h3>Live Chat</h3>
+                          <p>Chat with one of our friendly staff</p>
                       </div>
                   </div>
               </div>
           </div>
-        </section>
+        </div>
 
 
-        <!--  Introducing MYCO Works  -->
+<!--  Introducing MYCO Works  -->
         <section class="aboutUsWrapper">
           <div class="aboutUs-bg-img">
               <img src="https://mycoworks.co.uk/assets/img/about_us.png" alt="About Us">
@@ -315,7 +407,7 @@
         </section>
 
 
-        <!--  UK Limited Company Formation  -->
+<!--  UK Limited Company Formation  -->
         <section class="limitedCompanyFormation">
           <div class="container">
               <div class="row">
@@ -343,12 +435,12 @@
                   <div class="col-6">
                       <div class="companyFormationLearnMore">
                           <div class="cfText">
-                              <h4>
+                              <h3>
                                   Register
                                   <br>
                                   Your Company
-                              </h4>
-                              <h1>FROM £12.99</h1>
+                              </h3>
+                              <h2>FROM £12.99</h2>
                               <a class="learnMoreButton" type="button">
                                   Learn More
                               </a>
@@ -363,12 +455,12 @@
         </section>
 
 
-        <!--  Business Address Service  -->
+<!--  Business Address Service  -->
         <section class="businessAddressServices">
           <div class="container">
               <div class="row">
         <!--         Left-hand Side  -->
-                  <div class="col-7">
+                  <div class="col-7 pr-1">
                       <div class="aboutBAS">
                           <h3>Business Address Services</h3>
                           <div class="tab">
@@ -440,7 +532,7 @@
         </section>
 
 
-        <!--  Telephone Answering Service  -->
+<!--  Telephone Answering Service  -->
         <section class="telephoneAnsweringService">
           <div class="container">
               <div class="row">
@@ -452,7 +544,7 @@
                       </div>
                   </div>
         <!--              Right-Hand Side  -->
-                  <div class="col-7">
+                  <div class="col-7 pl-1">
                       <div class="aboutTAS">
                           <h3>Telephone Answering Service</h3>
                       </div>
@@ -547,12 +639,12 @@
         </section>
 
 
-        <!--  Company Formation & Ready Made Companies  -->
+<!--  Company Formation & Ready Made Companies  -->
         <section class="CFAndRM">
           <div class="container">
               <div class="row">
         <!--              Left-Hand Side  -->
-                  <div class="col-7">
+                  <div class="col-7 ">
                       <div class="aboutCFAndRM">
                           <h3>Company Formation & Ready Made Companies</h3>
                           <div class="tab">
@@ -602,7 +694,7 @@
         </section>
 
 
-        <!--  Meeting Rooms  -->
+<!--  Meeting Rooms  -->
         <section class="meetingRooms">
           <div class="container">
                <div class="row">
@@ -678,7 +770,7 @@
         </section>
 
 
-        <!--  Virtual Office Packages And Tables  -->
+<!--  Virtual Office Packages And Tables  -->
         <div class="container">
           <div class="virtualOfficePackages">
               <h2>Our Virtual Office Packages</h2>
@@ -693,7 +785,7 @@
           </div>
         </div>
 
-
+<!--  First Table  -->
         <section class="privacyTable" id="firstTable" style="display: block">
           <div class="container">
               <div class="privacyText">
@@ -704,9 +796,10 @@
                   </p>
               </div>
           </div>
+
           <div class="container table1">
         <!--          Row 1 - Header Row  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-lg-6">
         <!--                  Blank  -->
@@ -1072,7 +1165,7 @@
           </div>
         </section>
 
-        <!--  Second Table  -->
+<!--  Second Table  -->
         <section class="privacyTable" id="secondTable" style="display: none">
           <div class="container">
               <div class="businessAddressText">
@@ -1089,9 +1182,10 @@
               </div>
 
           </div>
+<!--  Sub Tab Table 1  -->
           <div class="container subTable" id="BATable1" style="display: block">
         <!--          Row 1 - Header Row  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-lg-6">
         <!--                  Blank  -->
@@ -1178,7 +1272,7 @@
               </div>
 
         <!--          Row 2  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Registered Office Address</p>
@@ -1196,7 +1290,7 @@
               </div>
 
         <!--          Row 3  -->
-              <div class="row table-light">
+              <div class="row g-0 table-light">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Option to Forward, Scan, or Collect 'Statutory' Mail</p>
@@ -1214,7 +1308,7 @@
               </div>
 
         <!--          Row 4  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Option to Forward, Scan, or Collect 'Business' Mail</p>
@@ -1232,7 +1326,7 @@
               </div>
 
         <!--          Row 5  -->
-              <div class="row table-light">
+              <div class="row g-0 table-light">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Mail Sorted Daily</p>
@@ -1250,7 +1344,7 @@
               </div>
 
         <!--          Row 6  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Free MYCO Apps</p>
@@ -1268,7 +1362,7 @@
               </div>
 
         <!--          Row 7  -->
-              <div class="row table-light">
+              <div class="row g-0 table-light">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Client Portal</p>
@@ -1286,7 +1380,7 @@
               </div>
 
         <!--          Row 8  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Directors Service Address</p>
@@ -1304,7 +1398,7 @@
               </div>
 
         <!--          Row 9  -->
-              <div class="row table-light">
+              <div class="row g-0 table-light">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Prestigious Business Address</p>
@@ -1322,7 +1416,7 @@
               </div>
 
         <!--          Row 10  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Parcels & Packages Signed For</p>
@@ -1340,7 +1434,7 @@
               </div>
 
         <!--          Row 11  -->
-              <div class="row table-light">
+              <div class="row g-0 table-light">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Meeting Room Access</p>
@@ -1358,7 +1452,7 @@
               </div>
 
         <!--          Row 12  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder tableBorderBottom">
                       <p>Access to Business Lounge</p>
@@ -1376,7 +1470,7 @@
               </div>
 
         <!--          Row 13 - Footer  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-lg-6">
                       <!--                  Blank  -->
@@ -1459,10 +1553,10 @@
           </div>
 
 
-        <!--      Sub Tab Table 2  -->
+<!--  Sub Tab Table 2  -->
           <div class="container subTable" id="BATable2" style="display: none">
         <!--          Row 1 Header Row  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-md-3">
         <!--                  Blank  -->
@@ -2286,8 +2380,7 @@
           </div>
         </section>
 
-
-        <!--  Third Table  -->
+<!--  Third Table  -->
         <section class="privacyTable" id="thirdTable" style="display: none">
           <div class="container">
               <div class="companyFormationText">
@@ -2308,7 +2401,7 @@
         <!--      Company Formation Only Table  -->
           <div class="container CFSubTable" id="CFTable1" style="display: none">
         <!--          Row 1 Header Row  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-lg-6">
         <!--                  Blank  -->
@@ -2345,13 +2438,13 @@
               </div>
 
         <!--          Row 3  -->
-              <div class="row table-light">
+              <div class="row">
         <!--              Column Title-->
-                  <div class="col-lg-6 rowTitle tableBorder">
+                  <div class="col-lg-6 table-light rowTitle tableBorder">
                       <p>Companies House Filing Fee</p>
                   </div>
         <!--              Table Cell  -->
-                  <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
                       <span class="material-icons yes">check</span>
                   </div>
               </div>
@@ -2369,13 +2462,13 @@
               </div>
 
         <!--          Row 5  -->
-              <div class="row table-light">
+              <div class="row">
         <!--              Column Title-->
-                  <div class="col-lg-6 rowTitle tableBorder">
+                  <div class="col-lg-6 table-light rowTitle tableBorder">
                       <p>Digital Memorandum & Articles of Association</p>
                   </div>
         <!--              Table Cell  -->
-                  <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
                       <span class="material-icons yes">check</span>
                   </div>
               </div>
@@ -2393,13 +2486,13 @@
               </div>
 
         <!--          Row 7  -->
-              <div class="row table-light">
+              <div class="row">
         <!--              Column Title-->
-                  <div class="col-lg-6 rowTitle tableBorder">
+                  <div class="col-lg-6 table-light rowTitle tableBorder">
                       <p>Registered Office Address</p>
                   </div>
         <!--              Table Cell  -->
-                  <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
                       <span class="material-icons no">horizontal_rule</span>
                   </div>
               </div>
@@ -2417,13 +2510,13 @@
               </div>
 
         <!--          Row  9  -->
-              <div class="row table-light">
+              <div class="row">
         <!--              Column Title-->
-                  <div class="col-lg-6 rowTitle tableBorder">
+                  <div class="col-lg-6 table-light rowTitle tableBorder">
                       <p>Prestigious Business Address</p>
                   </div>
         <!--              Table Cell  -->
-                  <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
                       <span class="material-icons no">horizontal_rule</span>
                   </div>
               </div>
@@ -2442,13 +2535,13 @@
               </div>
 
         <!--          Row 11  -->
-              <div class="row table-light">
+              <div class="row">
         <!--              Column Title-->
-                  <div class="col-lg-6 rowTitle tableBorder">
+                  <div class="col-lg-6 table-light rowTitle tableBorder">
                       <p>Printed Certificate of Incorporation</p>
                   </div>
         <!--              Table Cell  -->
-                  <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
                       <span class="material-icons no">horizontal_rule</span>
                   </div>
               </div>
@@ -2466,13 +2559,13 @@
               </div>
 
         <!--          Row 13  -->
-              <div class="row table-light">
+              <div class="row">
         <!--              Column Title-->
-                  <div class="col-lg-6 rowTitle tableBorder">
+                  <div class="col-lg-6 table-light rowTitle tableBorder">
                       <p>Printed Share Certificates</p>
                   </div>
         <!--              Table Cell  -->
-                  <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
                       <span class="material-icons no">horizontal_rule</span>
                   </div>
               </div>
@@ -2490,19 +2583,19 @@
               </div>
 
         <!--          Row 15  -->
-              <div class="row table-light">
+              <div class="row">
         <!--              Column Title-->
-                  <div class="col-lg-6 rowTitle tableBorder tableBorderBottom">
+                  <div class="col-lg-6 table-light rowTitle tableBorder tableBorderBottom">
                       <p>Apostilled Documents</p>
                   </div>
         <!--              Table Cell  -->
-                  <div class="col-sm-4 yes-no tableBorder tableBorderRight">
+                  <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
                       <span class="material-icons no">horizontal_rule</span>
                   </div>
               </div>
 
         <!--          Row 16 Footer  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-lg-6">
         <!--                  Blank  -->
@@ -2531,7 +2624,7 @@
         <!--      Company Packages Table  -->
           <div class="container CFSubTable" id="CFTable2" style="display: block">
         <!--          Row 1 Header Row  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-md-3">
         <!--                  Blank  -->
@@ -3039,10 +3132,10 @@
           </div>
 
 
-        <!--      Non-Resident Package  -->
+<!--      Non-Resident Package  -->
           <div class="container CFSubTable" id="CFTable3" style="display: none">
         <!--          Row 1 Header Row  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-md-3">
         <!--                  Blank  -->
@@ -3481,7 +3574,7 @@
         <!--          Row 17  -->
               <div class="row table-light">
         <!--              Column Title  -->
-                  <div class="col-md-3 rowTitle tableBorder">
+                  <div class="col-md-3 rowTitle tableBorder tableBorderBottom">
                       <p>Telephone Answering Service</p>
                   </div>
         <!--              Table Cells  -->
@@ -3494,7 +3587,7 @@
                   <div class="col-sm yes-no">
                       <span class="material-icons no">horizontal_rule</span>
                   </div>
-                  <div class="col-sm yes-no popular tableBorderRight tableBorderBottom">
+                  <div class="col-sm yes-no popular tableBorderRight">
                       <span class="material-icons yes">check</span>
                   </div>
               </div>
@@ -3604,8 +3697,7 @@
           </div>
         </section>
 
-
-        <!--  Fourth Table  -->
+<!--  Fourth Table  -->
         <section class="privacyTable" id="fourthTable" style="display: none">
           <div class="container">
               <div class="callAnsweringText">
@@ -3618,7 +3710,7 @@
           </div>
           <div class="container table1">
               <!--          Row 1 - Header Row  -->
-              <div class="row">
+              <div class="row g-0">
                   <!--              Blank Column  -->
                   <div class="col-lg-6">
                       <!--                  Blank  -->
@@ -3709,7 +3801,7 @@
               </div>
 
         <!--          Row 2  -->
-              <div class="row">
+              <div class="row table-light">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Telephone Answering Service</p>
@@ -3745,7 +3837,7 @@
               </div>
 
         <!--          Row 4  -->
-              <div class="row">
+              <div class="row table-light">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Unlimited Inbound Calls</p>
@@ -3781,7 +3873,7 @@
               </div>
 
         <!--          Row 6  -->
-              <div class="row">
+              <div class="row table-light">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>One Hour Setup</p>
@@ -3817,7 +3909,7 @@
               </div>
 
         <!--          Row 8  -->
-              <div class="row">
+              <div class="row table-light">
         <!--              Column Title  -->
                   <div class="col-lg-6 rowTitle tableBorder">
                       <p>Messages Forwarded Via Email</p>
@@ -4033,7 +4125,7 @@
               </div>
 
         <!--          Row 20 - Footer  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-lg-6">
         <!--                  Blank  -->
@@ -4120,6 +4212,8 @@
           </div>
         </section>
 
+
+<!--  Unsure  -->
         <section>
           <div class="container-fluid unsureBackground">
               <div class="container unsureContainer">
@@ -4140,7 +4234,7 @@
           </div>
         </section>
 
-        <!--  Our Locations  -->
+<!--  Our Locations  -->
         <section>
         <div class="container-fluid">
             <div class="container">
@@ -4464,7 +4558,7 @@
         </div>
         </section>
 
-        <!--  Why Our Clients Choose MYCO  -->
+<!--  Why Our Clients Choose MYCO  -->
         <section class="chooseMYCO">
           <div class="container-fluid">
               <div class="container">
@@ -4599,7 +4693,7 @@
           </div>
         </section>
 
-        <!--  3 Easy Steps  -->
+<!--  3 Easy Steps  -->
         <section class="threeSteps">
         <div class="container-fluid">
             <div class="container getStarted">
@@ -4642,7 +4736,7 @@
         </div>
         </section>
 
-        <!--  Our Apps  -->
+<!--  Our Apps  -->
         <section>
         <div class="container-fluid ourAppsBanner">
             <div class="container appContainer">
@@ -4818,7 +4912,7 @@
         </div>
         </section>
 
-        <!--  FAQs  -->
+<!--  FAQs  -->
         <section>
           <div class="container-fluid FAQBanner py-md-5 py-0 my-5">
               <div class="container">
@@ -4963,7 +5057,7 @@
           </div>
         </section>
 
-        <!--      Testimonials  -->
+<!--  Testimonials  -->
         <section>
           <div class="container-fluid testimonialBanner">
               <div class="container">
@@ -4972,7 +5066,7 @@
                           <div class="testimonialHeading">
                               <h3>Our clients rate us as excellent</h3>
                           </div>
-                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-keyboard="true" data-bs-delay="100000">
+                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-keyboard="true" data-bs-delay="1000000">
                               <div class="carousel-inner w-100 col-12" role="listbox">
                                   <div class="testimonialCarousel">
                                       <div class="carousel-item active">
@@ -5160,7 +5254,7 @@
           </div>
         </section>
 
-
+<!--  Footer  -->
         <footer>
         <!--      Contact us  -->
           <div class="container-fluid contactBanner">
@@ -5233,7 +5327,7 @@
           <div class="container-fluid" id="footerLinks">
               <div class="container">
                   <div class="row">
-                      <div class="MYCOFooter">
+                      <div class="MYCOFooter col-xl-3 col-12">
                           <div class="MYCOText">
                               <img src="Images/MYCOFooterLogo.png" alt="MYCO Works">
                               <p>
@@ -5247,64 +5341,74 @@
                                   packages and customer service at its core.
                               </p>
                           </div>
-
-                          <div class="links">
-                              <div class="ourServices">
-                                  <h4>Our Services</h4>
-                                  <ul>
-                                      <li>Registered Office Address</li>
-                                      <li>Director Service Address</li>
-                                      <li>Virtual Business Address</li>
-                                      <li>Virtual Business Plus</li>
-                                  </ul>
-                              </div>
-
-                              <div class="additionalServices">
-                                  <h4>Additional Services</h4>
-                                  <ul>
-                                      <li>Telephone Answering Service</li>
-                                      <li>Company Formation</li>
-                                      <li>Meeting Rooms</li>
-                                      <li>Ready Made Companies</li>
-                                  </ul>
-                              </div>
-
-                              <div class="ourCompany">
-                                  <h4>Our Company</h4>
-                                  <ul>
-                                      <li>Make A Payment</li>
-                                      <li>About Us</li>
-                                      <li>Meet The Team</li>
-                                      <li>Our Blog</li>
-                                      <li>Our Locations</li>
-                                      <li>Pricing</li>
-                                      <li>FAQs</li>
-                                  </ul>
-                              </div>
+                          <div class="contactInfo">
+                              <a href="https://www.linkedin.com/company/registered-office-uk-ltd/" target="_blank">
+                                  <i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i>
+                              </a>
+                              <a href="https://www.facebook.com/registeredoffice" target="_blank">
+                                  <i id="facebook" class="fa fa-facebook" aria-hidden="true"></i>
+                              </a>
+                              <a href="https://twitter.com/registered_uk" target="_blank">
+                                  <i id="twitter" class="fa fa-twitter" aria-hidden="true"></i>
+                              </a>
+                              <a href="https://www.instagram.com/the_registered_office/" target="_blank">
+                                  <i id="instagram" class="fa fa-instagram" aria-hidden="true"></i>
+                              </a>
+                              <a href="https://www.youtube.com/channel/UCta11jQVd3gugZVu-da8bjQ" target="_blank">
+                                  <i id="youtube" class="fa fa-youtube" aria-hidden="true"></i>
+                              </a>
                           </div>
-
-                          <div class="contactUs">
-                              <h4>Contact Us</h4>
-                              <p>
-                                  Our Registered Address:<br>
-                                  85 Great Portland St<br>
-                                  First Floor<br>
-                                  London<br>
-                                  W1W 7LT<br>
-                                  United Kingdom
-                              </p>
-                              <a class="footerContact d-flex align-items-center" href="tel:02071125367">
-                                  <i class="fas fa-phone-alt" aria-hidden="true">
-                                      ::before
-                                  </i>
-                                  <span>+44 (0) 207 112 5367</span>
-                              </a>
-                              <a class="footerContact d-flex align-items-center" href="mailto:contact@mycosupport.co.uk">
-                                 <i class="fas fa-envelope" aria-hidden="true">
-                                     ::before
-                                 </i>
-                                <span>contact@mycosupport.co.uk</span>
-                              </a>
+                      </div>
+                      <div class="col-xl-9 col-12 mb-5 mb-xl-0">
+                          <div class="footer_links_wrap d-flex justify-content-between flex-wrap pl-xl-4 pl-0">
+                              <div class="footer1Services__block pl-1 pt-xl-0 pt-5">
+                                  <h2>Our Services</h2>
+                                  <a href="https://mycoworks.co.uk/registered-office-address">Registered Office Address</a>
+                                  <a href="https://mycoworks.co.uk/director-service-address">Director service address</a>
+                                  <a href="https://mycoworks.co.uk/virtual-business-address">Virtual Business Address</a>
+                                  <a href="https://mycoworks.co.uk/virtual-business-plus">Virtual Business Plus</a>
+                              </div>
+                              <div class="footer1Services__block pl-1 pt-xl-0 pt-5">
+                                  <h2>Additional Services</h2>
+                                  <a href="https://mycoworks.co.uk/telephone-answering-service">Telephone Answering Service</a>
+                                  <a href="https://mycoworks.co.uk/company-formation-packages">Company Formation</a>
+                                  <a href="https://mycoworks.co.uk/meeting-rooms-london">Meeting Rooms</a>
+                                  <a href="https://mycoworks.co.uk/ready-made-companies">Ready Made Companies</a>
+                              </div>
+                              <div class="footer1Services__block pl-1 pt-xl-0 pt-5">
+                                  <h2>Our Company</h2>
+                                  <a href="https://mycoworks.co.uk/make-a-payment">Make A Payment</a>
+                                  <a href="https://mycoworks.co.uk/about-us">About Us</a>
+                                  <a href="https://mycoworks.co.uk/meet-the-team">Meet The Team</a>
+                                  <a href="https://mycoworks.co.uk/blog/">Blog</a>
+                                  <a href="https://mycoworks.co.uk/locations">Locations</a>
+                                  <a href="https://mycoworks.co.uk/pricing">Pricing</a>
+                                  <a href="https://mycoworks.co.uk/frequently-asked-questions">FAQs</a>
+                              </div>
+                              <div class="footer1Services__block pl-1">
+                                  <h2>Contact Us</h2>
+                                  <p>
+                                      Our Registered Address:
+                                      <br>
+                                      85 Great Portland St
+                                      <br>
+                                      First Floor
+                                      <br>
+                                      London
+                                      <br>
+                                      W1W 7LT
+                                      <br>
+                                      United Kingdom
+                                  </p>
+                                  <a class="footerContact d-flex align-items-center" href="tel:02071125367">
+                                      <i class="fas fa-phone" aria-hidden="true"></i>
+                                      <span>+44 (0) 207 112 5367</span>
+                                  </a>
+                                  <a class="footerContact d-flex align-items-center" href="mailto:contact@mycosupport.co.uk">
+                                      <i class="fas fa-envelope" aria-hidden="true"></i>
+                                      <span>contact@mycosupport.co.uk</span>
+                                  </a>
+                              </div>
                           </div>
                       </div>
                   </div>

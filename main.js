@@ -156,21 +156,61 @@ function openLocation(event, locationName) {
 }
 
 //Navigation Drop Down
+// Services Drop Down (from the navigation)
+const dropDown1 = () => {
+    const DropDownBtn1 = document.querySelector('#servicesDropDownBtn');
+    const DropDown1 = document.querySelector('#servicesDropDown');
+    const DropDownArrow1 = document.querySelector ('#servicesDropDownArrow');
+
+    DropDownBtn1.addEventListener('mouseover',() => {
+        //hide show nav
+        if(DropDown1.classList.contains("hideDropDown")){
+            DropDown1.classList.remove('hideDropDown');
+            DropDown1.classList.add('showDropDown1');
+            DropDownArrow1.style.transform = "rotate(180deg)";
+
+        }
+    });
+
+    DropDownBtn1.addEventListener('mouseout',() => {
+
+        DropDown1.classList.add('hideDropDown');
+        DropDown1.classList.remove('showDropDown1');
+        DropDownArrow1.style.transform = "rotate(0deg)";
+
+    });
+
+    DropDownBtn1.addEventListener('click',() => {
+        //hide show nav
+        if(DropDown1.classList.contains("hideDropDown")){
+            DropDown1.classList.remove('hideDropDown');
+            DropDown1.classList.add('showDropDown1');
+            DropDownArrow1.style.transform = "rotate(180deg)";
+        }
+        else{
+            DropDown1.classList.add('hideDropDown');
+            DropDown1.classList.remove('showDropDown1');
+            DropDownArrow1.style.transform = "rotate(0deg)";
+        }
+    });
+}
+
+dropDown1();
+
 //Address Drop Down
 const dropDown4 = () => {
     const DropDownBtn4 = document.querySelector('#addressDropDownBtn');
     const DropDown4 = document.querySelector('#addressDropDown');
-    const DropDownArrow4 = document.querySelector('#addressDropDownArrow');
+    const DropDownArrow4 = document.querySelector ('#addressDropDownArrow');
 
-    DropDownBtn4.addEventListener('mouseover', () => {
-
-        if (DropDown4.classList.contains("hideDropDown")){
+    DropDownBtn4.addEventListener('mouseover',() => {
+        //hide show nav
+        if(DropDown4.classList.contains("hideDropDown")){
 
             DropDown4.classList.remove('hideDropDown');
             DropDown4.classList.add('showDropDown1');
 
             DropDownArrow4.style.transform = "rotate(180deg)";
-
 
         }
 
@@ -191,7 +231,7 @@ const dropDown4 = () => {
     });
 
     DropDownBtn4.addEventListener('click',() => {
-
+        //hide show nav
         if(DropDown4.classList.contains("hideDropDown")){
             DropDown4.classList.remove('hideDropDown');
             DropDown4.classList.add('showDropDown1');
@@ -203,6 +243,7 @@ const dropDown4 = () => {
             DropDownArrow4.style.transform = "rotate(0deg)";
         }
     });
+
 }
 
 dropDown4();
