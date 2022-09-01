@@ -5,24 +5,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Tom's Test</title>
+<!--  Git Hub  -->
     <link href="https://github.com/Lefty-Squish/TestSite.git"/>
+<!--  CSS  -->
     <link href="./main.css" rel="stylesheet"/>
     <link href="main.sass" rel="stylesheet"/>
+<!--  Google Icons  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <script src="https://kit.fontawesome.com/053d8c5668.js" crossorigin="anonymous"></script>
+<!--  Slick  -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!--  Table HTML  -->
+    <link href="Tables/Table1.php">
+<!--  Popcorn  -->
+    <link rel=script href="https://unpkg.com/@popperjs/core@2">
+<!--  JavaScript  -->
     <script type="application/javascript" src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src=" https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link rel="script" href="https://code.jquery.com/jquery-1.7.js">
     <script type="javascript" src="https://code.jquery.com/jquery-1.7.js"></script>
     <script type="javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/053d8c5668.js" crossorigin="anonymous"></script>
+
   </head>
 
     <body>
@@ -72,17 +83,20 @@
         </div>
 
 <!--  Header  -->
-        <header class="container-fluid" id="logo">
+        <header class="container-fluid headerMain">
             <div class="container">
-                <div class="clientLogin">
-                    <img class="row" id="mycoLogo" src="Images/myco-works-logo.svg" alt="MyCo Works Logo" width="300px" height="72px">
-                    <div class="loginButtons">
-                        <img src="Images/trolley.png" alt="Cart" class="cart">
-                        <button class="client" name="Client Login">Client Log In</button>
-                        <button class="enquire" name="Enquire">Enquire</button>
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="clientLogin">
+                            <img class="mycoLogo" src="Images/myco-works-logo.svg" alt="MyCo Works Logo">
+                            <div class="loginButtons">
+                                <img src="Images/trolley.png" alt="Cart" class="cart">
+                                <button class="client" name="Client Login">Client Log In</button>
+                                <button class="enquire" name="Enquire">Enquire</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </header>
 
@@ -94,174 +108,23 @@
                     <div class="col-12">
                         <div class="nav_menu">
                             <div class="navbar px-0">
-                                <ul id="nav-lists">
-<!--                                    Home  -->
-                                    <li>
-                                        <a class="home pl-0" href="http://test-site.test/#">
-                                            <img src="Images/home-icon.svg" alt="home">
-                                        </a>
-                                    </li>
-<!--                                    Address Services Dropdown -->
-                                    <li id="addressDropDownBtn" class="dropdown">
-                                        <button class="dropBtn">Address Services
-                                            <i id="addressDropDownArrow" class="fa-solid fa-chevron-down" aria-hidden="true" style="transform: rotate(0deg)"></i>
-                                        </button>
-                                        <ul id="addressDropDown" class="mega-menu position-absolute text-left mt-3 p-0 w-100 hideDropDown">
-                                            <div class="container-fluid">
-                                                <div class="row justify-content-center">
-                                                    <div class="col-12 col-xl-9 pb-4">
-                                                        <div class="container-fluid d-flex flex-column h-100 justify-content-between p-0">
-                                                            <div class="row">
-                                                                <div class="col-12 col-md-12 col-xl-5 mega-menu-column px-4 py-5">
-                                                                    <div class="column-header">
-                                                                        <h5 class="mega-menu-column-title text-orange m-0 mb-3">Address Services</h5>
-                                                                        <p class="text-white m-0">
-                                                                            Make the perfect first impression with a prestigious virtual business address.
-                                                                        </p>
-                                                                    </div>
-                                                                    <ul class="p-0 mt-4 text-left">
-                                                                        <li class="d-block mb-2">
-                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/registered-office-address">
-                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
-                                                                                Registered Office Address
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="d-block mb-2">
-                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/director-service-address">
-                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
-                                                                                Directors Service Address
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="d-block mb-2">
-                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-address">
-                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
-                                                                                Virtual Business Address
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="d-block mb-2">
-                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-plus">
-                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
-                                                                                Virtual Business Plus
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                                <div class="col-12 col-md-12 col-xl-7 mega-menu-column px-4 py-5">
-                                                                    <div class="column-header">
-                                                                        <h5 class="mega-menu-column-title text-orange m-0 mb-3">Combined Services</h5>
-                                                                        <p class="text-white m-0">
-                                                                            Save £49.99 when you upgrade to a combined virtual business package.
-                                                                        </p>
-                                                                    </div>
-                                                                    <ul class="p-0 mt-4 text-left">
-                                                                        <li class="d-block mb-2">
-                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-address-and-telephone-answering-service">
-                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
-                                                                                Virtual Business Address & Telephone Answering Service
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="d-block mb-2">
-                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-plus-and-telephone-answering-service">
-                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
-                                                                                Virtual Business Plus & Telephone Answering Service
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="d-block mb-2">
-                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-plus-and-website-and-email-hosting">
-                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
-                                                                                Virtual Business Plus & Website & Email Hosting
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="d-block mb-2">
-                                                                            <a class="p-0 text-white mega-menu-link" href="https://mycoworks.co.uk/virtual-business-plus-and-legal-document-pack">
-                                                                                <i class="fa fa-sort-up rotate-clockwise-90 mr-2" aria-hidden="true"></i>
-                                                                                Virtual Business Plus & Legal Document Pack
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                            <div class="row w-100 d-none d-xl-flex">
-                                                                <div class="col-12">
-                                                                    <div class="mega-menu-call-to-action bg-white d-flex justify-content-between align-content-center rounded p-3">
-                                                                        <p class="call-to-action-text m-0 align-self-center font-weight-bold">
-                                                                            Need help? Contact our support team by phone, live chat, or email
-                                                                        </p>
-                                                                        <a href="https://mycoworks.co.uk/contact-us">
-                                                                            <button class="btn btn-orange text-white">Contact Us</button>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 bg-deep-blue py-5 d-none d-xl-block mega-menu-offer-sidebar-wrap">
-                                                        <div class="mega-menu-offer-sidebar px-3">
-                                                            <p class="text-center text-white font-weight-bold">Want 10% OFF your first order?</p>
-                                                            <p class="text-left text-white">
-                                                                Subscribe to our MYCO Works mailing list and receive a 10% discount code
-                                                                <a class="text-orange p-0" href="https://mycoworks.co.uk/terms-and-conditions" target="_blank">T&Cs apply</a>
-                                                            </p>
-                                                            <div class="mega-menu-offer-sidebar-thumbnail">
-                                                                <img class="w-100" src="Images/logo_add.png" alt="MYCO Works">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                    </li>
-<!--                                    Company Formation Dropdown -->
-                                    <li class="dropdown">
-                                        <button class="dropBtn">Company Formation
-                                            <i class="fa-solid fa-chevron-down"></i>
-                                        </button>
-                                    </li>
-<!--                                    Pricing  -->
-                                    <li>
-                                        Pricing
-                                    </li>
-<!--                                    Other Services Dropdown -->
-                                    <li class="dropdown">
-                                        <button class="dropBtn">Other Services
-                                            <i class="fa-solid fa-chevron-down"></i>
-                                        </button>
-                                    </li>
-<!--                                    Locations Dropdown -->
-                                    <li class="dropdown">
-                                        <button class="dropBtn">Locations
-                                            <i class="fa-solid fa-chevron-down"></i>
-                                        </button>
-                                    </li>
-<!--                                    FAQs  -->
-                                    <li>
-                                        FAQs
-                                    </li>
-<!--                                    Partners  -->
-                                    <li>
-                                        Partners
-                                    </li>
-<!--                                    Blog  -->
-                                    <li>
-                                        Blog
-                                    </li>
-<!--                                    About Us Dropdown -->
-                                    <li class="dropdown">
-                                        <button class="dropBtn">About Us
-                                            <i class="fa-solid fa-chevron-down"></i>
-                                        </button>
-                                    </li>
-<!--                                    Contact Us  -->
-                                    <li>
-                                        Contact Us
-                                    </li>
-                                  </ul>
-                              </div>
+                                <div class="btn-group">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu" style="">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                           </div>
                       </div>
                   </div>
             </div>
         </section>
+
 
 <!--  To Top Button  -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -769,7 +632,6 @@
           </div>
         </section>
 
-
 <!--  Virtual Office Packages And Tables  -->
         <div class="container">
           <div class="virtualOfficePackages">
@@ -1083,7 +945,7 @@
               </div>
 
         <!--          Row 13 - Footer  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-lg-6">
         <!--                  Blank  -->
@@ -2258,7 +2120,7 @@
               </div>
 
         <!--          Row 29  Footer  -->
-              <div class="row">
+              <div class="row g-0">
                   <!--              Blank Column  -->
                   <div class="col-md-3">
                       <!--                  Blank  -->
@@ -3034,7 +2896,7 @@
               </div>
 
         <!--          Row 16 Footer  -->
-              <div class="row">
+              <div class="row g-0">
                   <!--              Blank Column  -->
                   <div class="col-md-3">
                       <!--                  Blank  -->
@@ -3256,7 +3118,7 @@
                   <div class="col-sm yes-no">
                       <span class="material-icons yes">check</span>
                   </div>
-                  <div class="col-sm yes-no tableBorderRight">
+                  <div class="col-sm yes-no popular tableBorderRight">
                       <span class="material-icons yes">check</span>
                   </div>
               </div>
@@ -3593,7 +3455,7 @@
               </div>
 
         <!--          Row 18 Footer  -->
-              <div class="row">
+              <div class="row g-0">
         <!--              Blank Column  -->
                   <div class="col-md-3">
         <!--                  Blank  -->
@@ -5264,7 +5126,7 @@
                           <h1 class="contact">Contact Us</h1>
                           <h5>Question not answered yet? We are here to help!</h5>
                           <h3><img src="Images/Phone-icon.svg" alt="Phone" class="contactPhone">0207 183 4687</h3>
-                          <p>Or contact us by email or live chat <img src="Images/Group.svg" alt="Live Chat" class="contactGroup"></p>
+                          <p>Or contact us by email or live chat <img src="Images/BIG-live-chat-icon.svg" alt="Live Chat" class="contactGroup"></p>
                       </div>
                   </div>
               </div>
@@ -5280,40 +5142,42 @@
           </div>
 
         <!--      Footer Info and Mailing List  -->
-          <div class="container-fluid" id="footerLower">
+          <div class="container-fluid footerLower">
               <div class="container">
                   <div class="row">
                       <div class="col-12">
                           <div class="footerInfo">
-                              <div class="col-8 greyLine">
+                              <div class="col-8 greyLine align-text-left">
                                   <div>
-                                      <img src="Images/Sales.png" alt="Sales" class="footerIcons">
+                                      <img src="Images/footer-sales-icon.svg" alt="Sales" class="footerIcons">
                                       <p>Sales</p>
-                                      <p><strong>020 7183 3787</strong></p>
+                                      <h4>020 7183 3787</h4>
                                   </div>
                                   <div>
-                                      <img src="Images/supportFooter.png" alt="Support" class="footerIcons">
+                                      <img src="Images/footer-support-icon.svg" alt="Support" class="footerIcons">
                                       <p>Support</p>
-                                      <p><strong>020 7183 2653</strong></p>
+                                      <h4>020 7183 2653</h4>
                                   </div>
                                   <div>
-                                      <img src="Images/companyFormations.png" alt="Company Formations" class="footerIcons">
+                                      <img src="Images/footer-cf-icon.svg" alt="Company Formations" class="footerIcons">
                                       <p>Company Formations</p>
-                                      <p><strong>020 7183 5369</strong></p>
+                                      <h4>020 7183 5369</h4>
                                   </div>
                                   <div>
-                                      <img src="Images/openingHours.png" alt="Opening Hours" class="footerIcons">
+                                      <img src="Images/footer-opening-times-icon.svg" alt="Opening Hours" class="footerIcons">
                                       <p>Opening Hours</p>
-                                      <p><strong>09:00 - 17:30</strong></p>
-                                      <p>Monday to Friday</p>
+                                      <h4>09:00 - 17:30</h4>
+                                      <h6>Monday to Friday</h6>
                                   </div>
                               </div>
-                              <div class="col-4" id="mailingList">
+                              <div class="col-4 mailingList">
                                   <div>
-                                      <p>Want 10% off your first order?</p>
-                                      <p>Join our mailing list</p>
+                                      <p>Want 10% off your first order?
+                                          <br>
+                                          Join our mailing list
+                                      </p>
                                       <div class="enterEmailAddress">
-                                          <label for="customerEmailAddress"></label><input id="customerEmailAddress" type="text" name="customerEmailAddress" placeholder="Enter your email address..."><button id="subscribe" type="button">Subscribe</button>
+                                          <label for="customerEmailAddress"></label><input class="customerEmailAddress" type="text" name="customerEmailAddress" placeholder="Enter your email address..."><button class="subscribe" type="button">Subscribe</button>
                                       </div>
                                   </div>
                               </div>
@@ -5409,6 +5273,11 @@
                                       <span>contact@mycosupport.co.uk</span>
                                   </a>
                               </div>
+                          </div>
+                      </div>
+                      <div class="col-12">
+                          <div class="paymentLogos">
+                              <img src="Images/Payment-Logos.svg" alt="Payment Logos">
                           </div>
                       </div>
                   </div>

@@ -160,7 +160,7 @@ function openLocation(event, locationName) {
 const dropDown1 = () => {
     const DropDownBtn1 = document.querySelector('#servicesDropDownBtn');
     const DropDown1 = document.querySelector('#servicesDropDown');
-    const DropDownArrow1 = document.querySelector ('#servicesDropDownArrow');
+    const DropDownArrow1 = document.querySelector('#servicesDropDownArrow');
 
     DropDownBtn1.addEventListener('mouseover',() => {
         //hide show nav
@@ -197,11 +197,115 @@ const dropDown1 = () => {
 
 dropDown1();
 
+//SERVICE PAGES - additional services drop down
+const dropDown2 = () => {
+    const DropDownBtn2 = document.querySelector('#aboutDropDownBtn');
+    const DropDown2 = document.querySelector('#aboutDropDown');
+    const DropDownArrow2 = document.querySelector ('#aboutDropDownArrow');
+
+    DropDownBtn2.addEventListener('mouseover',() => {
+        //hide show nav
+        if(DropDown2.classList.contains("hideDropDown")){
+
+            DropDown2.classList.remove('hideDropDown');
+            DropDown2.classList.add('showDropDown1');
+
+            DropDownArrow2.style.transform = "rotate(180deg)";
+
+        }
+
+        else{
+            DropDown2.classList.add('hideDropDown');
+            DropDown2.classList.remove('showDropDown1');
+
+            DropDownArrow2.style.transform = "rotate(0deg)";
+        }
+    });
+
+    DropDownBtn2.addEventListener('mouseout',() => {
+
+        DropDown2.classList.add('hideDropDown');
+        DropDown2.classList.remove('showDropDown1');
+        DropDownArrow2.style.transform = "rotate(0deg)";
+
+    });
+
+    DropDownBtn2.addEventListener('click',() => {
+        //hide show nav
+        if(DropDown2.classList.contains("hideDropDown")){
+            DropDown2.classList.remove('hideDropDown');
+            DropDown2.classList.add('showDropDown1');
+            DropDownArrow2.style.transform = "rotate(180deg)";
+        }
+        else{
+            DropDown2.classList.add('hideDropDown');
+            DropDown2.classList.remove('showDropDown1');
+            DropDownArrow2.style.transform = "rotate(0deg)";
+        }
+    });
+
+}
+
+dropDown2();
+
+
+//LOCATIONS DROP DOWN
+const dropDown3 = () => {
+    const DropDownBtn3 = document.querySelector('#locationDropDownBtn');
+    const DropDown3 = document.querySelector('#locationDropDown');
+    const DropDownArrow3 = document.querySelector ('#locationDropDownArrow');
+
+    DropDownBtn3.addEventListener('mouseover',() => {
+        //hide show nav
+        if(DropDown3.classList.contains("hideDropDown")){
+
+            DropDown3.classList.remove('hideDropDown');
+            DropDown3.classList.add('showDropDown1');
+
+            DropDownArrow3.style.transform = "rotate(180deg)";
+
+        }
+
+        else{
+            DropDown3.classList.add('hideDropDown');
+            DropDown3.classList.remove('showDropDown1');
+
+            DropDownArrow3.style.transform = "rotate(0deg)";
+        }
+    });
+
+    DropDownBtn3.addEventListener('mouseout',() => {
+
+        DropDown3.classList.add('hideDropDown');
+        DropDown3.classList.remove('showDropDown1');
+        DropDownArrow3.style.transform = "rotate(0deg)";
+
+    });
+
+    DropDownBtn3.addEventListener('click',() => {
+        //hide show nav
+        if(DropDown3.classList.contains("hideDropDown")){
+            DropDown3.classList.remove('hideDropDown');
+            DropDown3.classList.add('showDropDown1');
+            DropDownArrow3.style.transform = "rotate(180deg)";
+        }
+        else{
+            DropDown3.classList.add('hideDropDown');
+            DropDown3.classList.remove('showDropDown1');
+            DropDownArrow3.style.transform = "rotate(0deg)";
+        }
+    });
+
+}
+
+dropDown3();
+
+
 //Address Drop Down
 const dropDown4 = () => {
-    const DropDownBtn4 = document.querySelector('#addressDropDownBtn');
-    const DropDown4 = document.querySelector('#addressDropDown');
-    const DropDownArrow4 = document.querySelector ('#addressDropDownArrow');
+    const DropDownBtn4 = document.getElementById('addressDropDownBtn')
+    const DropDown4 = document.getElementById('addressDropDown');
+    const DropDownArrow4 = document.getElementById('addressDropDownArrow');
 
     DropDownBtn4.addEventListener('mouseover',() => {
         //hide show nav
@@ -248,7 +352,56 @@ const dropDown4 = () => {
 
 dropDown4();
 
+//Company Formation DROP DOWN
+const dropDown5 = () => {
+    const DropDownBtn5 = document.querySelector('#formationDropDownBtn');
+    const DropDown5 = document.querySelector('#formationDropDown');
+    const DropDownArrow5 = document.querySelector ('#formationDropDownArrow');
 
+    DropDownBtn5.addEventListener('mouseover',() => {
+        //hide show nav
+        if(DropDown5.classList.contains("hideDropDown")){
+
+            DropDown5.classList.remove('hideDropDown');
+            DropDown5.classList.add('showDropDown1');
+
+            DropDownArrow5.style.transform = "rotate(180deg)";
+
+        }
+
+        else{
+            DropDown5.classList.add('hideDropDown');
+            DropDown5.classList.remove('showDropDown1');
+
+            DropDownArrow5.style.transform = "rotate(0deg)";
+        }
+    });
+
+    DropDownBtn5.addEventListener('mouseout',() => {
+
+        DropDown5.classList.add('hideDropDown');
+        DropDown5.classList.remove('showDropDown1');
+        DropDownArrow5.style.transform = "rotate(0deg)";
+
+    });
+
+    DropDownBtn5.addEventListener('click',() => {
+        //hide show nav
+        if(DropDown5.classList.contains("hideDropDown")){
+            DropDown5.classList.remove('hideDropDown');
+            DropDown5.classList.add('showDropDown1');
+            DropDownArrow5.style.transform = "rotate(180deg)";
+        }
+        else{
+            DropDown5.classList.add('hideDropDown');
+            DropDown5.classList.remove('showDropDown1');
+            DropDownArrow5.style.transform = "rotate(0deg)";
+        }
+    });
+
+}
+
+dropDown5();
 
 
 
