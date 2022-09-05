@@ -1,19 +1,8 @@
-
 <?php
 
 phpinfo();
 
 ?>
-
-<script>
-
-    console.log('Tom')
-
-
-
-
-</script>
-
 <ul id="nav-lists">
     <!--                                    Home  -->
     <li>
@@ -174,7 +163,7 @@ phpinfo();
                                 </div>
                                 <div class="col-12 col-md-12 col-xl-6 mega-menu-column px-4 py-5 padding_zero_mobile">
                                     <div class="column-header">
-                                        <h5 class="mega-menu-coulmn-title text-orange m-0 mb-3">Business Call Answering</h5>
+                                        <h5 class="mega-menu-column-title text-orange m-0 mb-3">Business Call Answering</h5>
                                         <p class="text-white m-0">Stay connected to your clients and guarantee you never miss a call or opportunity.</p>
                                     </div>
                                     <ul class="p-0 mt-4 text-left">

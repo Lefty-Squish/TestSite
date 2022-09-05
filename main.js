@@ -155,6 +155,7 @@ function openLocation(event, locationName) {
     event.currentTarget.className += " activeLocation";
 }
 
+
 //Navigation Drop Down
 // Services Drop Down (from the navigation)
 const dropDown1 = () => {
