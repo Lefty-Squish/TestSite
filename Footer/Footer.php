@@ -190,7 +190,7 @@
                                 <div class="testimonialHeading">
                                     <h3>Our clients rate us as excellent</h3>
                                 </div>
-                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-keyboard="true" data-bs-interval="10000">
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-keyboard="true" data-bs-interval="100000">
                                     <div class="carousel-inner w-100 col-12" role="listbox">
                                         <div class="testimonialCarousel">
                                             <div class="carousel-item active">

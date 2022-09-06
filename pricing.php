@@ -72,7 +72,156 @@
         <?php include 'Tables/Table1.php';?>
 
 <!--        Unsure Diagram  -->
-
+        <section id="unsureChart">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pt-5">
+                        <h1 class="h3 text-center">
+                            Unsure which virtual Business Address package you need?
+                        </h1>
+                        <p class="text-center mx-auto mb-md-5">
+                            Use our handy flow diagram to quickly discover which of our packages best suits your business requirements.
+                        </p>
+<!--                        Chart  -->
+                        <div class="serviceChart py-5">
+<!--                            Box 1: What Type Of Mail Do You Need -->
+                            <div class="box1">
+                                <p>
+                                    What type of mail do you need to receive?
+                                </p>
+                            </div>
+                            <div class="box1After">
+                                <div class="arrow arrow--1"></div>
+                                <div class="arrow arrow--2"></div>
+                                <div class="arrow arrow--3"></div>
+                                <div class="horizontal"></div>
+                            </div>
+<!--                            Official Mail Only  -->
+                            <div class="mailbox mailbox--1 d-flex justify-content-center align-items-center">
+                                <p>
+                                    Official Mail Only
+                                </p>
+                            </div>
+<!--                            Business Mail Only  -->
+                            <div class="mailbox mailbox--2 d-flex justify-content-center align-items-center">
+                                <p>
+                                    Business Mail Only
+                                </p>
+                            </div>
+<!--                            Official And Business Mail  -->
+                            <div class="mailbox mailbox--3 d-flex justify-content-center align-items-center">
+                                <p>
+                                    Official & Business Mail
+                                </p>
+                            </div>
+<!--                            Arrows After Boxes to You Need Box  -->
+                            <div class="arrow arrow--4"></div>
+                            <div class="arrow arrow--5"></div>
+                            <div class="arrow arrow--6"></div>
+<!--                            Box 2: You Need To Buy  -->
+                            <div class="box2">
+                                <p>
+                                    You Need To Buy
+                                </p>
+                            </div>
+<!--                            Arrows From Box 2  -->
+                            <div class="arrow arrow--7"></div>
+                            <div class="arrow arrow--8"></div>
+                            <div class="arrow arrow--9"></div>
+<!--                            Service Box 1: Registered Office Address  -->
+                            <div class="serviceBox serviceBox--1 serviceBox--purple serviceBox--or d-flex justify-content-center align-items-center">
+                                <a>
+                                    <p>
+                                        Registered Office Address
+                                    </p>
+                                </a>
+                                <div class="arrow--vertical"></div>
+                            </div>
+<!--                            Service Box 2: Registered Office Address + Directors Service Address  -->
+                            <div class="serviceBox serviceBox--2 serviceBox--purple d-flex justify-content-center align-items-center">
+                                <a>
+                                    <p>
+                                        Registered Office Address
+                                        <br>
+                                        +
+                                        <br>
+                                        Directors Service Address
+                                    </p>
+                                </a>
+                            </div>
+<!--                            Service Box 3: Virtual Business Address  -->
+                            <div class="serviceBox serviceBox--3 serviceBox--green serviceBox--or d-flex justify-content-center align-items-center">
+                                <a>
+                                    <p>
+                                        Virtual Business Address
+                                    </p>
+                                </a>
+                                <div class="arrow--vertical"></div>
+                            </div>
+<!--                            Service Box 4: Virtual Business Address + Telephone Answering Service  -->
+                            <div class="serviceBox serviceBox--4 serviceBox--green d-flex justify-content-center align-items-center">
+                                <a>
+                                    <p>
+                                        Virtual Business Address
+                                        <br>
+                                        +
+                                        <br>
+                                        Telephone Answering Service
+                                    </p>
+                                </a>
+                            </div>
+<!--                            Service Box 5: Virtual Business Plus  -->
+                            <div class="serviceBox serviceBox--5 serviceBox--orange serviceBox--or d-flex justify-content-center align-items-center">
+                                <a>
+                                    <p>
+                                        Virtual Business Plus
+                                    </p>
+                                </a>
+                                <div class="arrow--vertical"></div>
+                            </div>
+<!--                            Service Box 6: Virtual Business Plus + Telephone Answering Service  -->
+                            <div class="serviceBox serviceBox--6 serviceBox--orange serviceBox--or d-flex justify-content-center align-items-center">
+                                <a>
+                                    <p>
+                                        Virtual Business Plus
+                                        <br>
+                                        +
+                                        <br>
+                                        Telephone Answering Service
+                                    </p>
+                                </a>
+                                <div class="arrow--vertical"></div>
+                            </div>
+<!--                            Service Box 7: Virtual Business Plus + Legal Document Pack  -->
+                            <div class="serviceBox serviceBox--7 serviceBox--orange serviceBox--or d-flex justify-content-center align-items-center">
+                                <a>
+                                    <p>
+                                        Virtual Business Plus
+                                        <br>
+                                        +
+                                        <br>
+                                        Legal Document Pack
+                                    </p>
+                                </a>
+                                <div class="arrow--vertical"></div>
+                            </div>
+<!--                            Service Box 8: Virtual Business Plus + Website & Email Hosting  -->
+                            <div class="serviceBox serviceBox--8 serviceBox--orange mb-0 d-flex justify-content-center align-items-center">
+                                <a>
+                                    <p>
+                                        Virtual Business Plus
+                                        <br>
+                                        +
+                                        <br>
+                                        Website & Email Hosting
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
         <?php include 'Footer/Footer.php';?>

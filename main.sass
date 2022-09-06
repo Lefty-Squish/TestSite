@@ -106,9 +106,6 @@ $tableBorder: 1px solid #E5E5E5
   margin-bottom: 3rem
   line-height: 200%
 
-@mixin boxShadow
-  box-shadow: 0 40px 55px -20px #111
-
 @mixin tableButton
   border-radius: 50px
   outline: none
@@ -126,6 +123,8 @@ $tableBorder: 1px solid #E5E5E5
   display: flex
   align-self: center
 
+@mixin boxShadow
+  box-shadow: 0 40px 55px -20px #111
 
 root
   --blue: #007bff
@@ -239,6 +238,7 @@ body
   margin-right: -15px!important
   margin-left: -15px!important
 
+
 .text-orange
   color: $primaryOrange
 
@@ -340,6 +340,7 @@ body
 #youtube:hover
   color: #FF0000!important
 
+
 //Logo and Client Login
 .headerMain
   border-bottom: 1px solid #e8e8e8
@@ -399,6 +400,7 @@ body
     background-color: $primaryBlue
     box-shadow: 0 10px 21px rgba(236, 126, 43, 0.4)
     transform: translateY(4px)
+
 
 
 //Navigation Bar
@@ -487,6 +489,7 @@ body
 .text-orange
   color: $primaryOrange!important
 
+
 //To Top Button
 #myBtn
   display: none
@@ -560,6 +563,7 @@ section.jumbotron h1
   a
     text-decoration: none
 
+
 .trustPilot
   width: 19rem
   height: 12rem
@@ -614,6 +618,7 @@ section.jumbotron h1
   &:active
     background-color: $primaryOrange
     transform: translateY(4px)
+
 
 
 //Middle Banner
@@ -718,6 +723,7 @@ section.jumbotron h1
 .liveChat-col--4
   position: relative
   background-color: $primaryOrange
+
 
 
 //Introducing MYCO Works
@@ -1215,10 +1221,12 @@ section.jumbotron h1
   p
     margin-bottom: 0!important
 
+
 .yes-no
   display: flex
   align-items: center
   justify-content: center
+
 
 .yes
   border-radius: 50%
@@ -1265,11 +1273,13 @@ section.jumbotron h1
   height: 100%
   padding-bottom: 3rem!important
 
+
 .unsureContainer
   display: flex
   justify-content: center
   align-items: center
   flex-direction: column
+
 
 .Unsure
   color: #FFFFFF
@@ -1278,8 +1288,10 @@ section.jumbotron h1
   h1
     margin-bottom: 2rem
 
+
 .unsureButton:hover
   outline: 1px solid white
+
 
 //Our Locations
 .locationTitle
@@ -1289,11 +1301,13 @@ section.jumbotron h1
     margin-bottom: 8px
     font-weight: 500
 
+
 .locationsButtons
   display: flex
   width: 100%
   justify-content: flex-start
   align-items: center
+
 
 .activeLocation
   background: $primaryOrange!important
@@ -1305,6 +1319,7 @@ section.jumbotron h1
     border: none!important
     outline: none!important
 
+
 .locationBtn
   @include tableButton
   font-size: 1.125rem
@@ -1312,9 +1327,11 @@ section.jumbotron h1
   line-height: 171%
   padding: 10px 50px
 
+
 .locationLine
   @include tableLine
   width: 60%
+
 
 .locationContent
   display: grid
@@ -1323,10 +1340,12 @@ section.jumbotron h1
   column-gap: 70px
   row-gap: 25px
 
+
 .numberOfLocations
   grid-column: 1/span 2
   grid-row: 1/span 1
   margin-top: 2rem
+
 
 .locationCard
   background-color: #FFFFFF
@@ -1336,6 +1355,7 @@ section.jumbotron h1
   display: grid
   grid-template-rows: max-content 1fr
 
+
 .locationContent-Edi
   display: grid
   grid-template-columns: max-content 1fr
@@ -1343,21 +1363,26 @@ section.jumbotron h1
   column-gap: 70px
   row-gap: 25px
 
+
 .london1
   grid-column: 1/span 1
   grid-row: 2/span 1
+
 
 .london2
   grid-column: 2/span 1
   grid-row: 2/span 1
 
+
 .london3
   grid-column: 1/span 1
   grid-row: 3/span 1
 
+
 .london4
   grid-column: 2/span 1
   grid-row: 3/span 1
+
 
 .locationImg
   width: 100%
@@ -1369,16 +1394,19 @@ section.jumbotron h1
     height: 100%
     border-style: none
 
+
 .locationCardInfo
   display: grid
   grid-template-rows: max-content max-content max-content max-content 1fr max-content
   padding: 0 20px 20px 20px
+
 
 .locationName
   font-size: 1.125rem
   margin-bottom: .5rem
   font-weight: 500
   line-height: 1.2
+
 
 .locationAddress
   line-height: 171%
@@ -1387,6 +1415,7 @@ section.jumbotron h1
   border-bottom: 1px solid #DEDEDE
   padding-bottom: .5rem!important
   margin-bottom: .5rem!important
+
 
 .tubeDistance
   display: flex!important
@@ -1403,6 +1432,7 @@ section.jumbotron h1
     line-height: 171.19%
     margin: 0!important
 
+
 .locationServices
   display: flex
   justify-content: space-between
@@ -1412,6 +1442,7 @@ section.jumbotron h1
   background-color: #F2F3F3
   border-radius: 61px
 
+
 .meetingIcon
   display: flex
   align-items: center
@@ -1419,6 +1450,7 @@ section.jumbotron h1
     width: 18px
     padding: 0!important
     margin: 0 .5rem 0 0!important
+
 
 .roomsAvailable
   font-size: 0.8rem
@@ -1434,6 +1466,7 @@ section.jumbotron h1
   font-size: 0
   display: flex
 
+
 .LIconsStyling
   display: flex
   margin-right: .5rem
@@ -1441,16 +1474,19 @@ section.jumbotron h1
   margin-bottom: 0!important
   margin-left: 0!important
 
+
 .LIcons
   color: $primaryOrange
   line-height: 100%
   font-size: 1rem!important
   transition: all 0.2s ease-in-out
 
+
 .locationText
   font-size: 0.8rem
   color: #6A6A6A
   line-height: 171.19%
+
 
 .locationLearnMore
   display: flex
@@ -1474,6 +1510,7 @@ section.jumbotron h1
     transform: translateY(4px)
     color: #FFFFFF
 
+
 .ediLocation
   margin-top: 1.13rem
 
@@ -1486,15 +1523,18 @@ section.jumbotron h1
   padding: 80px
   width: 100%
 
+
 .whyMYCOTitle
   font-family: "Inter", sans-serif
   font-weight: 800
   margin-bottom: 80px
 
+
 .whyBox
   padding-bottom: 30px
   height: 100% !important
   box-sizing: border-box
+
 
 .whyBoxInside
   box-shadow: 0 0 15px 0 #CCC
@@ -1510,15 +1550,19 @@ section.jumbotron h1
     margin-top: 0
     margin-bottom: 1rem
 
+
+
 //3 Easy Steps
 .threeSteps
   background: $primaryBlue
   color: #FFFFFF
 
+
 .getStarted
   width: 100%
   height: 100%
   padding: 5rem 0
+
 
 .threeStepsTitle
   margin-bottom: 4rem
@@ -1529,9 +1573,11 @@ section.jumbotron h1
   h3
     font-weight: bold
 
+
 .easySteps
   display: flex
   width: 100%
+
 
 .steps
   text-align: center
@@ -1548,6 +1594,8 @@ section.jumbotron h1
     margin-bottom: 30px
     font-weight: bold
 
+
+
 //OurApps
 .ourAppsBanner
   background: #F2F3F3
@@ -1560,9 +1608,11 @@ section.jumbotron h1
   padding-top: 6rem
   padding-bottom: 3rem
 
+
 .ourApps
   @include tabLinks
   margin-bottom: 3rem
+
 
 .activeAppTab
   background: none
@@ -1573,6 +1623,7 @@ section.jumbotron h1
   margin-right: 20px
   padding: 0 0 10px
 
+
 .appContent
   padding-bottom: 6rem
 
@@ -1582,6 +1633,7 @@ section.jumbotron h1
   p
     font-family: "Inter", sans-serif
     font-weight: 400
+
 
 .appList
   ul
@@ -1594,10 +1646,12 @@ section.jumbotron h1
   .arrowRight
     font-size: 36px
 
+
 .appListTitle
   margin-top: 3rem
   margin-bottom: 1.5rem
   font-weight: 700
+
 
 .arrowRight
   color: $primaryOrange
@@ -1607,6 +1661,7 @@ section.jumbotron h1
   grid-template-columns: max-content 1fr
   align-items: end
   column-gap: 10px
+
 
 .appStores
   padding-bottom: 80px
@@ -1628,12 +1683,14 @@ section.jumbotron h1
     margin-bottom: 4rem
     font-weight: 700
 
+
 .card
   margin-bottom: 1rem
   border: 1px solid lightgray
   background-color: transparent !important
   word-wrap: break-word
   padding: 0 !important
+
 
 .accordion
   background-color: $primaryBlue
@@ -1655,13 +1712,13 @@ section.jumbotron h1
 .faq-active, .accordion:hover
   background-color: #1c2b36
 
-
 .panel
   padding: 0
   max-height: 0
   overflow: hidden
   transition: style 0.2s ease-out
   background-color: #f1f1f1
+
 
 .panelText
   display: flex
@@ -1670,6 +1727,7 @@ section.jumbotron h1
   justify-self: center
   align-self: center
 
+
 .accordion:after
   content: '\002B'
   color: $primaryOrange
@@ -1677,6 +1735,7 @@ section.jumbotron h1
   float: right
   margin-left: 60px
   font-size: 1.5rem
+
 
 .faq-active:after
   content: "\2212"
@@ -1691,11 +1750,13 @@ section
   padding: 60px 0
   width: 100%
 
+
 .testimonialHeading
   text-align: center
   margin-bottom: 60px
   margin-top: 3rem
   font-weight: bold
+
 
 .carousel-caption
   position: relative!important
@@ -1707,6 +1768,7 @@ section
   padding-bottom: 20px!important
   text-align: center!important
   color: #000000!important
+
 
 .carousel-item
   height: 300px!important
@@ -1721,6 +1783,7 @@ section
   border-radius: 50px
   height: 73px
   width: 73px
+
 
 .testimonialText
   text-align: left
@@ -1841,6 +1904,7 @@ section
   border-bottom: 1px solid #6A6A6A
   padding: 60px 0!important
 
+
 .MYCOFooter
   padding: 0 15px!important
 
@@ -1848,10 +1912,12 @@ section
   font-size: 15px
   margin: 30px 0 25px
 
+
 .footer1Services__block h2
   margin-bottom: 56px
   margin-top: 26px
   font-size: 20px
+
 
 .footer1Services__block a
   margin-bottom: 15px
@@ -1861,6 +1927,7 @@ section
   font-size: 15px
   &:hover
     color: $primaryOrange
+
 
 .footer_links_wrap
   padding-left: 1.5rem!important
@@ -1872,6 +1939,7 @@ section
     padding-right: 20px
     margin-left: 0!important
 
+
 .footerContact
   display: flex
   text-decoration: none
@@ -1879,6 +1947,7 @@ section
   i
     color: $primaryOrange!important
     margin-right: 1rem
+
 
 .paymentLogos
   display: flex
@@ -1890,6 +1959,7 @@ section
   display: flex
   color: #FFFFFF
 
+
 .copyright
   display: flex
   width: 100%
@@ -1897,9 +1967,11 @@ section
   padding-top: 1.5rem
   align-items: center
 
+
 #endOfPage
   display: flex
   text-align: end
+
 
 #TAndC
   width: 100%
@@ -1907,6 +1979,7 @@ section
   align-items: center
   justify-items: end
   text-align: end
+
 
 #TAndC p
   padding-left: 1.5rem
