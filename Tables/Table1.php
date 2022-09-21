@@ -1657,7 +1657,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 rowTitle tableBorder">
-                <p>Company Formation</p>
+                <p class="tableName">Company Formation</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no tableBorder tableBorderRight">
@@ -1669,7 +1669,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 table-light rowTitle tableBorder">
-                <p>Companies House Filing Fee</p>
+                <p class="tableName">Companies House Filing Fee</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
@@ -1681,7 +1681,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 rowTitle tableBorder">
-                <p>Digital Certificate of Incorporation</p>
+                <p class="tableName">Digital Certificate of Incorporation</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no tableBorder tableBorderRight">
@@ -1693,7 +1693,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 table-light rowTitle tableBorder">
-                <p>Digital Memorandum & Articles of Association</p>
+                <p class="tableName">Digital Memorandum & Articles of Association</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
@@ -1705,7 +1705,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 rowTitle  tableBorder">
-                <p>Digital Share Certificate(s)</p>
+                <p class="tableName">Digital Share Certificate(s)</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no tableBorder tableBorderRight">
@@ -1717,7 +1717,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 table-light rowTitle tableBorder">
-                <p>Registered Office Address</p>
+                <p class="tableName">Registered Office Address</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
@@ -1729,7 +1729,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 rowTitle tableBorder">
-                <p>Directors Service Address</p>
+                <p class="tableName">Directors Service Address</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no tableBorder tableBorderRight">
@@ -1741,7 +1741,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 table-light rowTitle tableBorder">
-                <p>Prestigious Business Address</p>
+                <p class="tableName">Prestigious Business Address</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
@@ -1749,12 +1749,11 @@
             </div>
         </div>
 
-
         <!--          Row 10  -->
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 rowTitle tableBorder">
-                <p>Telephone Answering Service</p>
+                <p class="tableName">Telephone Answering Service</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no tableBorder tableBorderRight">
@@ -1766,7 +1765,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 table-light rowTitle tableBorder">
-                <p>Printed Certificate of Incorporation</p>
+                <p class="tableName">Printed Certificate of Incorporation</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
@@ -1778,7 +1777,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 rowTitle tableBorder">
-                <p>Printed Memorandum & Articles of Association</p>
+                <p class="tableName">Printed Memorandum & Articles of Association</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no tableBorder tableBorderRight">
@@ -1790,7 +1789,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 table-light rowTitle tableBorder">
-                <p>Printed Share Certificates</p>
+                <p class="tableName">Printed Share Certificates</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
@@ -1802,7 +1801,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 rowTitle tableBorder">
-                <p>Certificate of Good Standing</p>
+                <p class="tableName">Certificate of Good Standing</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no tableBorder tableBorderRight">
@@ -1814,7 +1813,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-lg-6 table-light rowTitle tableBorder tableBorderBottom">
-                <p>Apostilled Documents</p>
+                <p class="tableName">Apostilled Documents</p>
             </div>
             <!--              Table Cell  -->
             <div class="col-sm-4 yes-no table-light tableBorder tableBorderRight">
@@ -1955,7 +1954,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Company Formation</p>
+                <p class="tableName">Company Formation</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -1976,7 +1975,7 @@
         <div class="row table-light">
             <!--             Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Companies House Filing Fee</p>
+                <p class="tableName">Companies House Filing Fee</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -1997,7 +1996,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Registered Office Address</p>
+                <p class="tableName">Registered Office Address</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2018,7 +2017,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Director Service Address</p>
+                <p class="tableName">Director Service Address</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2039,7 +2038,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>
+                <p class="tableName">
                     Option to Forward, Scan, or Collect
                     <br>
                     'Statutory' Mail
@@ -2064,7 +2063,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>
+                <p class="tableName">
                     Option to Forward, Scan, or Collect
                     <br>
                     'Business' Mail
@@ -2089,7 +2088,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Digital Certificate of Incorporation</p>
+                <p class="tableName">Digital Certificate of Incorporation</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2110,7 +2109,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>
+                <p class="tableName">
                     Digital Memorandum & Articles of
                     <br>
                     Association
@@ -2135,7 +2134,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Digital Share Certificate(s)</p>
+                <p class="tableName">Digital Share Certificate(s)</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2156,7 +2155,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Printed Certificate of Incorporation</p>
+                <p class="tableName">Printed Certificate of Incorporation</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2177,7 +2176,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>
+                <p class="tableName">
                     Printed Memorandum & Articles of
                     <br>
                     Association
@@ -2202,7 +2201,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Printed Share Certificates</p>
+                <p class="tableName">Printed Share Certificates</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2223,7 +2222,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Prestigious Business Address</p>
+                <p class="tableName">Prestigious Business Address</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2244,7 +2243,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder tableBorderBottom">
-                <p>Telephone Answering Service</p>
+                <p class="tableName">Telephone Answering Service</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2472,7 +2471,7 @@
         <div class="row">
             <!--              Column Title-->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Company Formation</p>
+                <p class="tableName">Company Formation</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2493,7 +2492,7 @@
         <div class="row table-light">
             <!--             Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Companies House Filing Fee</p>
+                <p class="tableName">Companies House Filing Fee</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2514,7 +2513,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Registered Office Address</p>
+                <p class="tableName">Registered Office Address</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2535,7 +2534,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Director Service Address</p>
+                <p class="tableName">Director Service Address</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2556,7 +2555,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>
+                <p class="tableName">
                     Option to Forward, Scan, or Collect
                     <br>
                     'Statutory' Mail
@@ -2581,7 +2580,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>
+                <p class="tableName">
                     Option to Forward, Scan, or Collect
                     <br>
                     'Business' Mail
@@ -2606,7 +2605,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Digital Certificate of Incorporation</p>
+                <p class="tableName">Digital Certificate of Incorporation</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2627,7 +2626,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>
+                <p class="tableName">
                     Digital Memorandum & Articles of
                     <br>
                     Association
@@ -2652,7 +2651,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Digital Share Certificate(s)</p>
+                <p class="tableName">Digital Share Certificate(s)</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2673,7 +2672,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Printed Certificate of Incorporation</p>
+                <p class="tableName">Printed Certificate of Incorporation</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2694,7 +2693,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>
+                <p class="tableName">
                     Printed Memorandum & Articles of
                     <br>
                     Association
@@ -2719,7 +2718,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Printed Share Certificates</p>
+                <p class="tableName">Printed Share Certificates</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2740,7 +2739,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Certificate of Good Standing</p>
+                <p class="tableName">Certificate of Good Standing</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2761,7 +2760,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Apostilled Documents</p>
+                <p class="tableName">Apostilled Documents</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2782,7 +2781,7 @@
         <div class="row">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder">
-                <p>Prestigious Business Address</p>
+                <p class="tableName">Prestigious Business Address</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">
@@ -2803,7 +2802,7 @@
         <div class="row table-light">
             <!--              Column Title  -->
             <div class="col-md-3 rowTitle tableBorder tableBorderBottom">
-                <p>Telephone Answering Service</p>
+                <p class="tableName">Telephone Answering Service</p>
             </div>
             <!--              Table Cells  -->
             <div class="col-sm yes-no">

@@ -41,26 +41,25 @@
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-<!--                            Left Side  -->
-                            <div class="col-7 pricingTitle">
-                                <h1>Our Pricing & Packages</h1>
-                                <h5>Get <label>10% off</label> all new orders!</h5>
-                                <p>
-                                    At MYCO Works we provide a wide range of competitively priced packages and choice if virtual
-                                    office addresses for you to choose from. Select the best prestigious location for your business
-                                    and impress your clients!
-                                    <br>
-                                    We also offer 10% off all new orders! Plus, save even more when you purchase a combined
-                                    package. If you're unsure which package you need, our knowledgeable staff can help
-                                    recommend the correct package for your business requirements.
-                                </p>
-                            </div>
-<!--                            Right Side  -->
-                            <div class="col-5">
-                                <div class="P&PImage">
-                                    <img src="Images/Pricing/pricing.png" alt="Pricing and Packages">
-                                </div>
+<!--                     Left Side  -->
+                        <div class="col-7 pricingTitle">
+                            <h1>Our Pricing & Packages</h1>
+                            <h5>Get <label>10% off</label> all new orders!</h5>
+                            <p>
+                                At MYCO Works we provide a wide range of competitively priced packages and choice if virtual
+                                office addresses for you to choose from. Select the best prestigious location for your business
+                                and impress your clients!
+                            </p>
+                            <p>
+                                We also offer 10% off all new orders! Plus, save even more when you purchase a combined
+                                package. If you're unsure which package you need, our knowledgeable staff can help
+                                recommend the correct package for your business requirements.
+                            </p>
+                        </div>
+<!--                     Right Side  -->
+                        <div class="col-5">
+                            <div class="P&PImage">
+                                <img src="Images/Pricing/pricing.png" alt="Pricing and Packages">
                             </div>
                         </div>
                     </div>
@@ -79,8 +78,10 @@
                         <h1 class="h3 text-center">
                             Unsure which virtual Business Address package you need?
                         </h1>
-                        <p class="text-center mx-auto mb-md-5">
-                            Use our handy flow diagram to quickly discover which of our packages best suits your business requirements.
+                        <p class="text-center mx-auto mb-md-5" style="color: #505050">
+                            Use our handy flow diagram to quickly discover which of our
+                            <br>
+                            packages best suits your business requirements.
                         </p>
 <!--                        Chart  -->
                         <div class="serviceChart py-5">
@@ -218,6 +219,481 @@
                                 </a>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--    Our Locations  -->
+        <section class="locationsBanner">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="locationTitle" style="text-align: center">
+                            <h3>Our Locations</h3>
+                            <h6>Choose from our prestigious business addresses</h6>
+                        </div>
+                    </div>
+                    <div class="locations">
+                        <div class="locationsButtons">
+                            <button class="locationBtn activeLocation" onclick="openLocation(event, 'londonLocation')" id="defaultView">London</button>
+                            <button class="locationBtn" onclick="openLocation(event, 'edinburghLocation')">Edinburgh</button>
+                            <button class="locationBtn" onclick="openLocation(event, 'ipswichLocation')">Ipswich</button>
+                            <div class="locationLine"></div>
+                        </div>
+                    </div>
+                    <!--                London Locations  -->
+                    <div id="londonLocation" class="officeLocation" style="display: block">
+                        <div class="locationContent">
+                            <div class="numberOfLocations">
+                                <p>Showing <strong>4</strong> locations</p>
+                            </div>
+                            <!--                        London Location 1  -->
+                            <div class="locationCard london1">
+                                <div class="locationImg">
+                                    <img src="Images/locationImg/lnd-1.png" alt="West End, W1">
+                                </div>
+                                <div class="locationCardInfo">
+                                    <div class="locationInfo">
+                                        <p class="locationName">West End, W1</p>
+                                        <p class="locationAddress">
+                                            167-169 Great Portland Street
+                                            <br>
+                                            London
+                                        </p>
+                                    </div>
+                                    <div class="tubeDistance">
+                                        <img src="Images/locationImg/underground%201.png" alt="Underground Location">
+                                        <p>Great Portland Street (4-minute walk)</p>
+                                    </div>
+                                    <div class="locationServices">
+                                        <div class="meetingIcon">
+                                            <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                            <p class="roomsAvailable">4 Meeting Rooms</p>
+                                        </div>
+                                        <div class="otherServices">
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">mode_fan</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">chair</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">restaurant</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">local_cafe</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">wifi</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="locationText">
+                                        <p>
+                                            Situated in the heart of London, the West End is a
+                                            popular location for commercial industries. Our
+                                            virtual office provides meeting space which is
+                                            highly sought after in this exclusive location.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <button class="locationLearnMore">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                        London Location 2  -->
+                            <div class="locationCard london2">
+                                <div class="locationImg">
+                                    <img src="Images/locationImg/lnd-2.png" alt="West End, W1">
+                                </div>
+                                <div class="locationCardInfo">
+                                    <div class="locationInfo">
+                                        <p class="locationName">West End, W1</p>
+                                        <p class="locationAddress">
+                                            85 Great Portland Street
+                                            <br>
+                                            London
+                                        </p>
+                                    </div>
+                                    <div class="tubeDistance">
+                                        <img src="Images/locationImg/underground%201.png" alt="Underground Location">
+                                        <p>Oxford Circus (6-minute walk)</p>
+                                    </div>
+                                    <div class="locationServices">
+                                        <div class="meetingIcon">
+                                            <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                            <p class="roomsAvailable">1 Meeting Room</p>
+                                        </div>
+                                        <div class="otherServices">
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">wifi</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="locationText">
+                                        <p>
+                                            The West End is a fantastic choice for your
+                                            company address. This location has world-class
+                                            amenities and provides excellent transport links
+                                            around Central and Greater London.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <button class="locationLearnMore">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                        London Location 3  -->
+                            <div class="locationCard london3">
+                                <div class="locationImg">
+                                    <img src="Images/locationImg/lnd-3.png" alt="Strand, WC2">
+                                </div>
+                                <div class="locationCardInfo">
+                                    <div class="locationInfo">
+                                        <p class="locationName">Strand, WC2</p>
+                                        <p class="locationAddress">
+                                            7 Bell Yard
+                                            <br>
+                                            London
+                                        </p>
+                                    </div>
+                                    <div class="tubeDistance">
+                                        <img src="Images/locationImg/underground%201.png" alt="Underground Location">
+                                        <p>Temple (6-minute walk)</p>
+                                    </div>
+                                    <div class="locationServices">
+                                        <div class="meetingIcon">
+                                            <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                            <p class="roomsAvailable">1 Meeting Room</p>
+                                        </div>
+                                        <div class="otherServices">
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">local_cafe</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">wifi</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="locationText">
+                                        <p>
+                                            Situated in the Strand, this location offers start-ups
+                                            a prestigious address as well as easy access to a
+                                            network of other businesses nearby.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <button class="locationLearnMore">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                        London Location 4  -->
+                            <div class="locationCard london4">
+                                <div class="locationImg">
+                                    <img src="Images/locationImg/lnd-4.png" alt="City, EC1">
+                                </div>
+                                <div class="locationCardInfo">
+                                    <div class="locationInfo">
+                                        <p class="locationName">City, EC2</p>
+                                        <p class="locationAddress">
+                                            63-66 Hatton Garden
+                                            <br>
+                                            London
+                                        </p>
+                                    </div>
+                                    <div class="tubeDistance">
+                                        <img src="Images/locationImg/underground%201.png" alt="Underground Location">
+                                        <p>Chancery Lane (6-minute walk)</p>
+                                    </div>
+                                    <div class="locationText positionBottom">
+                                        <p>
+                                            Our virtual office is in Central London, on Hatton
+                                            Garden in Holborn. Hatton Garden is also known as
+                                            London's diamond district due to a large number of
+                                            high-end jewellers based there.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <button class="locationLearnMore">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                        London Map  -->
+                            <div class="locationMap" id="londonMap">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--                Edinburgh Location  -->
+                    <div id="edinburghLocation" class="officeLocation" style="display: none">
+                        <div class="locationContent-Edi">
+                            <div class="numberOfLocations">
+                                <p>Showing <strong>1</strong> location</p>
+                            </div>
+                            <div class="locationCard ediCard">
+                                <div class="locationImg">
+                                    <img src="Images/locationImg/ed-image.jpg" alt="Edinburgh, EH2">
+                                </div>
+                                <div class="locationCardInfo">
+                                    <div class="locationInfo">
+                                        <p class="locationName">Edinburgh, EH2</p>
+                                        <p class="locationAddress">
+                                            5 South Charlotte Street
+                                            <br>
+                                            Edinburgh
+                                        </p>
+                                    </div>
+                                    <div class="tubeDistance">
+                                        <img src="Images/locationImg/train_black.png" alt="Train">
+                                        <p>Edinburgh Waverley Station (13-Minute walk)</p>
+                                    </div>
+                                    <div class="tubeDistance">
+                                        <img src="Images/locationImg/train_black.png" alt="Train">
+                                        <p>Haymarket Station (13-Minute walk)</p>
+                                    </div>
+                                    <div class="locationServices">
+                                        <div class="meetingIcon">
+                                            <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                            <p class="roomsAvailable">3 Meeting Rooms</p>
+                                        </div>
+                                        <div class="otherServices">
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">restaurant</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">local_cafe</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">wifi</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="locationText">
+                                        This address is located on the east side of South
+                                        Charlotte Street, close to Princes Street and
+                                        Edinburgh’s west end. This highly desirable central
+                                        location also benefits from numerous city-centre
+                                        transport links.
+                                    </div>
+                                    <div>
+                                        <button class="locationLearnMore ediLocation">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--                Ipswich Location  -->
+                    <div id="ipswichLocation" class="officeLocation" style="display: none">
+                        <div class="locationContent-Edi">
+                            <div class="numberOfLocations">
+                                <p>Showing <strong>1</strong> location</p>
+                            </div>
+                            <div class="locationCard ediCard">
+                                <div class="locationImg">
+                                    <img src="Images/locationImg/ipswich-image.jpg" alt="Ipswich, IP1">
+                                </div>
+                                <div class="locationCardInfo">
+                                    <div class="locationInfo">
+                                        <p class="locationName">Ipswich, IP1</p>
+                                        <p class="locationAddress">
+                                            50 Princes Street
+                                            <br>
+                                            Ipswich
+                                        </p>
+                                    </div>
+                                    <div class="tubeDistance">
+                                        <img src="Images/locationImg/train_black.png" alt="Train">
+                                        <p>Ipswich Train Station (11-Minute walk)</p>
+                                    </div>
+                                    <div class="locationServices">
+                                        <div class="meetingIcon">
+                                            <img src="Images/locationImg/Group.svg" alt="Meeting Room">
+                                            <p class="roomsAvailable">3 Meeting Rooms</p>
+                                        </div>
+                                        <div class="otherServices">
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">mode_fan</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">chair</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">restaurant</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">local_cafe</span>
+                                            </p>
+                                            <p class="LIconsStyling">
+                                                <span class="material-symbols-outlined LIcons">wifi</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="locationText">
+                                        Located in the heart of Ipswich’s prime commercial
+                                        office area, directly opposite Willis Plc’s landmark
+                                        black glass headquarters building. Public car parks,
+                                        restaurants and bars, and Ipswich Waterfront are all
+                                        within easy walking distance.
+                                    </div>
+                                    <div>
+                                        <button class="locationLearnMore ediLocation">Learn More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  3 Easy Steps  -->
+        <section class="threeSteps">
+            <div class="container-fluid">
+                <div class="container getStarted">
+                    <div class="row">
+                        <div class="threeStepsTitle">
+                            <h3>Get started in 3 quick and easy steps</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="easySteps">
+                                <div class="col-4 steps">
+                                    <img src="Images/Choose-icon.png" alt="Choose Your Service">
+                                    <h4>Choose your service</h4>
+                                    <p>
+                                        First, Sign up to an individual service or combined
+                                        package that meets your business requirements.
+                                    </p>
+                                </div>
+                                <div class="col-4 steps">
+                                    <img src="Images/Complete%20Order-icon.png" alt="Complete Order">
+                                    <h4>Complete Order</h4>
+                                    <p>
+                                        Our order process is quick and easy with your
+                                        account activated in minutes.
+                                    </p>
+                                </div>
+                                <div class="col-4 steps">
+                                    <img src="Images/Start%20Service-icon.png" alt="Start Using Your Service">
+                                    <h4>Start using your service</h4>
+                                    <p>
+                                        Once activated, your account is ready. You will also
+                                        receive and order conformation email.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  FAQs  -->
+        <section>
+            <div class="container-fluid FAQBanner py-md-5 py-0 my-5">
+                <div class="container">
+                    <div class="row">
+                        <h3>Frequently Asked Questions</h3>
+                    </div>
+                    <div class="row">
+                        <!--                  FAQ 1  -->
+                        <div class="card">
+                            <button class="accordion">Which payment methods do you accept?</button>
+                            <div class="panel">
+                                <p class="panelText">
+                                    We accept payment from most credit and debit cards, including Visa, Mastercard, and American Express. We cannot accept cheques, cash, or PayPal payments.
+                                </p>
+                            </div>
+                        </div>
+                        <!--                  FAQ 2  -->
+                        <div class="card">
+                            <button class="accordion">Do you offer any discounts?</button>
+                            <div class="panel">
+                                <p class="panelText">
+                                    Yes. We offer a 10% discount on all orders for new clients. You can also save more when you upgrade to a combined package.
+                                </p>
+                            </div>
+                        </div>
+                        <!--                  FAQ 3  -->
+                        <div class="card">
+                            <button class="accordion">Do I need to pay a postal deposit?</button>
+                            <div class="panel">
+                                <p class="panelText">
+                                    For all services that include receiving business mail, we require a £20 postal deposit to cover the cost of forwarding your business mail on to you.
+                                    When opting for forwarding, business mail is charged at 20p per letter (plus the cost of forwarding). Once the deposit runs out you will be required to top
+                                    it back up. A notification will be sent to you when you fall under £5.
+                                </p>
+                            </div>
+                        </div>
+                        <!--                  FAQ 4  -->
+                        <div class="card">
+                            <button class="accordion">I don't know which service I require. Can you help?</button>
+                            <div class="panel">
+                                <p class="panelText">
+                                    Of course. While we try simplifying our services as much as possible, we realise some terms can seem confusing - especially if you are just starting out.
+                                    Our friendly and knowledgeable team at MYCO Works are happy to help walk you through the order process and answer any questions or queries you
+                                    have about any of our services.
+                                </p>
+                            </div>
+                        </div>
+                        <!--                  FAQ 5  -->
+                        <div class="card">
+                            <button class="accordion">Your prices are very competitive, but are there any hidden costs?</button>
+                            <div class="panel">
+                                <p class="panelText">
+                                    We charge £0.20p (+ postal charges) per item of business mail forwarded to you. Upon signing up to any of our Virtual Business packages, we ask for a
+                                    £20.00 postal deposit to cover the cost of postage.
+                                    <br>
+                                    Our listed prices exclude the VAT. The UK's standard VAT 'Value Added Tax' rate is 20% and will apply to our services.
+                                </p>
+                            </div>
+                        </div>
+                        <!--                  FAQ 6  -->
+                        <div class="card">
+                            <button class="accordion">Do I need to provide ID?</button>
+                            <div class="panel">
+                                <p class="panelText">
+                                    Yes, to comply with Anti-Money Laundering (AML) regulations and ‘Know Your Customer’ (KYC) requirements you are required to supply proof of your ID
+                                    (passport, driving licence photocard, government-issued ID card, HM Forces ID card, valid Student card, employment ID card, disabled driver blue badge)
+                                    and proof of address (utility bill, bank statement, mortgage statement, HMRC Notice of Coding) within seven days. You will be shown where to upload
+                                    your ID once your order is complete.
+                                </p>
+                            </div>
+                        </div>
+                        <!--                  FAQ 7  -->
+                        <div class="card">
+                            <button class="accordion">Can I cancel at anytime?</button>
+                            <div class="panel">
+                                <p class="panelText">
+                                    No, if you are not completely satisfied with our service for any reason, you can cancel (in writing) this agreement withing 14 days from the date of order, if
+                                    our address has not been used for any reason. If you do not cancel withing 14 days, the service will continue to operate until such a time the service expires.
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                        <script>
+                            const acc = document.getElementsByClassName("accordion");
+                            let i;
+
+                            for (i = 0; i < acc.length; i++) {
+                                acc[i].addEventListener("click", function() {
+                                    this.classList.toggle("faq-active");
+                                    const panel = this.nextElementSibling;
+                                    if (panel.style.maxHeight) {
+                                        panel.style.maxHeight = null;
+                                        panel.style.padding = null;
+                                    } else {
+                                        panel.style.maxHeight = panel.scrollHeight + "140px";
+                                        panel.style.padding = panel.style.padding + "50px";
+                                    }
+                                });
+                            }
+                        </script>
                     </div>
                 </div>
             </div>
